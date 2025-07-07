@@ -164,10 +164,6 @@ ideologies = {
                 modifiers = {
                 }
             }
-		    corporate_authoritarianism = {
-                modifiers = {
-                }
-            }
         }
         
         color = { 100 60 20 },
@@ -254,6 +250,10 @@ ideologies = {
                 }
             }
 			anocracy = {
+                modifiers = {
+                }
+            }
+             corporate_authoritarianism = {
                 modifiers = {
                 }
             }
