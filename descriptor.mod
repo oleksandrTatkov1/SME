@@ -1,0 +1,15 @@
+version="1"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"Map"
+	"Balance"
+	"Sound"
+	"Graphics"
+	"National Focuses"
+	"Technologies"
+	"Historical"
+	"Events"
+}
+name="SME"
+supported_version="1.14.5"
