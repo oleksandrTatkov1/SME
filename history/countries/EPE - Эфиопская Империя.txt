@@ -15,17 +15,23 @@ set_stability = 0.86
 set_war_support = 0.63
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1934"
 	election_frequency = 0
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 5
-	communism = 5
-	neutrality = 70
+    communism     = 0
+    socialism      = 0
+    despotism       = 28
+    reactionism     = 0
+    islamism        = 5
+    liberalism      = 0
+    conservatism    = 7
+    fascism         = 0
+    monarchism      = 60 
+    anarchism       = 0   
 }
 
 # Starting ideas
