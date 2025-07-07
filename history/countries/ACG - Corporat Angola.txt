@@ -69,7 +69,7 @@ recruit_character = ANG_ncs
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -77,12 +77,12 @@ set_politics = {
 set_popularities = {
     communism     = 0
     socialism      = 5
-    despotism       = 35
+    despotism       = 45
     reactionism     = 0
     islamism        = 0
     liberalism      = 0
     conservatism    = 15
-    fascism         = 45
+    fascism         = 35
     monarchism      = 0 
     anarchism       = 0   
 }

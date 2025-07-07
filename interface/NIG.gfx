@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_NIG_blood_diamods"
+        texturefile = "gfx/interface/ideas/NIG/nig_blood_diamods_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_NIG_curse_1964"
+        texturefile = "gfx/interface/ideas/NIG/nig_curse_1964_art.dds"
+    }
+	}

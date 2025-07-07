@@ -1,0 +1,14 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_MGR_traore_military_state"
+        texturefile = "gfx/interface/ideas/MGR/mgr_traore_military_state_art.dds"
+    }
+	 SpriteType = {
+        name = "GFX_idea_MGR_timbuctu_islamist"
+        texturefile = "gfx/interface/ideas/MGR/mgr_timbuctu_islamist_art.dds"
+    }
+	 SpriteType = {
+        name = "GFX_idea_MGR_shadow_golden_caravan"
+        texturefile = "gfx/interface/ideas/MGR/mgr_shadow_golden_caravan_art.dds"
+    }
+	}

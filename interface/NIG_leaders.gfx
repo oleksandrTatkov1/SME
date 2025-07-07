@@ -1,0 +1,9 @@
+spriteTypes = {
+
+    # leaders we need to override in DLC go in this file
+
+    spriteType = {
+        name = "GFX_Johnson_Aguiyi_Ironsi"
+        texturefile = "gfx/leaders/NIG/NIG_aguiyi_ironsi.dds"
+    }
+}

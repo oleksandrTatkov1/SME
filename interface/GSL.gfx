@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_GSL_frontier_mali"
+        texturefile = "gfx/interface/ideas/GSL/GSL_frontier_mali.dds"
+    }
+	 SpriteType = {
+        name = "GFX_idea_GSL_protocol_federation"
+        texturefile = "gfx/interface/ideas/GSL/GSL_protocol_federation.dds"
+    }
+	}
