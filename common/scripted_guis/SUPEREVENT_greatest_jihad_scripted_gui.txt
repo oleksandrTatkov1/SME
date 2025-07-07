@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	SUPEREVENT_greatest_jihad_window = { 
+		context_type = player_context
+		window_name = "SUPEREVENT_greatest_jihad_window"
+
+		visible = {
+			has_country_flag = superevent_greatest_jihad_flag
+		}
+
+		effects = {
+			OptionA_click = {
+				clr_country_flag = superevent_greatest_jihad_flag
+			}
+		}
+	}
+}

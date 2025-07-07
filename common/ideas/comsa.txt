@@ -1,0 +1,182 @@
+ideas = {
+
+	country = {
+
+		CUR_SACP_fragmentation = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.3
+				justify_war_goal_time = 0.3
+			}
+		}
+        CUR_SACP_fragmentation_uf = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.2
+				justify_war_goal_time = 0.2
+			}
+		}
+		CUR_SACP_fragmentation_mpf = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.1
+				justify_war_goal_time = 0.1
+			}
+		}
+		CUR_SACP_fragmentation_silent = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = 0.05
+				justify_war_goal_time = -0.1
+			}
+		}
+		CUR_umkhontwe_people_guard = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+			    stability_factor = -0.1
+				communism_drift = 0.05
+				resistance_activity = -0.2
+				monthly_population = -0.05
+				resistance_decay = 0.15
+				compliance_growth = 0.1
+			}
+		}
+		
+		CUR_white_people_burr = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = cur_white_people_burr_art
+
+			modifier = {
+			    stability_factor = -0.1			
+                political_power_cost = 0.15
+				recruitable_population = -0.07
+			}
+		}
+		
+		CUR_white_people_assimilation = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = cur_white_people_burr_art
+
+			modifier = {		
+                political_power_gain = 0.1
+				stability_factor = -0.15
+				recruitable_population = 0.15
+			}
+		}
+		CUR_white_people_deportation = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = cur_white_people_burr_art
+
+			modifier = {		
+                political_power_gain = 0.15
+				stability_factor = 0.2
+                weekly_manpower = -500
+			}
+		}
+		CUR_panafrican_trade_idea = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = cur_panafrican_trade_idea_art
+
+			modifier = {		
+			local_resources_factor = 0.15
+			consumer_goods_factor = -0.12
+			industry_repair_factor = 0.2
+			}
+		}
+    }
+}

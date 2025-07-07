@@ -1,0 +1,167 @@
+ideas = {
+
+	country = {
+
+		AZM_anarchist_economics = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+				stability_factor = -0.3
+				production_speed_buildings_factor = -0.5
+				consumer_goods_factor = 0.5
+				research_speed_factor = -0.2
+				industrial_capacity_factory = -0.3
+			}
+		}
+		AZM_black_partisans = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+				heat_attrition = -0.4
+				out_of_supply_factor = -0.2
+				army_core_defence_factor = 0.2
+                resistance_damage_to_garrison_on_our_occupied_states = 0.4
+				resistance_growth_on_our_occupied_states = 0.2
+				surrender_limit = 0.5
+			}
+		}
+		AZM_community_councils = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+			    stability_weekly = -0.01
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.25
+			}
+		}
+		AZM_community_councils_new_thought = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+			    stability_weekly = -0.05
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.3
+				consumer_goods_factor = 0.1
+			}
+		}
+		AZM_community_councils_elders = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+			    stability_weekly = 0.03
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = -0.1
+				monthly_population = 0.05
+			}
+		}
+		AZM_anarchist_economics_repair = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+				stability_factor = -0.2
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.3
+				research_speed_factor = -0.1
+				industrial_capacity_factory = -0.15
+			}
+		}
+		AZM_anarchist_militaria = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+            equipment_capture = 0.1
+			mobilization_speed = 0.2
+			recruitable_population = 0.1
+			}
+		}
+		AZM_anarchist_guard = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = azm_anarchist_economics
+
+			modifier = {
+			max_dig_in_factor = 0.2
+			army_core_defence_factor = 0.1
+			army_attack_factor = 0.1
+			}
+		}
+    }
+}

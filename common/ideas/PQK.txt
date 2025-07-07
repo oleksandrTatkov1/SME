@@ -1,0 +1,66 @@
+ideas = {
+
+	country = {
+
+		PQK_black_gold_punta_europa = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = pqk_black_gold_punta_europa_art
+
+			modifier = {
+				stability_factor = -0.2
+				base_fuel_gain_factor = 0.05
+				consumer_goods_factor = -0.1
+				monthly_population = -0.1
+			}
+		}
+		PQK_radio_free_bioko = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = pqk_radio_free_bioko_art
+
+			modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.2
+			democratic_drift = 0.05
+
+			}
+		}
+		PQK_red_berets = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = pqk_red_berets_art
+
+			modifier = {
+				stability_factor = -0.15
+				communism_drift = 0.05
+				industry_repair_factor = -0.2
+				supply_factor = -0.25
+			}
+		}
+	}
+}

@@ -1,0 +1,264 @@
+focus_tree = {
+	id = CUR_national_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CUR
+		}
+	}
+	default = no
+	focus = {
+		id = CUR_problem_party
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 8
+		y = 1
+		
+		completion_reward = { 
+		 add_political_power = 100
+		}
+	}
+	focus = {
+		id = CUR_unity_party
+		icon = GFX_goal_generic_alliance
+		cost = 5
+		prerequisite = {
+			focus = CUR_problem_party
+		}
+		mutually_exclusive = {
+			focus = CUR_vanguard_movement
+		}
+		x = 6
+		y = 2
+		
+		completion_reward = {
+        add_stability = 0.05		
+		swap_ideas = {
+				remove_idea = CUR_SACP_fragmentation
+				add_idea = CUR_SACP_fragmentation_uf
+		}
+	}
+	}
+	focus = {
+		id = CUR_manpower_party
+		icon = GFX_goal_generic_alliance
+		cost = 5
+		prerequisite = {
+			focus = CUR_unity_party
+		}
+		x = 6
+		y = 3
+		
+	    completion_reward = {
+        add_popularity = {
+            ideology = communism
+            popularity = 0.05
+        }		
+		swap_ideas = {
+				remove_idea = CUR_SACP_fragmentation_uf
+				add_idea = CUR_SACP_fragmentation_mpf
+		}
+	}
+	}
+	focus = {
+		id = CUR_panafricanist_victory
+		icon = GFX_goal_generic_alliance
+		cost = 5
+		prerequisite = {
+			focus = CUR_manpower_party
+		}
+		x = 2
+		y = 4
+		
+        completion_reward = {
+		
+		remove_ideas = CUR_SACP_fragmentation_mpf
+
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1  
+		}
+
+		
+		add_stability = 0.05
+	}
+	}
+	focus = {
+		id = CUR_vanguard_movement
+		icon = GFX_goal_support_communism
+		cost = 5
+		prerequisite = {
+			focus = CUR_problem_party
+		}
+		mutually_exclusive = {
+			focus = CUR_unity_party
+		}
+		x = 10
+		y = 2
+		
+		completion_reward = {
+		add_war_support = 0.05
+		swap_ideas = {
+				remove_idea = CUR_SACP_fragmentation
+				add_idea = CUR_SACP_fragmentation_uf
+		}
+		}
+
+	}
+	focus = {
+		id = CUR_umhotve_support
+		icon = GFX_goal_support_communism
+		cost = 5
+		prerequisite = {
+			focus = CUR_vanguard_movement
+		}
+		x = 10
+		y = 3
+		
+		completion_reward = {
+		add_manpower = 500
+		swap_ideas = {
+				remove_idea = CUR_SACP_fragmentation_uf
+				add_idea = CUR_SACP_fragmentation_silent
+		}
+		}
+
+	}
+	focus = {
+		id = CUR_vanguard_victory
+		icon = GFX_goal_support_communism
+		cost = 5
+		prerequisite = {
+			focus = CUR_umhotve_support
+		}
+		x = 14
+		y = 4
+        completion_reward = {
+		
+		set_party_name = {
+				ideology = communism
+				name = CUR_Vanguard_Party
+				long_name = CUR_Vanguard_Party_long
+			}
+		retire_ideology_leader = communism
+		recruit_character = sobukwe 
+
+	}
+	}
+	focus = {
+		id = CUR_white_problem
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		prerequisite = {
+			focus = CUR_manpower_party
+			focus = CUR_umhotve_support
+		}
+		x = 8
+		y = 4
+		
+        completion_reward = {
+		add_stability = -0.1
+		}
+	}
+	focus = {
+		id = CUR_white_assimilation
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		prerequisite = {
+			focus = CUR_white_problem
+		}
+		mutually_exclusive = {
+			focus = CUR_white_deportation
+		}
+		x = 6
+		y = 5
+		
+        completion_reward = {
+		add_stability = -0.1
+		add_political_power = -50
+		swap_ideas = {
+				remove_idea = CUR_white_people_burr
+				add_idea = CUR_white_people_assimilation
+		}
+		}
+	}
+	focus = {
+		id = CUR_white_death
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		prerequisite = {
+			focus = CUR_white_problem
+		}
+		mutually_exclusive = {
+			focus = CUR_white_deportation
+		}
+		x = 10
+		y = 5
+       
+	   completion_reward = {
+	   
+	   add_stability = 0.25
+	   remove_idea = CUR_white_people_burr
+	   random_owned_controlled_state = {
+       prioritize = { 541 719 542 681  }
+	   add_manpower = -5500
+	}
+	   random_owned_controlled_state = {
+       prioritize = { 541 719 542 681  }
+	   add_manpower = -7000
+	}
+	   random_owned_controlled_state = {
+       prioritize = { 541 719 542 681  }
+	   add_manpower = -5000
+	}
+	   random_owned_controlled_state = {
+       prioritize = { 541 719 542 681  }
+	   add_manpower = -6000
+	}
+	}
+	}
+	focus = {
+		id = CUR_white_deportation
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		prerequisite = {
+			focus = CUR_white_problem
+		}
+		mutually_exclusive = {
+			focus = CUR_white_assimilation
+			focus = CUR_white_death
+		}
+		x = 8
+		y = 5
+		
+		completion_reward = {
+		remove_idea = CUR_white_people_burr
+		add_timed_idea = {
+        idea = CUR_white_people_deportation
+        days = 360
+     }
+     }
+	 }
+	focus = {
+		id = CUR_consensus
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1
+		prerequisite = {
+			focus = CUR_white_assimilation
+		}
+		prerequisite = {
+			focus = CUR_white_deportation
+		}
+		prerequisite = {
+			focus = CUR_white_death
+		}
+		x = 8
+		y = 6
+		
+        completion_reward = {
+		add_stability = 0.15
+     }
+     }
+	 }

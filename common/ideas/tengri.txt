@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+
+		tengri = {
+			picture = tengri
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+				drift_defence_factor = 0.3
+				stability_factor = 0.02
+				hidden_modifier = {
+					justify_war_goal_time = -0.3
+					supply_factor = 0.4
+					generate_wargoal_tension = -0.5
+					war_support_weekly = -0.001
+				}
+			}
+			
+			allowed = {
+				original_tag = MEM
+			}
+		}
+	}
+}

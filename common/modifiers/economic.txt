@@ -1,0 +1,7 @@
+province_development_modifier = {
+	state_resources_factor = dev_modif
+	state_production_speed_buildings_factor = dev_modif
+	local_building_slots = dev_modif
+	resistance_growth = dev_modif
+	compliance_growth = dev_modif
+}

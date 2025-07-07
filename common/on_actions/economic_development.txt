@@ -1,0 +1,300 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = {
+					var = development_max_limit_var
+					value = 50
+				}
+				
+				set_variable = {
+					var = development_high_threshold_var
+					value = 20
+				}
+				
+				set_variable = {
+					var = development_exponete_modifier_var
+					value = 0
+				}
+				set_variable = {
+					var = low_development_penalty_var
+					value = 0.5
+				}
+				
+				set_variable = {
+					var = low_development_penalty_var_inverted
+					value = -0.5
+				}
+				set_variable = {
+					var = high_development_bonus_var
+					value = 0.01
+				}
+			}
+		}
+	}
+    on_weekly = {
+		effect = {
+			every_country = {
+		
+				set_variable = {
+					var = country_development_midled_modifier_var
+					value = 0
+				}
+				remove_dynamic_modifier = {
+					modifier = country_development_modifier
+				}
+				
+				every_controlled_state = {
+					set_variable = {
+						var = ic
+						value = THIS.industrial_complex_level
+					}
+					set_variable = {
+						var = af
+						value = THIS.arms_factory_level
+					}
+					set_variable = {
+						var = inf
+						value = THIS.infrastructure_level
+					}
+					set_variable = {
+						var = nucle
+						value = THIS.building_level@nuclear_reactor
+					}
+					set_variable = {
+						var = synt
+						value = THIS.building_level@synthetic_refinery
+					}
+					set_variable = {
+						var = silo
+						value = THIS.building_level@fuel_silo
+					}
+					set_variable = {
+						var = dock
+						value = THIS.building_level@dockyard
+					}
+					set_variable = {
+						var = population
+						value = THIS.state_population_k
+					}
+					set_variable = {
+						var = dev_sum
+						value = 0
+					}
+					multiply_variable = {
+						var = ic
+						value = 1200
+					}
+					multiply_variable = {
+						var = af
+						value = 1000
+					}
+					multiply_variable = {
+						var = nucle
+						value = 1500
+					}
+					multiply_variable = {
+						var = synt
+						value = 750
+					}
+					multiply_variable = {
+						var = silo
+						value = 500
+					}
+					multiply_variable = {
+						var = dock
+						value = 1100
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = ic
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = af
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = nucle
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = synt
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = silo
+					}
+					add_to_variable = {
+						var = dev_sum
+						value = dock
+					}
+					multiply_variable = {
+						var = dev_sum
+						value = inf
+					}
+
+					if = {
+						limit = { 
+							check_variable = {
+								var = dev_sum
+								value = 0
+								compare = less_than_or_equals
+							}
+						}
+						set_variable = {
+							var = economicDev
+							value = 0
+						}
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								var = population
+								value = 100
+								compare = less_than_or_equals
+							}	
+						}
+						divide_variable = {
+							var = population
+							value = 2
+						}
+					}
+					else_if = {
+						limit = {
+							AND = {
+								check_variable = {
+									var = population
+									value = 100
+									compare = greater_than
+								}
+							}		
+						}
+						divide_variable = {
+							var = population
+							value = 10
+						}
+					}
+					
+					divide_variable = {
+						var = dev_sum
+						value = population
+					}
+					set_variable ={
+						var = economicDev
+						value = dev_sum
+					}
+					add_to_variable = {
+						var = PREV.country_development_midled_modifier_var
+						value = economicDev
+					}
+				}
+				
+				divide_variable = {
+					var = country_development_midled_modifier_var
+					value = THIS.num_controlled_states
+				}
+				
+				set_variable = {
+					var = country_development_modifier_var
+					value = 0
+				}
+				
+				set_variable = {
+					var = country_development_midled_modifier_var_bufer
+					value = country_development_midled_modifier_var
+				}
+				set_variable = {
+					var = country_development_midled_modifier_var_bufer_inverted
+					value = -1
+				}
+				
+				if = {
+					limit = { 
+						check_variable = {
+							var = country_development_midled_modifier_var
+							value = THIS.development_high_threshold_var
+							compare = less_than_or_equals
+						}
+					}
+					divide_variable = {
+						var = country_development_midled_modifier_var_bufer
+						value = THIS.development_high_threshold_var
+					}
+					
+					multiply_variable = {
+						var = country_development_midled_modifier_var_bufer
+						value = THIS.low_development_penalty_var
+					}
+					
+					add_to_variable = {
+						var = country_development_midled_modifier_var_bufer
+						value = THIS.low_development_penalty_var_inverted
+					}
+					multiply_variable = {
+						var = country_development_midled_modifier_var_bufer_inverted
+						value = country_development_midled_modifier_var_bufer
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = country_development_midled_modifier_var
+							value = THIS.development_high_threshold_var
+							compare = greater_than
+						}
+					}
+					#ставим переменные
+					set_variable = {
+						var = first_multiplier_buffer
+						value = country_development_midled_modifier_var
+					}
+					subtract_from_variable = {
+						var = first_multiplier_buffer
+						value = THIS.development_high_threshold_var
+					}
+					set_variable = {
+						var = second_multiplier_buffer
+						value = first_multiplier_buffer
+					}
+					set_variable = {
+						var = second_multiplier_divider_buffer
+						value = THIS.development_max_limit_var
+					}
+					subtract_from_variable = {
+						var = second_multiplier_divider_buffer
+						value = THIS.development_high_threshold_var
+					}
+					divide_variable = {
+						var = second_multiplier_buffer
+						value = second_multiplier_divider_buffer
+					}
+					subtract_from_variable = {
+						var = second_multiplier_buffer
+						value = -1
+					}
+					multiply_variable = {
+						var = first_multiplier_buffer
+						value = second_multiplier_buffer
+					}
+					multiply_variable = {
+						var = first_multiplier_buffer
+						value = THIS.high_development_bonus_var
+					}
+					set_variable = {
+						var = country_development_midled_modifier_var_bufer
+						value = first_multiplier_buffer
+					}
+					multiply_variable = {
+						var = country_development_midled_modifier_var_bufer_inverted
+						value = country_development_midled_modifier_var_bufer
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = country_development_modifier
+				}
+			}
+		}
+	}
+}
+

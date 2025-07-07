@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+
+		RAZ_stability_through_repression = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = raz_stability_through_repression_art
+
+			modifier = {
+				stability_factor = 0.15
+				monthly_population = -0.05
+			}
+		}
+		RAZ_monopoly_on_metals = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = raz_monopoly_on_metals_art
+
+			modifier = {
+				political_power_gain = 0.5
+				consumer_goods_factor = -0.25
+				min_export = 0.3
+				industrial_capacity_factory = -0.05
+			}
+		}	
+    }
+}	

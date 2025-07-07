@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+
+		MOG_army_decay = {
+			picture = MOG_army_decay
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				army_speed_factor = -0.13
+				army_defence_factor = -0.35
+				army_attack_factor = -0.35
+				dig_in_speed_factor = -0.3
+				experience_gain_army_factor = -0.15
+				training_time_factor = 0.15
+				consumer_goods_factor = 0.05
+			}
+			
+			allowed = {
+				original_tag = MOG
+			}
+		}
+		
+		MOG_fav_contracts = {
+			picture = MOG_fav_contracts
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = -0.15
+				cic_construction_boost_factor = 0.15
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				trade_opinion_factor = 0.5
+			}
+			
+			allowed = {
+				original_tag = MOG
+			}
+		}
+		
+		MOG_old_glory = {
+			picture = MOG_old_glory
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+				drift_defence_factor = 0.15
+				stability_factor = 0.05
+				offensive_war_stability_factor = 0.3
+				drift_defence_factor = 0.04
+				trade_opinion_factor = 0.15
+			}
+			
+			allowed = {
+				original_tag = MOG
+			}
+		}
+		
+		MOG_post_cast = {
+			picture = MOG_post_cast
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = -0.1
+				drift_defence_factor = -0.15
+				stability_factor = -0.15
+				surrender_limit = -0.1
+				consumer_goods_factor = -0.05
+			}
+			
+			allowed = {
+				original_tag = MOG
+			}
+		}
+	}
+}

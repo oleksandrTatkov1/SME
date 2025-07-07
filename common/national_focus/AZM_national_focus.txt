@@ -1,0 +1,164 @@
+focus_tree = {
+	id = AZM_national_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AZM
+		}
+	}
+	default = no
+	focus = {
+		id = AZM_split
+		icon = GFX_goal_anti_comintern_pact
+		cost = 2
+		x = 8
+		y = 1
+		
+         completion_reward = { 
+		 add_political_power = 100
+		 add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = AZM_councils_of_revolution
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		prerequisite = {
+			focus = AZM_split
+		}
+		x = 6
+		y = 2
+         completion_reward = {	 
+		 add_ideas = AZM_community_councils
+		}
+	}
+	focus = {
+		id = AZM_new_thought_councils
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 7
+		prerequisite = {
+			focus = AZM_councils_of_revolution
+		}
+		mutually_exclusive = {
+			focus = AZM_elders_and_councils
+		}
+		x = 5
+		y = 3
+	     completion_reward = {
+		 swap_ideas = {
+				remove_idea = AZM_community_councils
+		        add_idea = AZM_community_councils_new_thought
+		}
+		}
+
+	}
+	focus = {
+		id = AZM_elders_and_councils
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 7
+		prerequisite = {
+			focus = AZM_councils_of_revolution
+		}
+		mutually_exclusive = {
+			focus = AZM_new_thought_councils
+		}
+		x = 7
+		y = 3
+         completion_reward = {
+         swap_ideas = {
+				remove_idea = AZM_community_councils
+		        add_idea = AZM_community_councils_elders
+		}		 
+		}
+	}
+	focus = {
+		id = AZM_shadow_of_south_africa
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 2
+		prerequisite = {
+			focus = AZM_split
+		}
+		x = 10
+		y = 2
+         completion_reward = {	 
+         add_opinion_modifier = {
+         target = CUR
+         modifier = AZM_shadow_of_sacp_opinion
+        }
+		}
+	}
+	focus = {
+		id = AZM_repair_economy
+		icon = GFX_goal_generic_soviet_construction
+		cost = 7
+		prerequisite = {
+			focus = AZM_shadow_of_south_africa
+		}
+		prerequisite = {
+			focus = AZM_new_thought_councils
+		}
+		prerequisite = {
+			focus = AZM_elders_and_councils
+		}
+		x = 8
+		y = 4
+         completion_reward = {
+		 swap_ideas = {
+		 remove_idea = AZM_anarchist_economics
+		 add_idea = AZM_anarchist_economics_repair
+		}
+		}
+	}
+	focus = {
+		id = AZM_community_militias
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		prerequisite = {
+			focus = AZM_repair_economy
+		}
+		mutually_exclusive = {
+			focus = AZM_people_guard
+		}
+		x = 6
+		y = 5
+         completion_reward = {
+		add_ideas = AZM_anarchist_militaria
+		}
+	}
+	focus = {
+		id = AZM_people_guard
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		prerequisite = {
+			focus = AZM_repair_economy
+		}
+		mutually_exclusive = {
+			focus = AZM_community_militias
+		}
+		x = 10
+		y = 5
+        completion_reward = {
+		add_ideas = AZM_anarchist_guard
+		}
+	}
+	focus = {
+		id = AZM_africa_without_chains
+		icon = GFX_goal_support_fourth_int
+		cost = 7
+		prerequisite = {
+			focus = AZM_community_militias
+		}
+		prerequisite = {
+			focus = AZM_people_guard
+		}
+		x = 8
+		y = 6
+        completion_reward = {
+	create_wargoal = {
+    type = annex_everything
+    target = CUR
+        }
+	}
+  }
+}

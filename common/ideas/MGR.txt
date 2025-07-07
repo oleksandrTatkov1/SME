@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+
+		MGR_shadow_golden_caravan = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = mgr_shadow_golden_caravan_art
+
+			modifier = {
+				stability_factor = 0.2
+				political_power_factor = -0.15
+			}
+		}
+		MGR_timbuctu_islamist = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = mgr_timbuctu_islamist_art
+
+			modifier = {
+			fascism_drift = 0.02
+			resistance_activity = 0.2
+			required_garrison_factor = 0.2
+			}
+		}
+		MGR_traore_military_state = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = mgr_traore_military_state_art
+
+			modifier = {
+			war_support_factor = 0.1
+			production_speed_arms_factory_factor = 0.15
+			conscription_factor = 0.05
+			}
+		}
+		
+	}
+}

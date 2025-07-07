@@ -1,0 +1,345 @@
+focus_tree = {
+	id = RMD_national_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RMD
+		}
+	}
+	default = no
+	focus = {
+		id = RMD_tsiranaan_presidency
+		icon = GFX_goal_anschluss
+		cost = 0
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = RMD_Contacts_Mongol_corp
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_tsiranaan_presidency
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = RMD_mongol_economic_model
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_Contacts_Mongol_corp
+		}
+		mutually_exclusive = {
+			focus = RMD_independence_of_the_economy
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = RMD_mineral_development_mongol
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_mongol_economic_model
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = RMD_mongol_PMC_is_already_here
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_mineral_development_mongol
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = RMD_industrial_corridor_mongol
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_mongol_economic_model
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = RMD_mongol_integration
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_industrial_corridor_mongol
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = RMD_mongoli_investment_policy
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0
+		prerequisite = {
+			focus = RMD_mongol_PMC_is_already_here
+		}
+		prerequisite = {
+			focus = RMD_mongol_integration
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = RMD_independence_of_the_economy
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0
+		prerequisite = {
+			focus = RMD_Contacts_Mongol_corp
+		}
+		mutually_exclusive = {
+			focus = RMD_mongol_economic_model
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = RMD_craft_cooperatives
+		icon = GFX_goal_generic_improve_relations
+		cost = 0
+		prerequisite = {
+			focus = RMD_independence_of_the_economy
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = RMD_repair_of_old_infrastructure
+		icon = GFX_goal_generic_production
+		cost = 0
+		prerequisite = {
+			focus = RMD_craft_cooperatives
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = RMD_local_markets
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0
+		prerequisite = {
+			focus = RMD_independence_of_the_economy
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = RMD_Modernization_of_agriculture
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = RMD_local_markets
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = RMD_economics_of_survival
+		icon = GFX_goal_generic_construct_military
+		cost = 0
+		prerequisite = {
+			focus = RMD_repair_of_old_infrastructure
+		}
+		prerequisite = {
+			focus = RMD_Modernization_of_agriculture
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = RMD_mongol_solution
+		icon = GFX_goal_anschluss
+		cost = 0
+		prerequisite = {
+			focus = RMD_mongoli_investment_policy
+			focus = RMD_economics_of_survival
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = RMD_social_reform
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_tsiranaan_presidency
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = RMD_Keeping_traditions_alive
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_social_reform
+		}
+		mutually_exclusive = {
+			focus = RMD_reform_society
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = RMD_reform_society
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_social_reform
+		}
+		mutually_exclusive = {
+			focus = RMD_Keeping_traditions_alive
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = RMD_education_leap
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_Keeping_traditions_alive
+			focus = RMD_reform_society
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = RMD_fond_social_network
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_education_leap
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = RMD_social_unity
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = RMD_fond_social_network
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = RMD_comor_qestation
+		icon = GFX_goal_generic_attack_allies
+		cost = 0
+		prerequisite = {
+			focus = RMD_tsiranaan_presidency
+		}
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = RMD_island_subsidies
+		icon = GFX_goal_tripartite_pact
+		cost = 0
+		prerequisite = {
+			focus = RMD_comor_qestation
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = RMD_treaty_regional_autonomy
+		icon = GFX_goal_tripartite_pact
+		cost = 0
+		prerequisite = {
+			focus = RMD_island_subsidies
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = RMD_long_happy_life 
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = RMD_mongol_solution
+		}
+		prerequisite = {
+			focus = RMD_social_unity
+		}
+		prerequisite = {
+			focus = RMD_finalizing_the_integration
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = RMD_comor_naval_base
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 0
+		prerequisite = {
+			focus = RMD_comor_qestation
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = RMD_comor_fishing_fleet
+		icon = GFX_goal_generic_navy_battleship
+		cost = 0
+		prerequisite = {
+			focus = RMD_comor_naval_base
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = RMD_finalizing_the_integration
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 0
+		prerequisite = {
+			focus = RMD_treaty_regional_autonomy
+		}
+		prerequisite = {
+			focus = RMD_comor_fishing_fleet
+		}
+		x = 27
+		y = 6
+
+	}
+}

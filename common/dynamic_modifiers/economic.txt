@@ -1,0 +1,14 @@
+building_penalty = {
+    production_speed_buildings_factor = THIS.penalty_value
+}
+country_development_modifier = {
+	production_speed_buildings_factor = THIS.country_development_midled_modifier_var_bufer_inverted
+	research_speed_factor = THIS.country_development_midled_modifier_var_bufer
+	consumer_goods_factor = THIS.country_development_midled_modifier_var_bufer
+	political_power_factor = THIS.country_development_midled_modifier_var_bufer
+	stability_factor = THIS.country_development_midled_modifier_var_bufer
+	trade_opinion_factor = THIS.country_development_midled_modifier_var_bufer
+	industrial_capacity_dockyard = THIS.country_development_midled_modifier_var_bufer
+	industrial_capacity_factory = THIS.country_development_midled_modifier_var_bufer
+	global_building_slots_factor = THIS.country_development_midled_modifier_var_bufer_inverted
+}

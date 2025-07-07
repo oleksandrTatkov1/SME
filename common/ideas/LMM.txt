@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+
+		LMM_last_time_of_liberia_lion = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = lmm_last_time_of_liberia_lion_art
+
+			modifier = {
+				stability_factor = -0.10
+				drift_defence_factor = 0.2
+				army_org_factor = 0.1
+			}
+		}
+			LMM_ghost_government = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = lmm_ghost_governmen_art
+
+			modifier = {
+			stability_factor = -0.15
+			consumer_goods_factor = 0.2
+			recruitable_population_factor = -0.3
+			supply_factor = -0.3
+
+			}
+		}
+	}
+}

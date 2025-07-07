@@ -1,0 +1,9 @@
+opinion_modifiers = {
+
+	AZM_shadow_of_sacp_opinion = {
+		value = -50
+	}
+	ZCI_shaky_alliance_opinion = {
+		value = 50
+	}
+}

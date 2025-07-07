@@ -1,0 +1,324 @@
+ideologies = {
+
+    conservatism = {
+        types = {
+            traditional_conservatism = {
+                modifiers = {
+                }
+            }
+            liberal_conservatism = {
+                modifiers = {
+                }
+            }
+            christian_democracy = {
+                modifiers = {
+                }
+            }
+            fiscal_conservatism = {
+                modifiers = {
+                }
+            }
+			centrism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 0 72 186 },
+        rules = {
+            can_create_collaboration_government = no,
+            can_declare_war_on_same_ideology = no,
+            can_force_government = yes
+        }
+    }
+
+    liberalism = {
+        types = {
+            classical_liberalism = {
+                modifiers = {
+                }
+            }
+            social_liberalism = {
+                modifiers = {
+                }
+            }
+            neoliberalism = {
+                modifiers = {
+                }
+            }
+            progressive_liberalism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 0 120 255 },
+        rules = {
+            can_force_government = no,
+            can_send_volunteers = yes
+        }
+    }
+
+    socialism = {
+        types = {
+            democratic_socialism = {
+                modifiers = {
+                }
+            }
+            syndicalism = {
+                modifiers = {
+                }
+            }
+            market_socialism = {
+                modifiers = {
+                }
+            }
+            agrarian_socialism = {
+                modifiers = {
+                }
+            }
+			socialist_humanism = {
+                modifiers = {
+                }
+            }
+			progressive_socialism = {
+                modifiers = {
+                }
+            }
+			pan_african_socialism = {
+                modifiers = {
+                }
+            }
+			
+        }
+        
+        color = { 200 16 46 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes
+        }
+    }
+
+    communism = {
+        types = {
+            leninism = {
+                modifiers = {
+                }
+            }
+            stalinism = {
+                modifiers = {
+                }
+            }
+            trotskyism = {
+                modifiers = {
+                }
+            }
+            council_communism = {
+                modifiers = {
+                }
+            }
+			mugabeism = {
+                modifiers = {
+                }
+            }
+			stratocratic_communism = {
+                modifiers = {
+                }
+            }
+			vanguard_communism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 170 0 0 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes
+        }
+    }
+
+    fascism = {
+        types = {
+            nazism = {
+                modifiers = {
+                }
+            }
+            falangism = {
+                modifiers = {
+                }
+            }
+            clerical_fascism = {
+                modifiers = {
+                }
+            }
+            stratocratic_fascism = {
+                modifiers = {
+                }
+            }
+			doctrine_noa = {
+                modifiers = {
+                }
+            }
+			reactionary_nationalism = {
+                modifiers = {
+                }
+            }
+		    corporate_authoritarianism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 100 60 20 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes
+        }
+    }
+
+    reactionism = {
+        types = {
+            absolutism = {
+                modifiers = {
+                }
+            }
+            paleoconservatism = {
+                modifiers = {
+                }
+            }
+            traditionalism = {
+                modifiers = {
+                }
+            }
+            theocracy = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 70 0 110 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = no
+        }
+    }
+
+    monarchism = {
+        types = {
+            constitutional_monarchy = {
+                modifiers = {
+                }
+            }
+            absolute_monarchy = {
+                modifiers = {
+                }
+            }
+            enlightened_monarchy = {
+                modifiers = {
+                }
+            }
+            military_monarchy = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 255 200 0 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes
+        }
+    }
+
+    despotism = {
+        types = {
+            military_dictatorship = {
+                modifiers = {
+                }
+            }
+            personalist_dictatorship = {
+                modifiers = {
+                }
+            }
+            oligarchy = {
+                modifiers = {
+                }
+            }
+            junta = {
+                modifiers = {
+                }
+            }
+			civilian_dictatorship = {
+                modifiers = {
+                }
+            }
+			anocracy = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 124 124 124 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes
+        }
+    }
+
+    anarchism = {
+        types = {
+            anarcho_communism = {
+                modifiers = {
+                }
+            }
+            anarcho_syndicalism = {
+                modifiers = {
+                }
+            }
+            anarcho_individualism = {
+                modifiers = {
+                }
+            }
+            platformism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 20 20 20 },
+        rules = {
+            can_force_government = no,
+            can_send_volunteers = yes,
+            can_create_factions = no
+        }
+    }
+
+    islamism = {
+        types = {
+            political_islam = {
+                modifiers = {
+                }
+            }
+            islamic_fundamentalism = {
+                modifiers = {
+                }
+            }
+            islamic_socialism = {
+                modifiers = {
+                }
+            }
+            islamic_reformism = {
+                modifiers = {
+                }
+            }
+        }
+        
+        color = { 0 60 0 },
+        rules = {
+            can_force_government = yes,
+            can_send_volunteers = yes,
+            can_declare_war_on_same_ideology = no
+        }
+    }
+}

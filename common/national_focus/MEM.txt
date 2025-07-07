@@ -1,0 +1,1270 @@
+focus_tree = {
+	id = MEM
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEM
+		}
+	}
+	default = no
+	focus = {
+		id = MEM_inside
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = MEM_outside
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 26
+		y = 0
+
+	}
+	focus = {
+		id = MEM_war
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 54
+		y = 0
+
+	}
+	focus = {
+		id = MEM_religon_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_inside
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = MEM_r_hard
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_religon_policy
+		}
+		mutually_exclusive = {
+			focus = MEM_r_soft
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = MEM_r_soft
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_religon_policy
+		}
+		mutually_exclusive = {
+			focus = MEM_r_hard
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = MEM_r_religious_tolerance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_r_soft
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = MEM_stop_other_faith_ban
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_r_religious_tolerance
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = MEM_secular_state
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_stop_other_faith_ban
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = MEM_race_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_inside
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = MEM_panmongolism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_race_policy
+		}
+		mutually_exclusive = {
+			focus = MEM_panturkism
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = MEM_mongol_supermacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_panmongolism
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = MEM_race_rank
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_mongol_supermacy
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = MEM_slavic_slavary
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_race_rank
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = MEM_panturkism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_race_policy
+		}
+		mutually_exclusive = {
+			focus = MEM_panmongolism
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = MEM_turkcic_supermacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_panturkism
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = MEM_turckic_races_are_equal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_turkcic_supermacy
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = MEM_panturk_empire
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_turckic_races_are_equal
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = MEM_economical_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_inside
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = MEM_expand_siberia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economical_reform
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = MEM_build_naykorads
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economical_reform
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = MEM_more_russian_taxes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economical_reform
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = MEM_economycal_polycy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_expand_siberia
+		}
+		prerequisite = {
+			focus = MEM_build_naykorads
+		}
+		prerequisite = {
+			focus = MEM_more_russian_taxes
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = MEM_liberalization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economycal_polycy
+		}
+		mutually_exclusive = {
+			focus = MEM_autocratization
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = MEM_autocratization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economycal_polycy
+		}
+		mutually_exclusive = {
+			focus = MEM_liberalization
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = MEM_autarchy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_autocratization
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = MEM_autorcatization_other_parts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_autarchy
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = MEM_strong_control
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_autorcatization_other_parts
+		}
+		mutually_exclusive = {
+			focus = MEM_sell_to_privates
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = MEM_coutry_creditor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_autorcatization_other_parts
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = MEM_admin_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_inside
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = MEM_juge_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_admin_reform
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = MEM_educational_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_admin_reform
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = MEM_science_dotations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_educational_reform
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = MEM_expand_laboratories
+		icon = GFX_goal_unknown
+		cost = 7
+		prerequisite = {
+			focus = MEM_science_dotations
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = MEM_land_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_admin_reform
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = MEM_centralization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_reform
+		}
+		mutually_exclusive = {
+			focus = MEM_decentralization
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = MEM_donate_on_ulan_baatar
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_centralization
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = MEM_decentralization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_reform
+		}
+		mutually_exclusive = {
+			focus = MEM_centralization
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = MEM_donate_on_growing_states
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_decentralization
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = MEM_empire_parts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_outside
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = MEM_shackles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_empire_parts
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = MEM_hul_yes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_shackles
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = MEM_hul_military_support
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_hul_yes
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = MEM_destroy_muslims
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_hul_military_support
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = MEM_help_uan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_empire_parts
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = MEM_promongolic_propoganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_help_uan
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = MEM_anticomunist_raids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_promongolic_propoganda
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = MEM_uan_invest_in_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_anticomunist_raids
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = MEM_mogols
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_empire_parts
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = MEM_mog_add_stab
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_mogols
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = MEM_conse_tea_toll
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_mog_add_stab
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = MEM_invest_in_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_conse_tea_toll
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = MEM_okeanian_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_empire_parts
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = MEM_ivest_in_okeanian_kaychyk
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_okeanian_policy
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = MEM_destroy_partisan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_ivest_in_okeanian_kaychyk
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = MEM_expand_thungsten_quotes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_destroy_partisan
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = MEM_europen_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_outside
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = MEM_integrate_ukraine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_europen_policy
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = MEM_integrate_ruusia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_europen_policy
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = MEM_expluatate_their_scare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_integrate_ukraine
+		}
+		prerequisite = {
+			focus = MEM_integrate_ruusia
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = MEM_reach_for_the_moon
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_outside
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = MEM_cosmic_space_race
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_reach_for_the_moon
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = MEM_economy_influence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_outside
+		}
+		x = 34
+		y = 1
+
+	}
+	focus = {
+		id = MEM_soft_power
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_economy_influence
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = MEM_atom_programm
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_war
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = MEM_big_bombs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_atom_programm
+		}
+		mutually_exclusive = {
+			focus = MEM_medium_bombs
+			focus = MEM_small_bombs
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = MEM_medium_bombs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_atom_programm
+		}
+		mutually_exclusive = {
+			focus = MEM_big_bombs
+			focus = MEM_small_bombs
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = MEM_small_bombs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_atom_programm
+		}
+		mutually_exclusive = {
+			focus = MEM_medium_bombs
+			focus = MEM_big_bombs
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = MEM_land_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_war
+		}
+		x = 45
+		y = 1
+
+	}
+	focus = {
+		id = MEM_mongol_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_army
+		}
+		mutually_exclusive = {
+			focus = MEM_turcic_army
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = MEM_apply_rank_to_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_mongol_army
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = MEM_turcic_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_army
+		}
+		mutually_exclusive = {
+			focus = MEM_mongol_army
+		}
+		x = 44
+		y = 2
+
+	}
+	focus = {
+		id = MEM_massive_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_turcic_army
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = MEM_fanatic_tengri_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_army
+		}
+		mutually_exclusive = {
+			focus = MEM_secular_army
+		}
+		x = 46
+		y = 2
+
+	}
+	focus = {
+		id = MEM_temple_mobilization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_fanatic_tengri_army
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = MEM_secular_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_land_army
+		}
+		mutually_exclusive = {
+			focus = MEM_fanatic_tengri_army
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = MEM_military_concetration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_secular_army
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = MEM_army_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = MEM_massive_army
+			focus = MEM_apply_rank_to_army
+			focus = MEM_temple_mobilization
+			focus = MEM_military_concetration
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = MEM_research_army_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = MEM_army_reform
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = MEM_clear_coruptivites
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_army_reform
+		}
+		x = 47
+		y = 5
+
+	}
+	focus = {
+		id = MEM_air_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_war
+		}
+		x = 51
+		y = 1
+
+	}
+	focus = {
+		id = MEM_speed_acent
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_air_army
+		}
+		mutually_exclusive = {
+			focus = MEM_power_acent
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = MEM_more_light_material
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_speed_acent
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = MEM_research_airodynamic_corpuses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_more_light_material
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = MEM_power_acent
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_air_army
+		}
+		mutually_exclusive = {
+			focus = MEM_speed_acent
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = MEM_high_quality_air_guns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_power_acent
+		}
+		x = 52
+		y = 3
+
+	}
+	focus = {
+		id = MEM_new_rockets_class
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_high_quality_air_guns
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = MEM_create_air_doctrine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_research_airodynamic_corpuses
+			focus = MEM_new_rockets_class
+		}
+		x = 51
+		y = 5
+
+	}
+	focus = {
+		id = MEM_naval_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_war
+		}
+		x = 58
+		y = 1
+
+	}
+	focus = {
+		id = MEM_okeanian_question
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_naval_army
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = MEM_research_new_engine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_naval_army
+		}
+		x = 61
+		y = 2
+
+	}
+	focus = {
+		id = MEM_carriers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_research_new_engine
+		}
+		x = 58
+		y = 3
+
+	}
+	focus = {
+		id = MEM_expand_carrier_place
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_carriers
+		}
+		x = 58
+		y = 4
+
+	}
+	focus = {
+		id = MEM_under_water
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_research_new_engine
+		}
+		x = 61
+		y = 3
+
+	}
+	focus = {
+		id = MEM_develop_new_corpse
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_under_water
+		}
+		x = 61
+		y = 4
+
+	}
+	focus = {
+		id = MEM_khan_torpede
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_develop_new_corpse
+		}
+		x = 61
+		y = 5
+
+	}
+	focus = {
+		id = MEM_r_assimilation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_r_hard
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = MEM_temple_subsidions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_r_assimilation
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = MEM_make_emperor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_temple_subsidions
+		}
+		x = 0
+		y = 5
+
+	}
+	focus = {
+		id = MEM_export_more_resources
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_liberalization
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = MEM_busnes_subsidions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_export_more_resources
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = MEM_mongol_bank_credits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_busnes_subsidions
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = MEM_destroy_corruption
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_sell_to_privates
+			focus = MEM_strong_control
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = MEM_sell_to_privates
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_busnes_subsidions
+		}
+		mutually_exclusive = {
+			focus = MEM_strong_control
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = MEM_steel_discepline
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_army_reform
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = MEM_research_new_guns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_traditional_fleet
+		}
+		x = 64
+		y = 4
+
+	}
+	focus = {
+		id = MEM_traditional_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_research_new_engine
+		}
+		x = 64
+		y = 3
+
+	}
+	focus = {
+		id = MEM_modern_defence_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MEM_expand_carrier_place
+		}
+		prerequisite = {
+			focus = MEM_research_new_guns
+		}
+		prerequisite = {
+			focus = MEM_khan_torpede
+		}
+		x = 61
+		y = 6
+
+	}
+}

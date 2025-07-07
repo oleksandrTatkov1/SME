@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+
+		NIG_blood_diamods = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = nig_blood_diamods_art
+
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = -0.15
+				autonomy_gain = -0.05
+			}
+		}
+			NIG_curse_1964 = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = nig_curse_1964_art
+
+			modifier = {
+			recruitable_population_factor = -0.2
+			autonomy_gain = -0.1
+			}
+		}
+	}
+}

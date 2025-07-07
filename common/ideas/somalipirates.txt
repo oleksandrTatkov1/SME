@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+
+		somali_pirates = { 
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = somali_pirates_art
+
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.1
+				convoy_escort_efficiency = -0.1
+				naval_coordination = -0.15
+				trade_opinion_factor = -0.2
+			}
+		}

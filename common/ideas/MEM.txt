@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		
+		MEM_gegemon_glory = {
+			picture = MEM_gegemon_glory
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.3
+				war_support_factor = 0.1
+				annex_cost_factor = -0.1
+				send_volunteer_factor = 0.15
+				embargo_cost_factor = -0.25
+				trade_opinion_factor = 0.25
+			}
+			cancel = {
+				NOT = { tag = MEM }
+			}
+		}
+	}
+}

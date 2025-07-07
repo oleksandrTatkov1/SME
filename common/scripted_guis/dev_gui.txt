@@ -1,0 +1,8 @@
+scripted_gui = {
+	development_country_view = {
+		context_type = player_context
+		window_name = "topbar_development_window"
+
+		parent_window_token = top_bar
+	}
+}

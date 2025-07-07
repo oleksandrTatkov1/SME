@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+
+		anti_muslim = {
+			picture = anti_muslim
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = 0.05
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				supply_factor = 0.15
+			}
+			cancel = {
+				NOT = { tag = JEW }
+			}
+		}
+		
+		israel_freedom = {
+			picture = israel_freedom
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+				conscription = 0.02
+				stability_factor = 0.1
+				war_support_factor = 0.15
+			}
+			cancel = {
+				NOT = { tag = JEW }
+			}
+		}
+		
+		= {
+			picture = 
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				
+			}
+			cancel = {
+				NOT = { tag =  }
+			}
+		}
+	}
+}

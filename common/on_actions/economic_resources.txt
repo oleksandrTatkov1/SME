@@ -1,0 +1,63 @@
+on_actions = {
+    on_daily = {
+	  effect = {
+			every_country = {
+				remove_dynamic_modifier = {
+					modifier = building_penalty
+				}
+				if = {
+					limit = {
+						check_variable = { THIS.num_of_civilian_factories > 0 }
+					}
+					clear_variable = factories
+					clear_variable = total_gas
+					clear_variable = gas_total_comsumption
+					set_variable = { 
+						var = factories 
+						value = THIS.num_of_civilian_factories 
+					} #F(общ)
+					set_variable = { 
+						var = total_gas 
+						value = resource@gas 
+					}	#G(общ)
+					set_variable = { 
+						var = gas_comsumption 
+						value = 2
+					}
+					set_variable = { 
+						var = gas_total_comsumption 
+						value = factories 
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { resource@gas < 0 }
+					}
+					multiply_variable = { 
+						var = gas_total_comsumption 
+						value = gas_comsumption 
+					} 
+					divide_variable = { 
+						var = total_gas 
+						value = gas_total_comsumption 
+					}
+					
+					set_variable = { 
+						var = penalty_value 
+						value = total_gas
+					}
+					
+					add_dynamic_modifier = {
+						modifier = building_penalty
+					}
+					clear_variable = factories
+					clear_variable = total_gas
+					clear_variable = gas_total_comsumption
+				}
+				else = {
+						
+				}
+			}
+		}
+	}
+}

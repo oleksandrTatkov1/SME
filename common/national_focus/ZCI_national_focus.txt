@@ -1,0 +1,489 @@
+focus_tree = {
+	id = ZCI_national_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZCI
+		}
+	}
+	default = no
+	focus = {
+		id = ZCI_legacy_of_the_revolution
+		icon = GFX_goal_support_communism
+		cost = 2
+		x = 15
+		y = 0
+		
+		completion_reward = { 
+		 add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = ZCI_revolution_continues
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_legacy_of_the_revolution
+		}
+		mutually_exclusive = {
+			focus = ZCI_hidden_opposition
+		}
+		x = 12
+		y = 1
+		
+		completion_reward = { 
+		 add_stability = 0.15
+		}
+
+	}
+	focus = {
+		id = ZCI_restore_the_national_economy
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_revolution_continues
+		}
+		x = 12
+		y = 2
+		
+		completion_reward = { 
+		set_building_level = {
+        type = infrastructure
+        level = 3
+        instant_build = yes
+        }
+	  }
+
+	}
+	focus = {
+		id = ZCI_agricultural_collectivization
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5
+		prerequisite = {
+			focus = ZCI_restore_the_national_economy
+		}
+		x = 10
+		y = 3
+		
+		completion_reward = {
+	    add_stability = 0.2
+		add_extra_state_shared_building_slots = 3
+	}
+
+	}
+	focus = {
+		id = ZCI_Optimization_resource_allocation
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5
+		prerequisite = {
+			focus = ZCI_agricultural_collectivization
+		}
+		x = 10
+		y = 4
+		
+	completion_reward = {
+	   add_resource = {
+       type = chromium
+       amount = 10
+       state = 545
+    }
+	   add_resource = {
+       type = steel
+       amount = 7
+       state = 545
+    }
+	   add_resource = {
+       type = tungsten
+       amount = 3
+       state = 545
+    }
+	}
+
+	}
+	focus = {
+		id = ZCI_Industrialization_national_economy
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5
+		prerequisite = {
+			focus = ZCI_restore_the_national_economy
+		}
+		x = 14
+		y = 3
+		
+	   completion_reward = {
+	   swap_ideas = {
+		 remove_idea = ZCI_land_reform
+		 add_idea = ZCI_land_reform_industria
+		}
+	}
+
+	}
+	focus = {
+		id = ZCI_Labor_squads
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5
+		prerequisite = {
+			focus = ZCI_Industrialization_national_economy
+		}
+		x = 14
+		y = 4
+		
+	completion_reward = {
+	  add_manpower = 10000
+	   swap_ideas = {
+		 remove_idea = ZCI_land_reform_industria
+		 add_idea = ZCI_land_reform_labour
+		}
+	}
+
+	}
+	focus = {
+		id = ZCI_mugabe_iron_fist
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_Optimization_resource_allocation
+		}
+		prerequisite = {
+			focus = ZCI_Labor_squads
+		}
+		x = 12
+		y = 5
+		
+		completion_reward = {
+        swap_ideas = {
+		 remove_idea = ZCI_land_reform_labour
+		 add_idea = ZCI_land_reform_iron
+		}		
+	}
+
+	}
+	focus = {
+		id = ZCI_hidden_opposition
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3
+		prerequisite = {
+			focus = ZCI_legacy_of_the_revolution
+		}
+		mutually_exclusive = {
+			focus = ZCI_revolution_continues
+		}
+		x = 18
+		y = 1
+		
+		completion_reward = {
+	
+		 add_ideas = ZCI_hidden_party
+		
+		}
+
+	}
+	focus = {
+		id = ZCI_support_from_south_africa
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3
+		prerequisite = {
+			focus = ZCI_hidden_opposition
+		}
+		x = 18
+		y = 2
+		
+		completion_reward = {
+		 add_stability = 0.1
+		 add_manpower = 500
+		  add_popularity = {
+           ideology = communism
+           popularity = 0.15
+          }
+	    }
+
+	}
+	focus = {
+		id = ZCI_split_in_the_party
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3
+		prerequisite = {
+			focus = ZCI_support_from_south_africa
+		}
+		x = 18
+		y = 3
+		
+        completion_reward = {
+        state_event = {
+        id = zimba.1
+        days = 10
+        trigger_for = controller
+        }
+       }
+
+	}
+	focus = {
+		id = ZCI_military_intervention
+		icon = GFX_goal_generic_small_arms
+		cost = 0
+		prerequisite = {
+			focus = ZCI_split_in_the_party
+		}
+		mutually_exclusive = {
+			focus = ZCI_party_coup
+		}
+		x = 17
+		y = 4
+		
+		available = {
+        always = no
+    }
+	
+		completion_reward = {
+    		set_party_name = {
+				ideology = communism
+				name = ZCI_Military_coup
+				long_name = ZCI_Military_coup_long
+			}
+		retire_ideology_leader = communism
+		recruit_character = mujuru
+	}
+
+	}
+	focus = {
+		id = ZCI_party_coup
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = ZCI_split_in_the_party
+		}
+		mutually_exclusive = {
+			focus = ZCI_military_intervention
+		}
+		x = 19
+		y = 4
+		
+		available = {
+        always = no
+    }
+		
+		completion_reward = {
+    		set_party_name = {
+				ideology = communism
+				name = ZCI_Panafrican_Party
+				long_name = ZCI_Panafrican_Party_long
+			}
+		retire_ideology_leader = communism
+		recruit_character = nujoma
+		remove_ideas = ZCI_hidden_party
+	}
+
+	}
+	focus = {
+		id = ZCI_regional_cooperation_plan
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = ZCI_party_coup
+		}
+		x = 19
+		y = 5
+		
+		completion_reward = {
+        swap_ideas = {
+		 remove_idea = ZCI_land_reform
+		 add_idea = ZCI_land_reform_regcoopplan
+		}		
+	}
+
+	}
+	focus = {
+		id = ZCI_work_collectives
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = ZCI_regional_cooperation_plan
+		}
+		x = 18
+		y = 6
+		
+		completion_reward = {
+        swap_ideas = {
+		 remove_idea = ZCI_land_reform_regcoopplan
+		 add_idea = ZCI_land_reform_work_collectives
+		}		
+	   }
+
+	}
+	focus = {
+		id = ZCI_modernization_of_agriculture
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = ZCI_regional_cooperation_plan
+		}
+		x = 20
+		y = 6
+		
+		completion_reward = {
+        add_extra_state_shared_building_slots = 3		
+	    }
+
+	}
+	focus = {
+		id = ZCI_economics_of_solidarity
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = ZCI_work_collectives
+		}
+		prerequisite = {
+			focus = ZCI_modernization_of_agriculture
+		}
+		x = 19
+		y = 7
+		
+		completion_reward = {
+     	swap_ideas = {
+		 remove_idea = ZCI_land_reform_work_collectives
+		 add_idea = ZCI_land_reform_solidarity
+		}	
+	   }
+
+	}
+	focus = {
+		id = ZCI_exporting_the_revolution
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_mugabe_iron_fist
+		}
+		x = 12
+		y = 6
+		
+		completion_reward = {
+        add_political_power = 50	
+	    add_popularity = {
+        ideology = communism
+        popularity = 0.15
+    }   
+	}
+
+	}
+	focus = {
+		id = ZCI_south_africa_challenge
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_exporting_the_revolution
+		}
+		x = 12
+		y = 7
+		
+		completion_reward = {
+	    add_war_support = 0.2
+	    add_timed_idea = {
+        idea = ZCI_mobilization_resources
+        days = 180
+    }
+   }
+
+	}
+	focus = {
+		id = ZCI_war_south_africa
+		icon = GFX_goal_support_fourth_int
+		cost = 5
+		prerequisite = {
+			focus = ZCI_south_africa_challenge
+		}
+		mutually_exclusive = {
+			focus = ZCI_shaky_alliance
+		}
+		x = 11
+		y = 8
+		
+		completion_reward = {
+        declare_war_on = {
+        target = CUR
+        type = annex_everything
+     }
+    }
+
+	}
+	focus = {
+		id = ZCI_shaky_alliance
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+		prerequisite = {
+			focus = ZCI_south_africa_challenge
+		}
+		mutually_exclusive = {
+			focus = ZCI_war_south_africa
+		}
+		x = 13
+		y = 8
+		
+		completion_reward = {
+        add_opinion_modifier = {
+        target = CUR
+        modifier = ZCI_shaky_alliance_opinion
+    }
+   }
+
+  }
+	focus = {
+		id = ZCI_common_enemy
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+		prerequisite = {
+			focus = ZCI_shaky_alliance
+		}
+		x = 13
+		y = 9
+		
+		completion_reward = {
+	    CUR = { add_to_faction = ZCI }
+	    create_wargoal = {
+        type = annex_everything
+        target = MOZ
+        }
+	}
+
+	}
+	focus = {
+		id = ZCI_african_federation
+		icon = GFX_goal_generic_build_tank
+		cost = 5
+		prerequisite = {
+			focus = ZCI_economics_of_solidarity
+		}
+		mutually_exclusive = {
+			focus = ZCI_inner_republic
+		}
+		x = 20
+		y = 8
+		
+		completion_reward = {
+	    CUR = { add_to_faction = ZCI }
+        set_faction_name = African_Federation
+	}
+
+	}
+	focus = {
+		id = ZCI_inner_republic
+		icon = GFX_goal_generic_major_alliance
+		cost = 5
+		prerequisite = {
+			focus = ZCI_economics_of_solidarity
+		}
+		mutually_exclusive = {
+			focus = ZCI_african_federation
+		}
+		x = 18
+		y = 8
+		
+		completion_reward = {
+        set_autonomy = {
+            target = CUR
+            autonomy_state = puppet
+        }
+    }
+   }
+}

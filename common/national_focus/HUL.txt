@@ -1,0 +1,850 @@
+focus_tree = {
+	id = HUL
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUL
+		}
+	}
+	default = no
+	focus = {
+		id = HUL_centralization
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = HUL_decentralization
+		}
+		x = 35
+		y = 0
+
+	}
+	focus = {
+		id = HUL_decentralization
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = HUL_centralization
+		}
+		x = 37
+		y = 0
+
+	}
+	focus = {
+		id = HUL_research_army_project
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 22
+		y = 0
+
+	}
+	focus = {
+		id = HUL_fleet_poject
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_research_army_project
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = HUL_carrier_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_fleet_poject
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = HUL_underwater_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_fleet_poject
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = HUL_trad_fleet_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_fleet_poject
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = HUL_aviation_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_research_army_project
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = HUL_destroyer_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_aviation_project
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = HUL_fb_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_aviation_project
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = HUL_cas_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_aviation_project
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = HUL_land_poject
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_research_army_project
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = HUL_btr_poject
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_land_poject
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = HUL_bmp_poject
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_land_poject
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = HUL_arty_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_land_poject
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = HUL_tank_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_land_poject
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = HUL_great_puge
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_centralization
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = HUL_burocracy_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_great_puge
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = HUL_old_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_burocracy_reform
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = HUL_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_old_system
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = HUL_anti_resistance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_old_system
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = HUL_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_old_system
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = HUL_suply_loyalists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_decentralization
+		}
+		x = 37
+		y = 1
+
+	}
+	focus = {
+		id = HUL_diplomatic_actions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_suply_loyalists
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = HUL_create_new_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_diplomatic_actions
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = HUL_loyality
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_old_system
+			focus = HUL_create_new_system
+		}
+		mutually_exclusive = {
+			focus = HUL_indenpendence
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = HUL_indenpendence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_create_new_system
+		}
+		mutually_exclusive = {
+			focus = HUL_loyality
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = HUL_inde_diplomacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_indenpendence
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = HUL_demondage_mongol_influence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_inde_diplomacy
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = HUL_local_states_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_create_new_system
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = HUL_turcish_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_economy
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = HUL_istambul_investments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_turcish_industry
+		}
+		x = 40
+		y = 6
+
+	}
+	focus = {
+		id = HUL_bosfor_trading
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_istambul_investments
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = HUL_persia_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_economy
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = HUL_teheran_investments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_persia_industry
+		}
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = HUL_husestan_oil
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_teheran_investments
+		}
+		x = 42
+		y = 7
+
+	}
+	focus = {
+		id = HUL_iraq_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_economy
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = HUL_bahdad_investments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_iraq_industry
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = HUL_bahdad_oil
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_bahdad_investments
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = HUL_syria_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_economy
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = HUL_damascus_invastments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_syria_industry
+		}
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = HUL_build_stokpiles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_damascus_invastments
+		}
+		x = 46
+		y = 7
+
+	}
+	focus = {
+		id = HUL_kabul_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_economy
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = HUL_kabul_investments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_kabul_industry
+		}
+		x = 48
+		y = 6
+
+	}
+	focus = {
+		id = HUL_kabul_tungsten
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_kabul_investments
+		}
+		x = 48
+		y = 7
+
+	}
+	focus = {
+		id = HUL_economical_reformation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_bosfor_trading
+		}
+		prerequisite = {
+			focus = HUL_husestan_oil
+		}
+		prerequisite = {
+			focus = HUL_bahdad_oil
+		}
+		prerequisite = {
+			focus = HUL_build_stokpiles
+		}
+		prerequisite = {
+			focus = HUL_kabul_tungsten
+		}
+		x = 42
+		y = 8
+
+	}
+	focus = {
+		id = HUL_expand_other_res
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_bahdad_oil
+		}
+		prerequisite = {
+			focus = HUL_kabul_tungsten
+		}
+		prerequisite = {
+			focus = HUL_bahdad_oil
+		}
+		prerequisite = {
+			focus = HUL_husestan_oil
+		}
+		prerequisite = {
+			focus = HUL_bosfor_trading
+		}
+		prerequisite = {
+			focus = HUL_kabul_tungsten
+		}
+		prerequisite = {
+			focus = HUL_build_stokpiles
+		}
+		prerequisite = {
+			focus = HUL_bahdad_oil
+		}
+		prerequisite = {
+			focus = HUL_husestan_oil
+		}
+		prerequisite = {
+			focus = HUL_bosfor_trading
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = HUL_local_states_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_create_new_system
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
+		id = HUL_iraq_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_army
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = HUL_afgan_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_army
+		}
+		prerequisite = {
+			focus = HUL_iraq_military
+		}
+		x = 50
+		y = 6
+
+	}
+	focus = {
+		id = HUL_persian_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_army
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = HUL_syria_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_army
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = HUL_turkish_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_local_states_army
+		}
+		prerequisite = {
+			focus = HUL_syria_military
+		}
+		x = 52
+		y = 6
+
+	}
+	focus = {
+		id = HUL_burocracy_reform
+		icon = GFX_goal_unknown
+		cost = 20
+		prerequisite = {
+			focus = HUL_economy
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = HUL_expand_resources
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_burocracy_reform
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = HUL_heavy_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_expand_resources
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = HUL_light_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_expand_resources
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = HUL_add_compileance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_anti_resistance
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = HUL_antipartisan_raids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_add_compileance
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = HUL_goverment_puges
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_antipartisan_raids
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = HUL_army_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_army
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = HUL_army_puges
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_infantry_mechanization
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = HUL_army_recovering
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_army_puges
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = HUL_desert_training
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_army_recovering
+		}
+		x = 26
+		y = 9
+
+	}
+	focus = {
+		id = HUL_military_factories
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_heavy_industry
+		}
+		prerequisite = {
+			focus = HUL_light_industry
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = HUL_destroy_resistance
+		icon = GFX_goal_unknown
+		cost = 20
+		prerequisite = {
+			focus = HUL_goverment_puges
+		}
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = HUL_infantry_mechanization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_army_reform
+		}
+		x = 26
+		y = 6
+
+	}
+	focus = {
+		id = HUL_use_center
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_loyality
+		}
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = HUL_multinational_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_afgan_military
+		}
+		prerequisite = {
+			focus = HUL_turkish_military
+		}
+		prerequisite = {
+			focus = HUL_persian_military
+		}
+		x = 51
+		y = 8
+
+	}
+	focus = {
+		id = HUL_boost_trade
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_use_center
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = HUL_tengri_assimilation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = HUL_destroy_resistance
+		}
+		x = 28
+		y = 9
+
+	}
+}

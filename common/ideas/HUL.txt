@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+
+		HUL_unstable_state = {
+			picture = unstable_state
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.5
+			}
+			cancel = {
+				NOT = { tag = HUL }
+			}
+		}
+		HUL_muslim_resistanse = {
+			picture = HUL_muslim_resistanse
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_cost = 0.2
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				
+			}
+			targeted_modifier = {
+				tag = SAU
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+			cancel = {
+				NOT = { tag = HUL }
+			}
+		}
+		HUL_metropoly_question = {
+			picture = HUL_metropoly_question
+			ai_will_do = {
+				factor = 5
+			}
+			
+			modifier = {
+				political_power_cost = 0.10
+				trade_opinion_factor = -0.25
+				autonomy_gain = 0.01
+			}
+			cancel = {
+				NOT = { tag = HUL }
+			}
+		}
+	}
+}

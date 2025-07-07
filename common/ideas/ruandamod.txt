@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+
+		RAU_tutsi_minorities = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = rau_tutsi_minorities_art
+
+			modifier = {
+				stability_factor = -0.3
+				consumer_goods_factor = 0.25
+			}
+		}

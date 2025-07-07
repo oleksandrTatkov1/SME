@@ -1,0 +1,14 @@
+development_max_limit = {
+	color_type = good
+	value_type = number 
+	precision = 2
+	category = country
+}
+
+development_exponete_modifier = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+

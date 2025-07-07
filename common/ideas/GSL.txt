@@ -1,0 +1,45 @@
+ideas = {
+
+	country = {
+
+		GSL_frontier_mali = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = GSL_frontier_mali
+
+			modifier = {
+            army_org_factor = 0.1
+            war_support_factor = 0.15
+            production_speed_bunker_factor = -0.15
+			}
+		}
+			GSL_protocol_federation = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = SEA_color_of_africa
+
+			modifier = {
+			    stability_factor = 0.25
+				political_power_gain = -0.15
+				political_advisor_cost_factor = 0.3
+				general_cost_factor = 0.3
+			}
+		}
+	}
+}
