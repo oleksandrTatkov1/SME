@@ -1,67 +1,21 @@
 characters = {
 #Create country leader - "Братец"
-bratec = {
-	name = bratec
-	portraits = {
-		civilian = {
-			#Custom image for "Братец"
-			large = "/gfx/leaders/MEM/IspWzEvi-9407.dds"
-		}
-	}
-	country_leader = {
-		expire = "1965.1.1"
-		ideology = rexism
-		traits = {  }
-	}
-}
-
-#Create country leader - Григорий Борода
-grigoriyboroda = {
-	name = grigoriyboroda
-	portraits = {
-		civilian = {
-			#Custom image for Григорий Борода
-			large = "/gfx/leaders/MEM/WuGoESkw-9467.dds"
-		}
-	}
-	country_leader = {
-		expire = "1959.12.22"
-		ideology = liberalism
-		traits = {  }
-	}
-}
-
-#Create country leader - Анандын Амар
-anandynamar = {
-	name = anandynamar
-	portraits = {
-		civilian = {
-			#Custom image for Анандын Амар
-			large = "/gfx/leaders/MEM/jigeLQns-10024.dds"
-		}
-	}
-	country_leader = {
-		expire = "1941.07.27"
-		ideology = stalinism
-		traits = {  }
-	}
-}
 
 #Create country leader - Боролдай Баатар
-boroldaybaatar = {
-	name = boroldaybaatar
-	portraits = {
-		civilian = {
-			#Custom image for Боролдай Баатар
-			large = "/gfx/leaders/MEM/UGLkNYDu-542582.dds"
+	boroldaybaatar = {
+		name = boroldaybaatar
+		portraits = {
+			civilian = {
+				#Custom image for Боролдай Баатар
+				large = "/gfx/leaders/MEM/UGLkNYDu-542582.dds"
+			}
+		}
+		country_leader = {
+			expire = "1977.11.04"
+			ideology = absolute_monarchy
+			traits = {  }
 		}
 	}
-	country_leader = {
-		expire = "1977.11.04"
-		ideology = despotism
-		traits = {  }
-	}
-}
 	general_min={
 		name=general_min
 		portraits={

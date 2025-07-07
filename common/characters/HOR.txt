@@ -8,7 +8,7 @@ tohta = {
 	}
 	country_leader = {
 		expire = "1960.10.12"
-		ideology = despotism
+		ideology = absolute_monarchy
 		traits = { mon_leader }
 	}
 }
