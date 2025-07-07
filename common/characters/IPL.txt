@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			expire = "1995.10.12"
-			ideology = despotism
+			ideology = islamic_fundamentalism
 			traits = { djihadi }
 		}
 	}

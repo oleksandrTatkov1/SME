@@ -32,27 +32,22 @@ set_technology = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.8.15"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 12
-	fascism = 6
-	communism = 20
-	neutrality = 62
-}
-
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_popularities = {
-		democratic = 5
-		fascism = 15
-		communism = 15
-		neutrality = 65
-	}
-
+    communism     = 20
+    socialism      = 3
+    despotism       = 5
+    reactionism     = 6
+    islamism        = 2
+    liberalism      = 7
+    conservatism    = 5
+    fascism         = 2
+    monarchism      = 45
+    anarchism       = 5 
 }
 
 recruit_character = tohta

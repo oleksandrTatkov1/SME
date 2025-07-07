@@ -8,7 +8,7 @@ JEW_moshet_share = {
 	}
 	country_leader = {
 		expire = "1980.10.12"
-		ideology = despotism
+		ideology = military_dictatorship
 		traits = { politican_puppet }
 	}
   }

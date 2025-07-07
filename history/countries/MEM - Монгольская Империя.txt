@@ -62,15 +62,8 @@ set_technology = {
 }
 
 
-#For start date 1939.1.1
-1939.1.1 = {
-	add_political_power = 1000
-	oob = "MEM_1939"
-}
-
-#Politics for 1936.1.1
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.8.15"
 	election_frequency = 60
 	elections_allowed = no

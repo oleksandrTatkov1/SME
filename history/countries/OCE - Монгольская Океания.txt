@@ -34,17 +34,24 @@ set_technology = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.8.15"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 12
-	fascism = 6
-	communism = 20
-	neutrality = 62
+    communism     = 3
+    socialism     = 2
+    despotism     = 42
+    reactionism   = 3
+    islamism      = 1
+    liberalism    = 12
+    conservatism  = 12
+    fascism       = 2
+    anarchism     = 3
+    monarchism    = 20
 }
+
 
 #Politics for 1939.1.1
 1939.1.1 = {
