@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_TAZ_national_unity"
+        texturefile = "gfx/interface/ideas/TAZ/taz_national_unity_art.dds"
+    }
+	}

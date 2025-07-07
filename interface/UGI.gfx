@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_UGI_national_revolution"
+        texturefile = "gfx/interface/ideas/UGI/ugi_national_revolution_art.dds"
+    }
+	 SpriteType = {
+        name = "GFX_idea_UGI_storm_troopers"
+        texturefile = "gfx/interface/ideas/UGI/ugi_storm_troopers_art.dds"
+    }
+	}

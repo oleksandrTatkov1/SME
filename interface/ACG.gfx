@@ -1,0 +1,14 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_ACG_mongolian_trade"
+        texturefile = "gfx/interface/ideas/ACG/acg_mongolian_trade_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_ACG_privatized_security"
+        texturefile = "gfx/interface/ideas/ACG/acg_privatized_security_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_ACG_corporate_state"
+        texturefile = "gfx/interface/ideas/ACG/acg_corporate_state_art.dds"
+    }
+}

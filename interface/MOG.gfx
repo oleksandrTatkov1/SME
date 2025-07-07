@@ -1,0 +1,22 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_MOG_army_decay"
+		texturefile = "gfx/interface/ideas/MOG/MOG_army_decay.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_MOG_old_glory"
+		texturefile = "gfx/interface/ideas/MOG/MOG_old_glory.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_MOG_post_cast"
+		texturefile = "gfx/interface/ideas/MOG/MOG_post_cast.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_MOG_fav_contracts"
+		texturefile = "gfx/interface/ideas/MOG/MOG_fav_contracts.dds"
+	}	
+	SpriteType = {
+		name = "MOG_army_decay"
+		texturefile = "gfx/interface/ideas/MOG/MOG_army_decay.dds"
+	}	
+}

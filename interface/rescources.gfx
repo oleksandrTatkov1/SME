@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_nikel"
+		texturefile = "gfx/interface/mapicons/mapicon_unit_no_orders.dds"
+	}
+}

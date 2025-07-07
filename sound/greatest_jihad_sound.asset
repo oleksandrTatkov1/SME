@@ -1,0 +1,5 @@
+sound = { 
+	name = "greatest_jihad_sound"
+	file = "customsound/greatest_jihad_sound.wav"
+	always_load = no
+}

@@ -1,0 +1,18 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_state_of_war"
+		texturefile = "gfx/interface/ideas/generic/state_of_war.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_proxy_state"
+		texturefile = "gfx/interface/ideas/generic/proxy_state.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_djihadi"
+		texturefile = "gfx/interface/ideas/generic/djihadi.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_"
+		texturefile = "gfx/interface/ideas/generic/.dds"
+	}	
+}

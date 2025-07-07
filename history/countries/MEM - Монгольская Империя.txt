@@ -1,0 +1,106 @@
+﻿oob = "MEM_1936"
+capital = 330
+set_research_slots = 2
+set_stability = 0.57
+set_war_support = 0.45
+set_convoys = 2390
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	tengri
+	MEM_gegemon_glory
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = UAN
+		autonomous_state = autonomy_mon_bur
+	}
+	set_autonomy = {
+		target = HOR
+		autonomous_state = autonomy_mon_bur
+	}
+	set_autonomy = {
+		target = HUL
+		autonomous_state = autonomy_mon_bur
+	}
+	set_autonomy = {
+		target = OCE
+		autonomous_state = autonomy_mon_bur
+	}
+	set_autonomy = {
+		target = MOG
+		autonomous_state = autonomy_mon_bur
+	}
+	else = {
+		puppet = MOG
+		puppet = OCE
+		puppet = HUL
+		puppet = UAN
+		puppet = HOR
+	}
+}
+	
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	trench_warfare = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "MEM_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.8.15"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 12
+	fascism = 6
+	communism = 20
+	neutrality = 62
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 5
+		fascism = 15
+		communism = 15
+		neutrality = 65
+	}
+}
+
+recruit_character = boroldaybaatar
+recruit_character = anandynamar
+recruit_character = grigoriyboroda
+recruit_character = bratec
+recruit_character = baatar_gen
+recruit_character = general_b
+recruit_character = general_min
+recruit_character = general_a
+recruit_character = adv_1
+recruit_character = adv_3
+
+

@@ -1,0 +1,133 @@
+equipments = {
+
+	motorized_equipment = {
+		year = 1955
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 25
+		reliability = 0.8
+		hardness = 0.1
+
+		breakthrough = 5
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.5
+		resources = {
+			gas = 1
+			rubber = 1
+			steel = 2
+		}
+		
+		fuel_consumption = 1.2
+		supply_truck = yes
+	}
+
+	motorized_equipment_0 = { # Introducing WW1 style trucks
+		year = 1955
+
+		archetype = motorized_equipment
+		priority = 30
+		maximum_speed = 25
+		reliability = 0.65
+		breakthrough = 6
+		build_cost_ic = 4
+		resources = {
+			gas = 2
+			rubber = 1
+			steel = 4
+		}		
+	}
+
+	motorized_equipment_1 = {
+		year = 1959
+		breakthrough = 8
+		maximum_speed = 26
+		archetype = motorized_equipment_0
+		parent = motorized_equipment_0
+		priority = 30		
+		build_cost_ic = 5.5
+		resources = {
+			gas = 3
+			rubber = 1
+			steel = 5
+			polymers=1
+		}
+	}
+	
+	motorized_equipment_2 = {
+		year = 1963
+		breakthrough = 13
+		maximum_speed = 27
+		archetype = motorized_equipment_1
+		parent = motorized_equipment_1
+		priority = 30
+		build_cost_ic = 7
+		resources = {
+			gas = 4
+			rubber = 2
+			steel = 6
+			polymers=2
+		}		
+	}
+	
+	motorized_equipment_3 = {
+		year = 1971
+		breakthrough = 15
+		maximum_speed = 28
+		archetype = motorized_equipment_2
+		parent = motorized_equipment_2
+		priority = 30	
+		build_cost_ic = 9
+		resources = {
+			gas = 4
+			rubber = 2
+			steel = 4
+			polymers=4
+		}		
+	}
+	
+	
+	motorized_equipment_4 = {
+		year = 1978
+		breakthrough = 16
+		maximum_speed = 32
+		archetype = motorized_equipment_3
+		parent = motorized_equipment_3
+		priority = 30	
+		build_cost_ic = 11
+		resources = {
+			gas = 5
+			rubber = 2
+			steel = 3
+			polymers=5
+		}		
+	}
+	
+	motorized_equipment_5 = {
+		year = 1980
+		breakthrough = 18
+		maximum_speed = 35
+		archetype = motorized_equipment_4
+		parent = motorized_equipment_4
+		priority = 30
+		build_cost_ic = 15
+		resources = {
+			gas = 5
+			rubber = 2
+			steel = 3
+			polymers=5
+		}				
+	}
+}

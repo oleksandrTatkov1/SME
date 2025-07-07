@@ -1,0 +1,62 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SUPEREVENT_greatest_jihad_window"
+		size = { width = 827 height = 635 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = greatest_jihad_soundeffect
+
+		iconType = {
+			name = "background"
+			spriteType = "GFX_superevent_greatest_jihad_bakground"
+			position = { x = -414 y = -318 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "image"
+			spriteType = "GFX_superevent_greatest_jihad_image"
+			position = { x = -252 y = -209 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = -190 y = -291 }
+			font = "agaalenc_26"
+			borderSize = {x = 0 y = 0}
+			text = "SUPEREVENT_greatest_jihad_TITLE"
+			maxWidth = 369
+			maxHeight = 53
+			Orientation = center
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "Desc"
+			position = { x = -324 y = 118 }
+			font = "agaalenc_18"
+			text = "SUPEREVENT_greatest_jihad_DESC"
+			maxWidth = 623
+			maxHeight = 106
+			fixedsize = yes
+			Orientation = center
+			format = centre
+		}
+
+		buttonType = {
+			name = "OptionA"
+			text = "SUPEREVENT_greatest_jihad_OPTION_A"
+			shortcut = "ESCAPE"
+			position = { x = -134 y = 246 }
+			quadTextureSprite ="GFX_greatest_jihad_option_A_bg"
+			buttonFont = "agaalenc_12"
+			Orientation = center
+		}
+
+	}
+}

@@ -1,0 +1,5 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_somali_pirates"
+        texturefile = "gfx/interface/ideas/pirates/somali_pirates_art.dds"
+    }

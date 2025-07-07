@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_tengri"
+		texturefile = "gfx/interface/ideas/tengri/tengri.dds"
+	}	
+}

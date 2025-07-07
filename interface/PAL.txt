@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_igo"
+		texturefile = "gfx/interface/ideas/igo/igo.dds"
+	}	
+}

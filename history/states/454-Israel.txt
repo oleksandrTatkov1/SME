@@ -1,0 +1,28 @@
+state= {
+	id=454
+	name="STATE_454" #Palestine
+	manpower = 234000
+	
+	state_category = town
+
+	history={
+		owner = JEW
+		buildings = {
+			infrastructure = 3 
+			air_base = 1
+		}
+		victory_points = {
+			1065 1 
+		}
+		victory_points = {
+			4206 1 
+		}
+		add_core_of = JEW
+	}
+
+	provinces={
+		4206 1201 7107 1065
+	}
+
+	local_supplies=7.0 
+}

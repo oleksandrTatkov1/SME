@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_ZCI_сrisis_land_reform"
+        texturefile = "gfx/interface/ideas/ZCI/zci_сrisis_land_reform_art.dds"
+    }
+}

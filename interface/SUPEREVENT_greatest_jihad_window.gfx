@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_superevent_greatest_jihad_image"
+		textureFile = "gfx\\superevent_pictures\\superevent_image_greatest_jihad.tga"
+	}
+	spriteType = {
+		name = "GFX_superevent_greatest_jihad_bakground"
+		textureFile = "gfx\\interface\\superevent\\superevent_frame_greatest_jihad.dds"
+	}
+	spriteType = {
+		name = "GFX_greatest_jihad_option_A_bg"
+		textureFile = "gfx\\superevent\\button\\greatest_jihad_optionbuttona_bg.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

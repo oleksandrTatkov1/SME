@@ -1,0 +1,149 @@
+#Create units
+division_template = {
+	name = "Cavalry Division" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		}
+		support = {
+		engineer = { x = 0 y = 0 }
+		}
+	}
+units = {
+division= {	
+		name = "1st Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.45
+	}
+	division= {	
+		name = "2st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7885
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.36
+	}
+	division= {	
+		name = "3st Cavalry Division"
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10669
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.56
+	}
+	division= {	
+		name = "4st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4751
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "5st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1781
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "6st Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1853
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "7st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1853
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "8st Cavalry Division"
+		division_name = {  
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1791
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.11
+		start_equipment_factor = 0.73
+	}
+	division= {	
+		name = "9st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 12665
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.1
+	}
+	division= {	
+		name = "10st Cavalry Division"
+		division_name = {   
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1743
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "11st Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 1728
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "12st Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7808
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.5
+	}
+}

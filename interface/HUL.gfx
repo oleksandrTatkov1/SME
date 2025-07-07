@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_HUL_unstable_state"
+		texturefile = "gfx/interface/ideas/HUL/unstable_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HUL_muslim_resistanse"
+		texturefile = "gfx/interface/ideas/HUL/muslim_resistanse.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_HUL_metropoly_question"
+		texturefile = "gfx/interface/ideas/HUL/metropoly_question.dds"
+	}	
+}

@@ -1,0 +1,10 @@
+﻿MEM = {
+	small_plane_airframe = {
+		prefix = ""
+		generic = { "Mongol Sky Cavalary Group" }
+		generic_pattern = AIR_WING_NAME_MEM_GENERIC
+		unique = {
+			"Mongol Sky Cavalary Group"
+		}	
+	}
+}

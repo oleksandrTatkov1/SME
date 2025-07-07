@@ -1,0 +1,272 @@
+division_template = {
+	name = "Horde Cavalry Division" 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		}
+		support = {
+		engineer = { x = 0 y = 0 }
+		}
+	}
+division_template = {
+	name = "Horde Elite Cavalry Division" 
+	regiments = {
+		mong_cavalry = { x = 0 y = 0 }
+		mong_cavalry = { x = 0 y = 1 }
+		mong_cavalry = { x = 0 y = 2 }
+		mong_cavalry = { x = 1 y = 0 }
+		mong_cavalry = { x = 1 y = 1 }
+		mong_cavalry = { x = 1 y = 2 }
+		mong_cavalry = { x = 2 y = 0 }
+		mong_cavalry = { x = 2 y = 1 }
+		mong_cavalry = { x = 2 y = 2 }
+		}
+		support = {
+		engineer = { x = 0 y = 0 }
+		}
+	}
+units = {
+	division= {	
+		#name = "1st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.04
+		start_equipment_factor = 0.45
+	}
+	division= {	
+		#name = "2st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.45
+
+	}
+	division= {	
+		#name = "3st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.59
+
+	}
+	division= {	
+		#name = "4st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.70
+
+	}
+	division= {	
+		#name = "5st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.68
+
+	}
+	division= {	
+		#name = "6st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.45
+
+	}
+	division= {	
+		#name = "7st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.45
+	}
+	division= {	
+		#name = "8st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.55
+	}
+	division= {	
+		#name = "9st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.29
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		#name = "10st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.75
+	}
+	division= {	
+		#name = "11st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.20
+	}
+	division= {	
+		#name = "12st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.29
+	}
+	division= {	
+		#name = "12st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.37
+		start_equipment_factor = 0.45
+	}
+	division= {	
+		#name = "13st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.48
+		start_equipment_factor = 0.67
+	}
+	division= {	
+		#name = "14st Horde Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 4801
+		division_template = "Horde Cavalry Division"
+		start_experience_factor = 0.29
+		start_equipment_factor = 0.99
+	}
+	division= {	
+		name = "1st Elite Horde Cavalry Division"
+		division_name = {     #New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.85
+	}
+	division= {	
+		name = "2st Elite Horde Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		name = "3st Elite Horde Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.85
+	}
+	division= {	
+		name = "4st Elite Horde Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.75
+	}
+	division= {	
+		name = "5st Elite Horde Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.95
+		start_equipment_factor = 0.90
+	}
+	division= {	
+		name = "6st Elite Horde Cavalry Division"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 4801
+		division_template = "Horde Elite Cavalry Division"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.78
+	}
+}

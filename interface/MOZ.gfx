@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_MOZ_bastion_of_anti_communism"
+        texturefile = "gfx/interface/ideas/MOZ/moz_anti_communism.dds"
+    }
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_MEM_gegemon_glory"
+		texturefile = "gfx/interface/ideas/MEM/gegemon_glory.dds"
+	}	
+}

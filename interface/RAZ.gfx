@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_RAZ_stability_through_repression"
+        texturefile = "gfx/interface/ideas/RAZ/raz_stability_through_repression_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_RAZ_monopoly_on_metals"
+        texturefile = "gfx/interface/ideas/RAZ/raz_monopoly_on_metals_art.dds"
+    }
+	}

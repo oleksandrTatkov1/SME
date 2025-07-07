@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_RAU_tutsi_minorities"
+        texturefile = "gfx/interface/ideas/RAU/rau_tutsi_minorities_art.dds"
+    }
+	}

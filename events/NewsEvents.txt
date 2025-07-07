@@ -1,0 +1,233 @@
+﻿add_namespace = news
+#
+news_event = {
+	id = news.500
+	title = news.500.t
+	desc = news.500.d
+	picture = GFX_news_event_500
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.500.a
+		trigger = {
+			NOT = { TAG = MEM }
+		}
+	}
+	option = {
+		name = news.500.b
+		trigger = {
+				TAG = MEM
+		}
+	}
+	option = {
+		name = news.500.с
+		trigger = {
+				TAG = ENG
+		}
+	}
+}
+news_event = {
+	id = news.502
+	title = news.502.t
+	desc = news.502.d
+	picture = GFX_news_event_502
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.502.a
+		trigger = {
+			NOT = { TAG = MEM }
+		}
+	}
+	option = {
+		name = news.502.b
+		trigger = {
+				TAG = MEM
+		}
+	}
+	option = {
+		name = news.502.с
+		trigger = {
+				TAG = SOV
+		}
+	}
+}
+news_event = {
+	id = news.501
+	title = news.501.t
+	desc = news.501.d
+	picture = GFX_news_event_501
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.501.a
+		trigger = {
+			NOT = { TAG = MEM }
+		}
+	}
+	option = {
+		name = news.501.b
+		trigger = {
+				TAG = MEM
+		}
+	}
+	option = {
+		name = news.501.с
+		trigger = {
+				TAG = ENG
+		}
+	}
+}
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.d
+	picture = GFX_news_event_503
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.503.a
+		trigger = {
+			NOT = { 
+			TAG = MEM
+			TAG = SOV	
+			TAG = UKR
+			TAG = BLR
+			}
+		}
+	}
+	option = {
+		name = news.503.b
+		trigger = {
+				TAG = MEM
+		}
+	}
+	option = {
+		name = news.503.с
+		trigger = {
+			TAG = SOV
+			TAG = UKR
+			TAG = BLR
+		}
+	}
+}
+news_event = {
+	id = news.504
+	title = news.504.t
+	desc = news.504.d
+	picture = GFX_news_event_504
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.504.a
+		trigger = {
+			NOT = { TAG = MEM }
+		}
+	}
+	option = {
+		name = news.504.b
+		trigger = {
+				TAG = MEM
+		}
+	}
+	option = {
+		name = news.504.с
+		trigger = {
+				TAG = ENG
+				TAG = JAP
+				TAG = USA
+		}
+	}
+}
+news_event = {
+	id = news.506
+	title = news.506.t
+	desc = news.506.d
+	picture = GFX_news_event_506
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.506.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = MEM
+				}
+			}
+		}
+		option = {
+		name = news.506.b
+		trigger = {
+				TAG = MEM
+			}
+		}
+		option = {
+		name = news.506.c
+		trigger = {
+				TAG = JAP
+			}
+		}
+}
+news_event = {
+	id = news.505
+	title = news.505.t
+	desc = news.505.d
+	picture = GFX_news_event_505
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.505.a
+		trigger = {
+				TAG = JAP
+				TAG = CHI
+				TAG = MAN
+			}
+		}
+		option = {
+		name = news.505.b
+		trigger = {
+			NOT = {
+				TAG = MEM
+				TAG = JAP
+				TAG = CHI
+				TAG = MAN
+				}
+			}
+		}
+		option = {
+		name = news.505.c
+		trigger = {
+				TAG = MEM
+			}
+		}
+}
+news_event = {
+	id = news.507
+	title = news.507.t
+	desc = news.507.d
+	picture = GFX_news_event_507
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.507.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = MEM
+				}
+			}
+		}
+		option = {
+		name = news.507.b
+		trigger = {
+				TAG = MEM
+			}
+		}
+		option = {
+		name = news.507.c
+		trigger = {
+				TAG = SOV
+			}
+		}
+}
+

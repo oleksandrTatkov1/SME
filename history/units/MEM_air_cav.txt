@@ -1,0 +1,8 @@
+air_wings = {
+	330 = { 
+		fighter_equipment_0 =  {
+			owner = "MEM" 
+			amount = 100
+		}		
+	}
+}

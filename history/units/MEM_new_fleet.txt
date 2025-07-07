@@ -1,0 +1,34 @@
+units = {
+	fleet = {
+	name = "New Gengiskhan Fleet"
+	naval_base = 10068 
+	task_force = {
+		name = "New Gengiskhan Fleet"
+		location = 10068 
+		ship = { name = "Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 10" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 11" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Submarine 12" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = MEM version_name = "Delfinul Class" } } }
+		ship = { name = "Light Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 2" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 3" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 4" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 5" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 6" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Light Cruiser 7" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Heavy Cruiser" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = MEM } } }
+		ship = { name = "Heavy Cruiser 1" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Destroyer" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Destroyer 1" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Destroyer 2" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = MEM } } }
+		ship = { name = "Borolday Baatar" definition = battleship = { battleship_1 = {amount = 1 owner = MEM } } }
+		}
+	}
+}		

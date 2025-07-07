@@ -1,0 +1,6 @@
+﻿l_russian:
+ DEVELOPMENT_TEXT: "Развитие региона"
+ DEVELOPMENT_TEXT_DESC: "Развитие региона отображает общий уровень жизни, сложность и развитость экономики региона. Этот показатель зависит от количества населения что работают на экономически важных обьектах."
+ DEVELOPMENT_AMOUNT: "§G[?economicDev]§!"
+ DVELOPMENT_MIDDLED: "[?country_development_midled_modifier_var]"
+ DEVELOPMENT_TOPBAR_TEXT: "Текущее развитие в государстве. \n Это оказовает следующий эффект на нас:\n \n Скорость строительства: [?country_development_midled_modifier_var_bufer_inverted|%+] \n Обьем заводского производства: [?country_development_midled_modifier_var_bufer|%+] \n Производительность верфи: [?country_development_midled_modifier_var_bufer|%+] \n Процент фабрик производящих товары народного потребления: §Y[?country_development_midled_modifier_var_bufer|%]§! \n Темпы исследований: [?country_development_midled_modifier_var_bufer|%+] \n Фактор прироста политической власти: [?country_development_midled_modifier_var_bufer|%+] \n Стабильность: [?country_development_midled_modifier_var_bufer|%+] \n Влияние на торговые сделки: [?country_development_midled_modifier_var_bufer|%+] \n Фактор слотов для строительства: [?country_development_midled_modifier_var_bufer_inverted|%+] \n OTLADKA §G[?development_high_threshold_var]§! "
