@@ -79,6 +79,3 @@ MGR = {
 	color = rgb { 205 127 50 }
 	color_ui = rgb { 205 127 50 }
 }
-
-
-

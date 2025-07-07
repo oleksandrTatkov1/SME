@@ -1,0 +1,40 @@
+add_namespace = zimba
+   
+  #Party coup panafrican
+  country_event = {
+  id = zimba.1
+  title = zimba.1.t
+  desc = zimba.1.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = ZCI
+  OLG = {
+  
+  owns_state = 545
+  
+  }
+ }
+  
+  option = {
+  
+  name = zimba.1.a
+  complete_national_focus = ZCI_party_coup
+  ai_chance = { factor = 50 }
+  trigger = {
+  }
+  
+  }
+  option = {
+  
+  name = zimba.1.b
+  complete_national_focus = ZCI_military_intervention
+  ai_chance = { factor = 50 }
+  trigger = {
+  }
+  
+  }
+}
