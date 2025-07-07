@@ -1,0 +1,17 @@
+characters = {
+ MES_al_faraj = {
+ name= Khalid_al_Faraj
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/MES/MES_Khalid_al_Faraj.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = political_islam
+        traits = {  }
+		desc = MES_al_faraj_desc
+    }
+  }
+ }

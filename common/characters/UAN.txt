@@ -1,0 +1,15 @@
+characters = {
+liua = {
+	name = liua
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/UAN/liua.dds"
+		}
+	}
+	country_leader = {
+		expire = "1980.10.12"
+		ideology = despotism
+		traits = { mon_leader }
+	}
+  }
+}

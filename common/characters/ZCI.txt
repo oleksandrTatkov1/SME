@@ -1,0 +1,45 @@
+characters = {
+ mugabe = {
+ name="Robert Gabriel Mugabe"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/ZCI/Robert_Gabriel_Mugabe.dds"
+        }
+    }
+    country_leader = {
+        expire = "1980.1.1"
+        ideology = mugabeism
+        traits = {  }
+    }
+  }
+ nujoma = {
+ name="Sam Nujoma"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/ZCI/Sam_Nujoma.dds"
+        }
+    }
+    country_leader = {
+        expire = "1980.1.1"
+        ideology = pan_african_socialism
+        traits = {  }
+    }
+  }
+ mujuru = {
+ name="Solomon Mujuru"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/ZCI/Solomon_Mujuru.dds"
+        }
+    }
+    country_leader = {
+        expire = "1980.1.1"
+        ideology = stratocratic_communism
+        traits = {  }
+    }
+  }
+ }
+

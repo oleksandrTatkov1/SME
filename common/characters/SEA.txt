@@ -1,0 +1,17 @@
+characters = {
+ SEA_chad = {
+ name = SEA_Cheikh_Anta_Diop
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/SEA/SEA_Cheikh_Anta_Diop.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = socialist_humanism
+        traits = {  }
+		desc = SEA_Cheikh_Anta_Diop_desc
+    }
+  }
+ }

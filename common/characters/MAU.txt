@@ -1,0 +1,16 @@
+characters = {
+ danila = {
+ name="Daniel Toroitich arap Moi"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/MAU/Daniel_arap_Moi_1979b.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = social_liberalism
+        traits = {  }
+    }
+  }
+ }

@@ -1,0 +1,41 @@
+characters = {
+	hu_parlament = {
+		name = hu_parlament
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/HUL/hu_parlament.dds"
+			}
+		}
+		country_leader = {
+			expire = "1959.12.22"
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	abu_mula = {
+		name = abu_mula
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/HUL/abu_mula.dds"
+			}
+		}
+		country_leader = {
+			expire = "1941.07.27"
+			ideology = stalinism
+			traits = {  }
+		}
+	}
+	hula = {
+		name = hula
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/HUL/hula.dds"
+			}
+		}
+		country_leader = {
+			expire = "1960.10.12"
+			ideology = despotism
+			traits = { mon_leader paranoid peoples_leader}
+		}
+	}
+}

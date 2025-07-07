@@ -1,0 +1,18 @@
+characters = {
+	MGR_traore = {
+		name = Traore
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/MGR/MGR_traore.dds"
+			}
+		}
+		country_leader = {
+			expire = ""
+			ideology = personalist_dictatorship
+			traits = {
+			}
+			desc = MGR_traore_desc
+		}
+	}
+
+}

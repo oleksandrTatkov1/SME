@@ -1,0 +1,16 @@
+characters = {
+ tsiranana = {
+ name="Philibert Tsiranana"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/RMD/philibert_tsiranana.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = liberal_conservatism
+        traits = {  }
+    }
+  }
+ }

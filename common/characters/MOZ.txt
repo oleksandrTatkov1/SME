@@ -1,0 +1,16 @@
+characters = {
+ andre = {
+ name="Andre Matade Matsangaissa"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/MOZ/Andre_Matade_Matsangaissa.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = traditional_conservatism
+        traits = {  }
+    }
+  }
+ }

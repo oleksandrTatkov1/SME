@@ -1,0 +1,71 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+###Todo remove commented advisor experience gains
+
+leader_traits = {
+
+	new_gengiskhan = {
+		random = no
+		political_power_factor = 0.10
+		war_support_factor = 0.15
+		army_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mon_leader = {
+		required_garrison_factor = -0.15
+		resistance_target = -0.5
+		compliance_gain = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mem_tactic_expert = { 
+		cavalry_attack_factor = 0.05
+		cavalry_defence_factor = 0.07
+		supply_factor = 0.05
+		land_doctrine_cost_factor = -0.15
+	}
+	mem_atom_proj= {
+		political_power_cost = 0.1
+		nuclear_production_factor = 0.03
+		research_speed_factor = 0.03
+		research_bonus = {
+				nuclear = 0.050
+			}
+	}
+	trade_expert = {
+		political_power_gain = 0.1
+		trade_opinion_factor = 0.05
+		consumer_goods_factor = -0.07
+	}
+	paranoid = {
+		stability_factor = -0.1
+		weekly_manpower = -100
+	}
+	peoples_leader = {
+		stability_factor = 0.03
+		political_power_cost = 0.1
+		consumer_goods_factor = -0.01
+	}
+	politican_puppet = {
+		stability_factor = -0.05
+		political_power_cost = 0.1
+	}
+	djihadi = {
+		conscription = 0.02
+		war_support_weekly = 0.001
+	}
+}

@@ -1,0 +1,17 @@
+characters = {
+	LMM_tabmen = {
+		name = William_Tubman
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/LMM/LMM_tabmen.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = civilian_dictatorship
+			traits = {}
+			desc = LMM_tabmen_desc
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+characters = {
+	IPL_fathi_shkaki = {
+			name = IPL_fathi_shkaki
+			portraits = {
+			civilian = {
+				large = "/gfx/leaders/IPL/fathi_shkaki.dds"
+			}
+		}
+		country_leader = {
+			expire = "1995.10.12"
+			ideology = despotism
+			traits = { djihadi }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+JEW_moshet_share = {
+	name = JEW_moshet_share
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/JEW/JEW_moshet_share.dds"
+		}
+	}
+	country_leader = {
+		expire = "1980.10.12"
+		ideology = despotism
+		traits = { politican_puppet }
+	}
+  }
+}

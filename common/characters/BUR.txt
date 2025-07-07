@@ -1,0 +1,16 @@
+characters = {
+ michel = {
+ name="Michel Micombero"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/BUR/Michel_Micombero.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = junta
+        traits = {  }
+    }
+  }
+ }

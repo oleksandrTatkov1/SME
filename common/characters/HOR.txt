@@ -1,0 +1,15 @@
+characters = {
+tohta = {
+	name = tohta
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/HOR/tohta.dds"
+		}
+	}
+	country_leader = {
+		expire = "1960.10.12"
+		ideology = despotism
+		traits = { mon_leader }
+	}
+}
+}

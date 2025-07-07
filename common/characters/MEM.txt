@@ -1,0 +1,400 @@
+characters = {
+#Create country leader - "Братец"
+bratec = {
+	name = bratec
+	portraits = {
+		civilian = {
+			#Custom image for "Братец"
+			large = "/gfx/leaders/MEM/IspWzEvi-9407.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = rexism
+		traits = {  }
+	}
+}
+
+#Create country leader - Григорий Борода
+grigoriyboroda = {
+	name = grigoriyboroda
+	portraits = {
+		civilian = {
+			#Custom image for Григорий Борода
+			large = "/gfx/leaders/MEM/WuGoESkw-9467.dds"
+		}
+	}
+	country_leader = {
+		expire = "1959.12.22"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - Анандын Амар
+anandynamar = {
+	name = anandynamar
+	portraits = {
+		civilian = {
+			#Custom image for Анандын Амар
+			large = "/gfx/leaders/MEM/jigeLQns-10024.dds"
+		}
+	}
+	country_leader = {
+		expire = "1941.07.27"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Боролдай Баатар
+boroldaybaatar = {
+	name = boroldaybaatar
+	portraits = {
+		civilian = {
+			#Custom image for Боролдай Баатар
+			large = "/gfx/leaders/MEM/UGLkNYDu-542582.dds"
+		}
+	}
+	country_leader = {
+		expire = "1977.11.04"
+		ideology = despotism
+		traits = {  }
+	}
+}
+	general_min={
+		name=general_min
+		portraits={
+			army={
+				large="/gfx/leaders/MEM/general_min_l.dds"
+				small="/gfx/leaders/MEM/general_min_s.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = general_min
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				army_commando_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander={
+			traits={ defensive_doctrine brilliant_strategist urban_assault_specialist }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=900
+		}
+	}
+	general_a={
+		name=general_a
+		portraits={
+			army={
+				large="/gfx/leaders/MEM/general_a_l.dds"
+				small="/gfx/leaders/MEM/general_a_s.dds"
+			}
+		}	
+		corps_commander={
+			traits={ war_hero }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=901
+		}
+	}
+	general_b={
+		name=general_b
+		portraits={
+			army={
+				large="/gfx/leaders/MEM/UGLkNYDu-5425823.dds"
+				small="/gfx/leaders/MEM/UGLkNYDu-5425822.dds"
+			}
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = general_b
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=902
+		}
+	}
+	baatar_gen ={
+		name=baatar_gen
+		portraits={
+			army={
+				large = "/gfx/leaders/MEM/UGLkNYDu-542582.dds"
+				small = "/gfx/leaders/MEM/UGLkNYDu-5425821.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = baatar_gen
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				army_cavalry_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		field_marshal ={
+			traits={ defensive_doctrine }
+			skill=6
+			attack_skill=7
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=8
+			legacy_id=903
+		}
+	}
+	adv_1={
+		name=adv_1
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/adv_1.dds"
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = adv_1
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				inexperienced_imperialist
+			}
+			cost = 175
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+	adv_2={
+		name=adv_2
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/adv_2.dds"
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = adv_2
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				economic_reformer
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+	adv_3={
+		name=adv_3
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/adv_3.dds"
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = adv_3
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				SWI_militaristic_nationalist
+			}
+			cost = 250
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+	th_1={
+		name=th_1
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/th_1.dds"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = air_chief
+			idea_token = th_1
+			ledger = air
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				air_air_superiority_2
+			}
+		}
+	}
+	nav_1={
+		name=nav_1
+		portraits={
+			army={
+				small=""
+			}
+		}
+		
+		advisor={
+			slot = navy_chief
+			idea_token = baatar_gen
+			ledger = navy
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 250
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		navy_leader={
+			traits={ seawolf battleship_adherent naval_lineage }
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=915
+		}
+	}
+	nav_2={
+		name=nav_2
+		portraits={
+			army={
+				small=""
+			}
+		}
+		
+		advisor={
+			slot = navy_chief
+			idea_token = baatar_gen
+			ledger = navy
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 130
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=2
+			defense_skill=5
+			maneuvering_skill=1
+			coordination_skill=4
+			legacy_id=920
+		}
+	}
+	nav_3={
+		name=nav_3
+		portraits={
+			army={
+				small=""
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=910
+		}
+	}
+	cav_th={
+		name=cav_th
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/cav_th.dds"
+			}
+		}
+		advisor={
+			cost = 350
+			slot = theorist
+			idea_token = cav_th
+			ledger = army
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				mem_tactic_expert
+			}
+		}
+	}
+	ato_th={
+		name=ato_th
+		portraits={
+			army={
+				small="/gfx/leaders/MEM/ato_th.dds"
+			}
+		}
+		advisor={
+			cost = 180
+			slot = theorist
+			idea_token = ato_th
+			allowed = {
+				original_tag = MEM
+			}
+			traits = {
+				mem_atom_proj
+			}
+		}
+	}
+}

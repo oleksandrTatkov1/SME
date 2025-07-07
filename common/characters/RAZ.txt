@@ -1,0 +1,16 @@
+characters = {
+ mobutu = {
+ name="Mobutu Sese Seko Kuku Ngbendu wa za Banga"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/RAZ/Mobutu_Sese_Seko.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = personalist_dictatorship
+        traits = {  }
+    }
+  }
+ }

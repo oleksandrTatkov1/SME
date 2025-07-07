@@ -1,0 +1,16 @@
+characters = {
+ ahmed = {
+ name="Farah Ahmed Sheikh"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/SMM/Farah_Ahmed_Sheikh.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = political_islam
+        traits = {  }
+    }
+  }
+ }

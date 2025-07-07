@@ -1,0 +1,16 @@
+characters = {
+ corporat = {
+ name="Corporate Council"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/ACG/Corporate_Council.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = corporate_authoritarianism
+        traits = {  }
+    }
+  }
+ 

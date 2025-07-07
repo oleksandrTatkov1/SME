@@ -1,0 +1,30 @@
+characters = {
+ amin = {
+ name="Idi Amin Dada Oumee"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/UGI/Idi-Amin-Dada-Oumee.dds"
+        }
+    }
+    country_leader = {
+        expire = "1986.1.1"
+        ideology = doctrine_noa
+        traits = {  }
+    }
+  }
+ erifasi = {
+ name="Erifasi_Otema_Allimadi"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/UGI/Erifasi_Otema_Allimadi.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = christian_democracy
+        traits = {  }
+    }
+  }
+ }

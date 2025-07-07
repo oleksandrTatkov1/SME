@@ -1,0 +1,16 @@
+characters = {
+ nasser = {
+ name="Gamal Abdel Nasser"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/ENE/Gamal_Abdel_Nasser.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = despotism
+        traits = {  }
+    }
+  }
+ }

@@ -1,0 +1,16 @@
+characters = {
+ bocassa = {
+ name="Jean-Bedel Bokassa"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/CAB/Bokassa.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = personalist_dictatorship
+        traits = {  }
+    }
+  }
+ }

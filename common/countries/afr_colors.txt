@@ -1,0 +1,84 @@
+#NEW COUNTRIES
+UGI = {
+	color = rgb { 103 28 27 }
+	color_ui = rgb { 109 42 37 }
+}
+CAB = {
+	color = rgb { 217 159 82 }
+	color_ui = rgb { 217 159 82 }
+}
+PQK = {
+	color = rgb { 225 167 79 }
+	color_ui = rgb { 221 156 57 }
+}
+ACG = {
+	color = rgb { 69 19 110 }
+	color_ui = rgb { 48 13 77 }
+}
+ZCI = {
+	color = rgb { 154 0 39 }
+	color_ui = rgb { 164 25 60 }
+}
+MAU = {
+	color = rgb { 13 89 160 }
+	color_ui = rgb { 11 80 144 }
+}
+AZM = {
+	color = rgb { 29 29 29 }
+	color_ui = rgb { 29 29 29 }
+}
+TAZ = {
+	color = rgb { 18 147 20 }
+	color_ui = rgb { 18 147 20 }
+}
+MOZ = {
+	color = rgb { 77 160 188 }
+	color_ui = rgb { 77 160 188 }
+}
+CUR = {
+	color = rgb { 217 17 34 }
+	color_ui = rgb { 217 17 34 }
+}
+RAZ = {
+	color = rgb { 139 180 176 }
+	color_ui = rgb { 139 180 176 }
+}
+RAU = {
+	color = rgb { 7 221 181 }
+	color_ui = rgb { 7 221 181 }
+}
+BUR = {
+	color = rgb { 218 208 172 }
+	color_ui = rgb { 218 208 172 }
+}	
+RMD = {
+	color = rgb { 245 148 73 }
+	color_ui = rgb { 230 139 69 }
+}
+JPR = {
+	color = rgb { 33 235 93 }
+	color_ui = rgb { 33 235 93 }
+}
+SMM = {
+	color = rgb { 45 105 224 }
+	color_ui = rgb { 45 105 224 }
+}
+ENE = {
+	color = rgb { 230 230 70 }
+	color_ui = rgb { 230 230 70 }
+}
+LMM = {
+	color = rgb { 0 128 128 }
+	color_ui = rgb { 0 128 128 }
+}
+NIG = {
+	color = rgb { 217 159 82}
+	color_ui = rgb { 173 127 65 }
+}
+MGR = {
+	color = rgb { 205 127 50 }
+	color_ui = rgb { 205 127 50 }
+}
+
+
+

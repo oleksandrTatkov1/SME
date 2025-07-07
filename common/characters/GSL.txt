@@ -1,0 +1,17 @@
+characters = {
+ GSL_lansana = {
+ name= David_Lansana
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/GSL/GSL_David_Lansana.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = anocracy
+        traits = {  }
+		desc = GSL_lansana_desc
+    }
+  }
+ }

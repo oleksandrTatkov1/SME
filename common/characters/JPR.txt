@@ -1,0 +1,16 @@
+characters = {
+ abdirahman = {
+ name="Hassan Abdirahman Nur"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/JPR/Hassan_Abdirahman_Nur.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = oligarchy
+        traits = {  }
+    }
+  }
+ }

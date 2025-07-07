@@ -1,0 +1,179 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+political_actions = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	MEM_decision = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = no	#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+				is_ai = no
+			}
+		}		
+		cost = 0		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			ROOT = { 
+				country_event = mongolia.1 
+				}
+			}
+		}
+		MEM_decision2 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_border_war		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+			}
+		}		
+		cost = 15		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			ROOT = { 
+				country_event = mongolia.5
+				}
+			}
+		}
+		MEM_decision3 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_jap_conquer_china		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+			ROOT = { has_completed_focus = MEM_invade_chi }
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+				ROOT = { has_completed_focus = MEM_invade_chi }
+			}
+		}		
+		cost = 5		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			ROOT = { 
+					create_wargoal = {
+						type = annex_everything
+						target = XSM
+						expire = 99999
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = SHX
+						expire = 99999
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = PRC
+						expire = 99999
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = YUN
+						expire = 99999
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = GXC
+						expire = 99999
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = TIB
+						expire = 99999
+					}
+				}
+			}
+		}
+		MEM_decision4 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_infiltrate_state		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+			}
+		}		
+		cost = 15		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			ROOT = { 
+				create_wargoal = {
+						type = annex_everything
+						target = TAN
+						expire = 99999
+					}
+				add_state_core = 329
+				}
+			}
+		}
+		MEM_decision5 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_generic_political_address		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+			}
+			any_enemy_country = { tag = MEN}
+		}		
+		cost = 15		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			MEN = {
+				add_timed_idea = {
+					idea = pat
+					days = 180
+					}
+				}
+			}
+		}
+		MEM_decision6 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_oppression		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+				has_completed_focus = MEM_mon_food_industry
+			} 
+		}		
+		cost = 15		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_timed_idea = {
+				idea = korm
+				days = 180
+				}
+			}
+		}
+		MEM_decision7 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_generic_motorized		#The left side icon to show for this decision.
+		available = {	
+			tag = MEM
+		}
+		fire_only_once = yes	#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = MEM
+				has_completed_focus = MEM_electryfy
+			} 
+		}		
+		cost = 15		#The cost to execute the decision, by default its political power.
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_timed_idea = {
+				idea = sup
+				days = 360
+				}
+			}
+		}
+	}

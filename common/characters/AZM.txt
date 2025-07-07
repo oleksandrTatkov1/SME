@@ -1,0 +1,16 @@
+characters = {
+ anarchistass = {
+ name="Anarchist Assembly of Africa"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/AZM/Anarchist_Assembly.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = anarcho_communism
+        traits = {  }
+    }
+  }
+ }

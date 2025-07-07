@@ -1,0 +1,60 @@
+characters = {
+ moses = {
+ name="Moses Mauane Kotane"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/CUR/Moses_Mauane_Kotane.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = pan_african_socialism
+        traits = {  }
+    }
+  }
+  sobukwe = {
+ name="Robert Mangaliso Sobukwe"
+ portraits = {
+        civilian = {
+            
+            large = "/gfx/leaders/CUR/Robert_Mangaliso_Sobukwe.dds"
+        }
+    }
+    country_leader = {
+        expire = "1990.1.1"
+        ideology = vanguard_communism
+        traits = {  }
+    }
+  }
+ 
+	CUR_advisor_economica = {
+		name = CUR_advisor_economica
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CUR/CUR_advisor_economica_civilian.dds"
+				small = "gfx/advisors/CUR/CUR_advisor_economica_civilian.dds"
+			}
+			army = {
+				large = "gfx/leaders/CUR/CUR_advisor_economica_army.dds"
+				small = "gfx/advisors/CUR/CUR_advisor_economica_army.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CUR_advisor_economica
+			ledger = army
+			allowed = {
+				original_tag = CUR
+			}
+			traits = {
+				the_statist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	}
+
+}

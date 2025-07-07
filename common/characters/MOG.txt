@@ -1,0 +1,15 @@
+characters = {
+bahadur_v = {
+	name = bahadur_v
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/MOG/MOG_bahadur_v.dds"
+		}
+	}
+	country_leader = {
+		expire = "1980.10.12"
+		ideology = despotism
+		traits = { mon_leader trade_expert }
+	}
+  }
+}
