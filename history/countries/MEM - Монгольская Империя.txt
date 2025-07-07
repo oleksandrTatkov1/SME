@@ -76,21 +76,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 12
-	fascism = 6
-	communism = 20
-	neutrality = 62
+    communism     = 10
+    socialism      = 3
+    despotism       = 5
+    reactionism     = 6
+    islamism        = 2
+    liberalism      = 10
+    conservatism    = 10
+    fascism         = 7
+    monarchism      = 42
+    anarchism       = 5 
 }
 
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_popularities = {
-		democratic = 5
-		fascism = 15
-		communism = 15
-		neutrality = 65
-	}
-}
 
 recruit_character = boroldaybaatar
 recruit_character = anandynamar
