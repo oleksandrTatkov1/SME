@@ -1,0 +1,11 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_LMM_last_time_of_liberia_lion"
+        texturefile = "gfx/interface/ideas/LMM/lmm_last_time_of_liberia_lion_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_LMM_ghost_government"
+        texturefile = "gfx/interface/ideas/LMM/lmm_ghost_governmen_art.dds"
+    }
+
+}

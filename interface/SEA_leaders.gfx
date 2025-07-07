@@ -1,0 +1,7 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_SEA_ChAD"
+        texturefile = "gfx/leaders/SEA/SEA_Cheikh_Anta_Diop.dds"
+    }
+}

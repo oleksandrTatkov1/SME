@@ -7,4 +7,8 @@ spriteTypes = {
         name = "GFX_idea_CAB_gateway_to_africa"
         texturefile = "gfx/interface/ideas/CAB/cab_gateway_to_africa_art.dds"
     }
+		SpriteType = {
+		name = "GFX_idea_CAB_kupyansk"
+		texturefile = "gfx/interface/ideas/CAB/CAB_kupyansk.dds"
 	}
+}

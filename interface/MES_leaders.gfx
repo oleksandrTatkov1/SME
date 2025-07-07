@@ -1,0 +1,7 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_MES_al_faraj"
+        texturefile = "gfx/leaders/MES/MES_Khalid_al_Faraj.dds"
+    }
+}

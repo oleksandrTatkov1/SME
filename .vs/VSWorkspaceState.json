@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\history",
-    "\\history\\countries"
+    "\\common",
+    "\\common\\ideologies",
+    "\\history\\countries",
+    "\\localisation",
+    "\\localisation\\russian"
   ],
-  "SelectedNode": "\\history\\countries\\MOZ - Mozambic Bastion.txt",
+  "SelectedNode": "\\common\\ideologies\\00_ideologies.txt",
   "PreviewInSolutionExplorer": false
 }

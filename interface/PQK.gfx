@@ -1,0 +1,14 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_PQK_black_gold_punta_europa"
+        texturefile = "gfx/interface/ideas/PQK/pqk_black_gold_punta_europa_art.dds"
+    }
+	 SpriteType = {
+        name = "GFX_idea_PQK_radio_free_bioko"
+        texturefile = "gfx/interface/ideas/PQK/pqk_radio_free_bioko_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_PQK_red_berets"
+        texturefile = "gfx/interface/ideas/PQK/pqk_red_berets_art.dds"
+    }
+	}

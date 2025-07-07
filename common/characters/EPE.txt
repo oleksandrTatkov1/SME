@@ -1,0 +1,22 @@
+characters = {
+	EPE_hail_selasias = {
+		name = EPE_hail_selasias
+		portraits = {
+			civilian = {
+				large = GFX_portrait_EPE_hail_selasias_large
+				small = GFX_portrait_EPE_hail_selasias_small
+			}
+			army = {
+				large = GFX_portrait_EPE_hail_selasias_large
+				small = GFX_portrait_EPE_hail_selasias_small
+			}
+		}
+		country_leader = {
+			ideology = "enlightened_monarchy"
+			traits = {
+			}
+			desc = EPE_hail_selasias_desc
+		}
+	}
+
+}

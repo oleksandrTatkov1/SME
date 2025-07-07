@@ -7,4 +7,16 @@ spriteTypes = {
         name = "GFX_idea_AZM_black_partisans"
         texturefile = "gfx/interface/ideas/AZM/azm_black_partisans_art.dds"
     }
+	SpriteType = {
+        name = "GFX_idea_AZM_community_councils"
+        texturefile = "gfx/interface/ideas/AZM/azm_community_councils_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_AZM_anarchist_militaria"
+        texturefile = "gfx/interface/ideas/AZM/azm_anarchist_militaria_art.dds"
+    }
+	SpriteType = {
+        name = "GFX_idea_AZM_anarchist_guard"
+        texturefile = "gfx/interface/ideas/AZM/azm_anarchist_guard_art.dds"
+    }
 }

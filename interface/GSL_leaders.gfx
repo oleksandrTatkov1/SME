@@ -1,0 +1,9 @@
+spriteTypes = {
+
+    # leaders we need to override in DLC go in this file
+
+    spriteType = {
+        name = "GFX_GSL_lansana"
+        texturefile = "gfx/leaders/GSL/GSL_David_Lansana.dds"
+    }
+}

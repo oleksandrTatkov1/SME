@@ -1,0 +1,10 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_CUR_white_people_burr"
+        texturefile = "gfx/interface/ideas/CUR/cur_white_people_burr_art.dds"
+    }
+	    SpriteType = {
+        name = "GFX_idea_CUR_panafrican_trade_idea"
+        texturefile = "gfx/interface/ideas/CUR/cur_panafrican_trade_idea_art.dds"
+    }
+	}
