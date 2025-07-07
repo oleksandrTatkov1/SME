@@ -1,4 +1,4 @@
-state= {
+state={
 	id=274
 	name="STATE_274"
 	resources={
@@ -7,7 +7,7 @@ state= {
 		chromium=4
 	} #Maganese
 	history={
-		owner = ENG
+		owner = MGR
 		add_core_of = GHA
 		victory_points = {
 			10862 1 

@@ -1,14 +1,14 @@
-state= {
 
+state={
 	id=558
 	name="STATE_558"
 	resources={
-		rubber=15
-		steel=10
+		rubber=2.000
 	}
 
 	history={
-		owner = ENG
+		owner = NIG
+		add_core_of = NIG
 		add_core_of = NGA
 		buildings = {
 			infrastructure = 2

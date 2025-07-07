@@ -1,13 +1,11 @@
-state= {
 
+state={
 	id=551
 	name = "STATE_551"
 	manpower = 821003
-	resources={
-		steel=12
-	}
+
 	history={
-		owner = EGY
+		owner = EGS
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 1

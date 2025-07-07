@@ -1,4 +1,4 @@
-state= {
+state={
 	id=786
 	name="STATE_786" # Mauritanian Desert
 	manpower = 124200
@@ -7,8 +7,8 @@ state= {
 	impassable = yes
 
 	history={
-		owner = FRA
-		add_core_of = MRT
+		owner = MES
+		add_core_of = MES
 		buildings = {
 			infrastructure = 0
 		}

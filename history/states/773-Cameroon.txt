@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=773
 	name="STATE_773" # Cameroon
 	manpower = 2945782
@@ -7,8 +7,8 @@ state= {
 	state_category = rural
 
 	history={
-		owner = FRA
-		add_core_of = CMR
+		owner = CAB
+		add_core_of = CAB
 		victory_points = {
 			2080 1
 		}

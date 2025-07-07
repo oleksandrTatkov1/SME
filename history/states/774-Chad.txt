@@ -1,12 +1,10 @@
-state= {
+state={
 	id=774
 	name="STATE_774"
-	resources={
-		steel=9
-	}
+
 	history={
-		owner = FRA
-		add_core_of = CHA
+		owner = CAB
+		add_core_of = CAB
 		victory_points = {
 			2081 1
 		}

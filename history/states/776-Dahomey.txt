@@ -1,12 +1,12 @@
-state= {
 
+state={
 	id=776
 	name="STATE_776" # Benin/Dahomey
 	manpower = 1351563
 	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = MGR
 		add_core_of = DAH
 		victory_points = {
 			10919 1

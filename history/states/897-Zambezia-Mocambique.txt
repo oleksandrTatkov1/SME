@@ -1,11 +1,11 @@
-state= {
+state={
 	id=897
 	name="STATE_897"
 	manpower = 1386000
 	state_category = pastoral 
 
 	history={
-		owner = POR
+		owner = MOZ
 		buildings = {
 			infrastructure = 2
 			2123 = {
@@ -15,7 +15,7 @@ state= {
 
 		}
 
-		add_core_of = MZB
+		add_core_of = MOZ
 
 	}
 	provinces={

@@ -1,16 +1,16 @@
-state= {
 
+state={
 	id=296
 	name="STATE_296" # Guinea-Bissau
 	manpower = 364900
 	
 	state_category = enclave
 	resources={
-		rubber=7
+		rubber=1 # was: 1
 	}
 	history={
-		owner = POR
-		add_core_of = GNB
+		owner = SEA
+		add_core_of = SEA
 		victory_points = {
 			12891 1
 		}

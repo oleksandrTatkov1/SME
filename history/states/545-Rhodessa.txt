@@ -1,15 +1,12 @@
-state= {
+state={
 	id=545
 	
 	state_category = pastoral
 	
 	name="STATE_545"
-	resources={
-		steel=16
-		nikel=32
-	}
+
 	history={
-		owner = ENG
+		owner = ZCI
 		buildings = {
 			infrastructure = 2
 
@@ -17,7 +14,7 @@ state= {
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ZIM
+		add_core_of = ZCI
 	}
 
 	provinces={

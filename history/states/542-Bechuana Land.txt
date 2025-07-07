@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=542
 	name="STATE_542"
 	manpower = 234000
@@ -11,10 +11,11 @@ state= {
 	}
 
 	history={
-		owner = ENG
+		owner = CUR
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = CUR
 		add_core_of = BOT
 		victory_points = {
 			8214 1

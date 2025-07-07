@@ -1,13 +1,13 @@
-state= {
 
+state={
 	id=780
 	name="STATE_780" # Guinea
 	manpower = 195041
 	
 	state_category = pastoral
 	history={
-		owner = FRA
-		add_core_of = GNA
+		owner = GSL
+		add_core_of = GSL
 		victory_points = {
 			1909 1 
 		}

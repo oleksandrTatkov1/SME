@@ -1,15 +1,13 @@
-state= {
 
+state={
 	id=556
 	name="STATE_556"
 	manpower = 1662391
 	state_category=rural
-	resources={
-		steel=5
-		rubber=4
-	}
+
 	history={
-		owner = FRA
+		owner = MGR
+		add_core_of = MGR
 		add_core_of = MLI
 		victory_points = {
 			4927 1 

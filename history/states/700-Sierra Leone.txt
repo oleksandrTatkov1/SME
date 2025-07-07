@@ -1,4 +1,4 @@
-state= {
+state={
 	id=700
 	name="STATE_700"
 	manpower = 1768500
@@ -10,8 +10,8 @@ state= {
 	
 	history=
 	{
-		owner = ENG
-		add_core_of = SIE
+		owner = GSL
+		add_core_of = GSL
 		victory_points = {
 			2038 1 
 		}

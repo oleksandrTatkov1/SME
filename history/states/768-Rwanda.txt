@@ -1,15 +1,15 @@
-state= {
+state={
 	id=768
 	name="STATE_768" # Rwanda
 	
 	state_category = pastoral
 	resources = {
-		tungsten = 14
+		tungsten = 3
 	}
 
 	history={
-		owner = BEL
-		add_core_of = RWA
+		owner = RAU
+		add_core_of = RAU
 		victory_points = {
 			9962 1
 		}

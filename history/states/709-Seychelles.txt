@@ -1,4 +1,4 @@
-state= {
+state={
 	id=709
 	name="STATE_709"
 	manpower = 126703
@@ -7,7 +7,7 @@ state= {
 	
 	history=
 	{
-		owner = ENG
+		owner = RMD
 		buildings = {
 			infrastructure = 2
 			2188 = {

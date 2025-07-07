@@ -1,4 +1,4 @@
-state= {
+state={
 	id=771
 	name="STATE_771" # Zambia
 	
@@ -6,13 +6,12 @@ state= {
 
 	resources={
 		chromium=35 # was: 64.000
-		tungsten=10
-		cobalt=21
+		tungsten=8 # was: 16.000
 	}
 
 	history={
-		owner = ENG
-		add_core_of = ZAM
+		owner = AZM
+		add_core_of = AZM
 		victory_points = {
 			5199 1
 		}

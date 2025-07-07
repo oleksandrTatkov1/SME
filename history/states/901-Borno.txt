@@ -1,11 +1,12 @@
-state= {
+state={
 	id=901
 	name="STATE_901"
 	manpower = 166240
 	state_category = pastoral
 
 	history={
-		owner = ENG
+		owner = NIG
+		add_core_of = NIG
 		add_core_of = NGA
 		buildings = {
 			infrastructure = 1

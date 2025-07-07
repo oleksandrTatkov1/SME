@@ -1,16 +1,16 @@
-state= {
 
+state={
 	id=660
 	name="STATE_660"
 	manpower = 1136921
 	
 	state_category = pastoral
 	resources={
-		rubber=13
+		rubber=3 # was: 4
 	}
 	history={
-		owner = FRA
-		add_core_of = CAR
+		owner = CAB
+		add_core_of = CAB
 		victory_points = {
 			12830 1
 		}

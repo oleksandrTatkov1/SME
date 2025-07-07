@@ -1,14 +1,12 @@
-state= {
 
+state={
 	id=778
 	name="STATE_778" # Upper Volta
 	manpower = 3186184
-	resources={
-		steel=7
-	}
+	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = MGR
 		add_core_of = VOL
 		victory_points = {
 			10836 1

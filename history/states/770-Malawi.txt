@@ -1,9 +1,9 @@
-state= {
+state={
 	id=770
 	name="STATE_770"
 
 	history={
-		owner = ENG
+		owner = MOZ
 		add_core_of = MLW
 		victory_points = {
 			12986 1 

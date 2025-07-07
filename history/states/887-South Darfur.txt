@@ -1,4 +1,4 @@
-state= {
+state={
 	id=887
 	name="STATE_887"
 
@@ -6,7 +6,7 @@ state= {
 	state_category = wasteland
 	
 	history = {
-		owner = EGY
+		owner = EGS
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 1

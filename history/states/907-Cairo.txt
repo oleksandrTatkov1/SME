@@ -1,13 +1,11 @@
-state= {
+state={
 	id=907
 	name="STATE_907"
 	manpower = 6454865
 	state_category=town
-	resources={
-		steel=21
-	}
+
 	history={
-		owner = EGY
+		owner = EGS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -26,7 +24,7 @@ state= {
 		victory_points = {
 			1068 3 
 		}
-		add_core_of = EGY
+		add_core_of = EGS
 
 	}
 	provinces={

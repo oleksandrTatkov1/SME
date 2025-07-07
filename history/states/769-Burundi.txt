@@ -1,14 +1,12 @@
-state= {
+state={
 	id=769
 	name="STATE_769" # Burundi
 	
 	state_category = pastoral
-	resources={
-		steel=4
-	}
+
 	history={
-		owner = BEL
-		add_core_of = BRD
+		owner = BUR
+		add_core_of = BUR
 		victory_points = {
 			2220 1
 		}

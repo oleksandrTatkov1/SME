@@ -1,4 +1,4 @@
-state= {
+state={
 	id=699
 	name="STATE_699"
 	manpower = 21056
@@ -6,8 +6,8 @@ state= {
 	state_category = wasteland
 
 	history={
-		owner = SPR
-		add_core_of = WES
+		owner = MES
+		add_core_of = MES
 		buildings = {
 			infrastructure = 1
 			8038 = {

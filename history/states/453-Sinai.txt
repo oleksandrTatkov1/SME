@@ -1,10 +1,10 @@
-state= {
 
+state={
 	id=453
 	name="STATE_453"
 
 	history={
-		owner = EGY
+		owner = EGS
 		buildings = {
 			infrastructure = 1
 
@@ -15,7 +15,7 @@ state= {
 		victory_points = {
 			10099 1 
 		}
-		add_core_of = EGY
+		add_core_of = EGS
 
 	}
 

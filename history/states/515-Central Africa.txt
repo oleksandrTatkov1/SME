@@ -1,15 +1,13 @@
-state= {
+state={
 	id=515
 	name="STATE_515"
-	resources={
-		steel=8
-		oil=5
-	}
+	
 	state_category = wasteland
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = MGR
+		add_core_of = MGR
 		add_core_of = NGR
 
 	}
