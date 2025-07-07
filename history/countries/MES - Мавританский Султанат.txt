@@ -1,0 +1,41 @@
+﻿capital = 557
+
+oob = "MES_sultan_army"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 50
+
+set_research_slots = 2
+
+set_stability = 0.45
+set_war_support = 0.24
+
+set_politics = {
+	ruling_party = islamism
+	last_election = "1920.01.01"
+	election_frequency = 
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism     = 0
+    socialism      = 0
+    despotism       = 20
+    reactionism     = 0
+    islamism        = 67
+    liberalism      = 0
+    conservatism    = 0
+    fascism         = 13
+    monarchism      = 0 
+    anarchism       = 0   
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+recruit_character = MES_al_faraj
+

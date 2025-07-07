@@ -62,10 +62,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 10
-	communism = 90
-	neutrality = 0
+    communism     = 70
+    socialism      = 15
+    despotism       = 7
+    reactionism     = 3
+    islamism        = 2
+    liberalism      = 1
+    conservatism    = 1
+    fascism         = 0
+    monarchism      = 0 
+    anarchism       = 1   
 }
 
-add_ideas = ZCI_сrisis_land_reform
+add_ideas = ZCI_land_reform
+add_ideas = ZCI_hovno

@@ -16,10 +16,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 48
-	communism = 0
-	neutrality = 32
+    communism     = 0
+    socialism      = 0
+    despotism       = 10
+    reactionism     = 22
+    islamism        = 0
+    liberalism      = 0
+    conservatism    = 14
+    fascism         = 54
+    monarchism      = 0 
+    anarchism       = 0   
 }
 
 add_ideas = RAU_tutsi_minorities

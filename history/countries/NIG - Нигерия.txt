@@ -1,0 +1,44 @@
+﻿capital = 558
+
+oob = "NIG_army"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_research_slots = 2
+
+set_stability = 0.56
+set_war_support = 0.20
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934"
+	election_frequency = 
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism     = 7
+    socialism      = 0
+    despotism       = 70
+    reactionism     = 0
+    islamism        = 0
+    liberalism      = 0
+    conservatism    = 0
+    fascism         = 23
+    monarchism      = 0 
+    anarchism       = 0   
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+
+recruit_character = NIG_aguiyi_ironsi
+add_ideas = NIG_curse_1964
+add_ideas = NIG_blood_diamods
+

@@ -1,0 +1,43 @@
+﻿capital = 780
+
+oob = "GSL_fed_army"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 100
+
+set_research_slots = 3
+
+set_stability = 0.37
+set_war_support = 0.23
+recruit_character = GSL_lansana
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.01.01"
+	election_frequency = 
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism     = 20
+    socialism      = 0
+    despotism       = 34
+    reactionism     = 6
+    islamism        = 4
+    liberalism      = 20
+    conservatism    = 16
+    fascism         = 0
+    monarchism      = 0 
+    anarchism       = 0   
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+add_ideas = GSL_frontier_mali
+add_ideas = GSL_protocol_federation
+

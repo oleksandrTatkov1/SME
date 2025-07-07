@@ -56,16 +56,22 @@ recruit_character = andre
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1924.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 60
-	fascism = 0
-	communism = 0
-	neutrality = 40
+    communism     = 15
+    socialism      = 0
+    despotism       = 0
+    reactionism     = 0
+    islamism        = 0
+    liberalism      = 28
+    conservatism    = 34
+    fascism         = 23
+    monarchism      = 0 
+    anarchism       = 0   
 }
 
 add_ideas = MOZ_bastion_of_anti_communism

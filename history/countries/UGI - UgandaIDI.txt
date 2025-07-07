@@ -81,10 +81,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 90
-	communism = 0
-	neutrality = 10
+    communism     = 0
+    socialism      = 0
+    despotism       = 10
+    reactionism     = 15
+    islamism        = 3
+    liberalism      = 0
+    conservatism    = 2
+    fascism         = 70
+    monarchism      = 0 
+    anarchism       = 0   
 }
 
 recruit_character = amin

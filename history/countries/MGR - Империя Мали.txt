@@ -1,0 +1,44 @@
+﻿capital = 556
+
+oob = "MGR_army"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 100
+
+set_research_slots = 3
+
+set_stability = 0.70
+set_war_support = 0.43
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934"
+	election_frequency = 
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism     = 12
+    socialism      = 0
+    despotism       = 73
+    reactionism     = 0
+    islamism        = 15
+    liberalism      = 0
+    conservatism    = 0
+    fascism         = 0
+    monarchism      = 0 
+    anarchism       = 0   
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+
+recruit_character = MGR_traore
+add_ideas = MGR_shadow_golden_caravan
+add_ideas = MGR_timbuctu_islamist
+add_ideas = MGR_traore_military_state
