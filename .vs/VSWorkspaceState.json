@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\common",
-    "\\common\\ideologies",
+    "\\common\\characters",
     "\\history\\countries",
     "\\localisation",
     "\\localisation\\russian"
   ],
-  "SelectedNode": "\\common\\ideologies\\00_ideologies.txt",
+  "SelectedNode": "\\common\\characters\\EPE.txt",
   "PreviewInSolutionExplorer": false
 }
