@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\ideologies\\00_ideologies.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:common\\ideologies\\00_ideologies.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\localisation\\russian\\afr_parties_l_russian.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:localisation\\russian\\afr_parties_l_russian.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\00_countries.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:common\\country_tags\\00_countries.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\61969_countries.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:common\\country_tags\\61969_countries.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +35,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "afr_parties_l_russian.yml",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\localisation\\russian\\afr_parties_l_russian.yml",
+              "RelativeDocumentMoniker": "localisation\\russian\\afr_parties_l_russian.yml",
+              "ToolTip": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\localisation\\russian\\afr_parties_l_russian.yml",
+              "RelativeToolTip": "localisation\\russian\\afr_parties_l_russian.yml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-07T17:59:52.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "00_ideologies.txt",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\ideologies\\00_ideologies.txt",
+              "RelativeDocumentMoniker": "common\\ideologies\\00_ideologies.txt",
+              "ToolTip": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\ideologies\\00_ideologies.txt",
+              "RelativeToolTip": "common\\ideologies\\00_ideologies.txt",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAP8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-07T17:59:33.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "61969_countries.txt",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\61969_countries.txt",
+              "RelativeDocumentMoniker": "common\\country_tags\\61969_countries.txt",
+              "ToolTip": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\61969_countries.txt",
+              "RelativeToolTip": "common\\country_tags\\61969_countries.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-07T17:44:04.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "00_countries.txt",
+              "DocumentMoniker": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\00_countries.txt",
+              "RelativeDocumentMoniker": "common\\country_tags\\00_countries.txt",
+              "ToolTip": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\common\\country_tags\\00_countries.txt",
+              "RelativeToolTip": "common\\country_tags\\00_countries.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-07T17:44:03.156Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -193,7 +193,7 @@ ideologies = {
             }
         }
         
-        color = { 70 0 110 },
+        color = { 145 129 81 },
         rules = {
             can_force_government = yes,
             can_send_volunteers = no
@@ -220,7 +220,7 @@ ideologies = {
             }
         }
         
-        color = { 255 200 0 },
+        color = { 70 36 157 },
         rules = {
             can_force_government = yes,
             can_send_volunteers = yes
