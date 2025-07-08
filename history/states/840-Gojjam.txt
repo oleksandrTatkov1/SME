@@ -35,11 +35,7 @@ state = {
 		add_core_of = ETH
 		add_core_of = BEG
 
-		1936.6.1 = {
-			owner = EPE
-			add_core_of = EPE
-			controller = ITA
-		}
+		
 	}
 
 	provinces = {
