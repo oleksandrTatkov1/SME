@@ -192,12 +192,8 @@ ideologies = {
                 }
             }
         }
-        
-<<<<<<< HEAD
-        color = { 70 0 110 }
-=======
         color = { 145 129 81 },
->>>>>>> bdc80e64f12e5bbeab670909cca2ff843bfa39d2
+
         rules = {
             can_force_government = yes
             can_send_volunteers = no
@@ -223,12 +219,9 @@ ideologies = {
                 }
             }
         }
-        
-<<<<<<< HEAD
-        color = { 255 200 0 }
-=======
+
         color = { 70 36 157 },
->>>>>>> bdc80e64f12e5bbeab670909cca2ff843bfa39d2
+
         rules = {
             can_force_government = yes
             can_send_volunteers = yes
