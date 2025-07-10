@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\common",
-    "\\common\\characters",
     "\\localisation",
     "\\localisation\\russian"
   ],
+  "SelectedNode": "\\localisation\\russian\\afr_parties_l_russian.yml",
   "PreviewInSolutionExplorer": false
 }

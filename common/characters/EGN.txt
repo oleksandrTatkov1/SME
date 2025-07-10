@@ -1,0 +1,23 @@
+characters = {
+	Abdel_Nasser = {
+		name = Abdel_Nasser
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Abdel_Nasser_large
+				small = GFX_portrait_Abdel_Nasser_small
+			}
+			army = {
+				large = GFX_portrait_Abdel_Nasser_large
+				small = GFX_portrait_Abdel_Nasser_small
+			}
+		}
+		country_leader = {
+			expire = "1990"
+			ideology = "junta"
+			traits = {
+			}
+			desc = Abdel_Nasser_desc
+		}
+	}
+
+}
