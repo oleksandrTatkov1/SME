@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Abdel_Nasser_large"
+		textureFile = gfx/leaders/EGN/Abdel_Nasser_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_Abdel_Nasser_small"
+		textureFile = "gfx/advisors/EGN/Abdel_Nasser_small.dds"
+	}
+}

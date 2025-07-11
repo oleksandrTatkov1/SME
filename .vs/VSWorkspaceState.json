@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\common",
-    "\\common\\characters",
-    "\\history\\countries",
     "\\localisation",
     "\\localisation\\russian"
   ],
-  "SelectedNode": "\\common\\characters\\EPE.txt",
+  "SelectedNode": "\\localisation\\russian\\afr_parties_l_russian.yml",
   "PreviewInSolutionExplorer": false
 }

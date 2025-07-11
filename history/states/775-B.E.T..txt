@@ -6,8 +6,13 @@ state={
 	impassable = yes
 
 	history={
+<<<<<<< HEAD
 		owner = EGE
 		add_core_of = CHA
+=======
+		owner = CAB
+		add_core_of = CAB
+>>>>>>> b108ceeb2c702b2a70aab8009e3f30df6442d72b
 		buildings = {
 			infrastructure = 0
 		}
