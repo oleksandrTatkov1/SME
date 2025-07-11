@@ -13,7 +13,8 @@ state={
 	state_category = town
 
 	history={
-		owner = EGS
+		owner = EGE
+		add_core_of = EGE
 		
 		victory_points = {
 			4076 10 
@@ -31,7 +32,7 @@ state={
 			}
 		}
 
-		add_core_of = EGS
+		add_core_of = EGY
 	}
 
 	provinces={

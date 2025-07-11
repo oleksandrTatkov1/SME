@@ -82,7 +82,7 @@ set_popularities = {
 }
 
 
-recruit_character = boroldaybaatar
+recruit_character = borolday_han
 recruit_character = anandynamar
 recruit_character = grigoriyboroda
 recruit_character = bratec

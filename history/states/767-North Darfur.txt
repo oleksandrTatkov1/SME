@@ -1,4 +1,3 @@
-
 state=
 {
 	id=767
@@ -10,7 +9,7 @@ state=
 	
 	history= {
 		add_core_of = SUD
-		owner = EGY
+		owner = EGE
 		buildings = {
 			infrastructure = 0
 		}

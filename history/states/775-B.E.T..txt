@@ -1,4 +1,4 @@
-state= {
+state={
 	id=775
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
 	
@@ -6,7 +6,7 @@ state= {
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = EGE
 		add_core_of = CHA
 		buildings = {
 			infrastructure = 0

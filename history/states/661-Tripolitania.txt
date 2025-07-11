@@ -1,14 +1,13 @@
-state= {
+state={
 	id=661
 	name="STATE_661"
 	manpower = 17617
 	
 	state_category = wasteland
-	resources={
-		oil=11
-	}
+	
 	history={
-		owner = EGY
+		owner = EGE
+		add_core_of = EGE
 		buildings = {
 			infrastructure = 1
 		}

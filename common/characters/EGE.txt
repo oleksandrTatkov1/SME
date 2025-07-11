@@ -1,0 +1,23 @@
+characters = {
+	favzia_fuad = {
+		name = favzia_fuad
+		portraits = {
+			civilian = {
+				large = GFX_portrait_favzia_fuad_large
+				small = GFX_portrait_favzia_fuad_small
+			}
+			army = {
+				large = GFX_portrait_favzia_fuad_large
+				small = GFX_portrait_favzia_fuad_small
+			}
+		}
+		country_leader = {
+			expire = "11 июля 2013 г."
+			ideology = "absolute_monarchy"
+			traits = {
+			}
+			desc = favzia_fuad_desc
+		}
+	}
+
+}

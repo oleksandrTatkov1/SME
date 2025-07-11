@@ -1,19 +1,17 @@
 characters = {
-#Create country leader - "Братец"
-
-#Create country leader - Боролдай Баатар
-	boroldaybaatar = {
-		name = boroldaybaatar
+	borolday_han = {
+		name = borolday_han
+		
 		portraits = {
 			civilian = {
-				#Custom image for Боролдай Баатар
-				large = "/gfx/leaders/MEM/UGLkNYDu-542582.dds"
+				large = "/gfx/leaders/MEM/borolday_han.dds"
 			}
 		}
 		country_leader = {
-			expire = "1977.11.04"
+			expire = "1966.11.04"
+			desc = borolday_han_desc
 			ideology = absolute_monarchy
-			traits = {  }
+			traits = { new_gengiskhan genius unscrupulous_orchestrator }
 		}
 	}
 	general_min={

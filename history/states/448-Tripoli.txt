@@ -1,16 +1,14 @@
-state= {
 
+state={
 	id=448
 	name="STATE_448"
 	manpower = 469136
 	
 	state_category = town
-	resources={
-		oil=14
-		gas=16
-	}
+
 	history={
-		owner = EGY
+		owner = EGE
+		add_core_of = EGE
 		
 		victory_points = {
 			1149 10 

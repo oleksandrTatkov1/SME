@@ -1,17 +1,15 @@
-state= {
 
+state={
 	id=273
 	name="STATE_273" # Libyan Desert
 	manpower = 42633
-	resources={
-		oil= 24
-		gas=8
-	}
+	
 	state_category = wasteland
 	impassable = yes
 
 	history={
-		owner = EGY
+		owner = EGE
+		add_core_of = EGE
 		buildings = {
 			infrastructure = 0
 		}

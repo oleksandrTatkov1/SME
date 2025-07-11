@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_favzia_fuad_large"
+		textureFile = gfx/leaders/EGE/favzia_fuad_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_favzia_fuad_small"
+		textureFile = "gfx/advisors/EGE/favzia_fuad_small.dds"
+	}
+}

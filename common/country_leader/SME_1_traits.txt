@@ -68,4 +68,13 @@ leader_traits = {
 		conscription = 0.02
 		war_support_weekly = 0.001
 	}
+	genius = {
+		defence = 0.06
+		offence = 0.07
+		political_power_cost = 0.1
+		consumer_goods_factor = -0.01
+		supply_factor = 0.05
+		industrial_capacity_factory = 0.07
+		industrial_capacity_dockyard = 0.06
+	}
 }

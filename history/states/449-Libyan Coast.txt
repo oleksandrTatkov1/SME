@@ -1,16 +1,14 @@
-state= {
 
+state={
 	id=449
 	name="STATE_449" # El Agheila
 	manpower = 40431
 	
 	state_category = wasteland
-	resources={
-		oil=28
-		gas=15
-	}
+
 	history={
-		owner = EGY
+		owner = EGE
+		add_core_of = EGE
 		buildings = {
 			infrastructure = 2
 		}
