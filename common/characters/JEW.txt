@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			expire = "21 июня 2002 г."
+			expire = "2002.04.04"
 			ideology = "military_dictatorship"
 			traits = {
 			}

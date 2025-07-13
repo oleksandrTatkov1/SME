@@ -46,5 +46,4 @@ set_popularities = {
 	monarchism    = 8
 	anarchism     = 2
 	despotism     = 65
-
 }
