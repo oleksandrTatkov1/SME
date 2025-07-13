@@ -5003,13 +5003,13 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_anti_colonialist_crusade_shine"
-		texturefile = "gfx/interface/goals/focus_SAF_colonialist_crusade.dds"
+		texturefile = "gfx/interface/goals/focus_saf_colonialist_crusade.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_colonialist_crusade.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_colonialist_crusade.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
+			animationlooping = no			# yes or no 
 			animationtime = 0.75				# in seconds
 			animationdelay = 0			# in seconds
 			animationblendmode = "add"       #add, multiply, overlay
@@ -5019,7 +5019,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_colonialist_crusade.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_colonialist_crusade.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5035,10 +5035,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_support_german_coup_shine"
-		texturefile = "gfx/interface/goals/focus_SAF_german_coup.dds"
+		texturefile = "gfx/interface/goals/focus_saf_german_coup.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_german_coup.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_german_coup.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5051,7 +5051,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_german_coup.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_german_coup.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5067,10 +5067,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_secure_interests_in_africa_shine"
-		texturefile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+		texturefile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5083,7 +5083,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5099,10 +5099,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_secure_interests_in_africa_shine"
-		texturefile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+		texturefile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5115,7 +5115,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5131,10 +5131,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_support_ossebrandwag_shine"
-		texturefile = "gfx/interface/goals/focus_SAF_support_ossewabrandwag.dds"
+		texturefile = "gfx/interface/goals/focus_saf_support_ossewabrandwag.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_support_ossewabrandwag.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_support_ossewabrandwag.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -5147,7 +5147,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_SAF_support_ossewabrandwag.dds"
+			animationmaskfile = "gfx/interface/goals/focus_saf_support_ossewabrandwag.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

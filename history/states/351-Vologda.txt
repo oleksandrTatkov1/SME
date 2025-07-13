@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=351
 	name="STATE_351" # Vologda
 	manpower = 2352100
@@ -7,7 +7,8 @@ state= {
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = SRF
+		add_core_of = SRF
 		buildings = {
 			infrastructure = 2
 		}

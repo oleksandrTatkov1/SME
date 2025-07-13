@@ -31,3 +31,4 @@ recruit_character = favzia_fuad
 add_ideas = volunteer_only
 add_ideas = civilian_economy
 
+#recruit_character = abdullah_azzam

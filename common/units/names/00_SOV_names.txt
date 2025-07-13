@@ -82,7 +82,7 @@
 			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya"
 			"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 				
 			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
+			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "IoSIF Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
 		}
 	}
 	carrier = {

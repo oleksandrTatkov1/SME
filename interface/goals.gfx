@@ -892,22 +892,22 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_anti_colonialist_crusade"
-		texturefile = "gfx/interface/goals/focus_SAF_colonialist_crusade.dds"
+		texturefile = "gfx/interface/goals/focus_saf_colonialist_crusade.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_support_german_coup"
-		texturefile = "gfx/interface/goals/focus_SAF_german_coup.dds"
+		texturefile = "gfx/interface/goals/focus_saf_german_coup.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_secure_interests_in_africa"
-		texturefile = "gfx/interface/goals/focus_SAF_secure_africa.dds"
+		texturefile = "gfx/interface/goals/focus_saf_secure_africa.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_goal_tfv_saf_support_ossebrandwag"
-		texturefile = "gfx/interface/goals/focus_SAF_support_ossewabrandwag.dds"
+		texturefile = "gfx/interface/goals/focus_saf_support_ossewabrandwag.dds"
 	}
 	
 	### Romania

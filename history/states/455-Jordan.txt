@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=455
 	name="STATE_455"
 	manpower = 932000
@@ -7,7 +7,8 @@ state= {
 	state_category = rural
 
 	history={
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

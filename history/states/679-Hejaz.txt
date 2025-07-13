@@ -1,14 +1,12 @@
-
 state = {
 	id = 679
 	name = "STATE_679"
 	manpower = 511000
-	resources={
-		steel=13
-	}
+
 	history = {
 
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		add_core_of = SAU
 
 		victory_points = {

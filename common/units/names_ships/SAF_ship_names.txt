@@ -1,9 +1,9 @@
 ﻿##### SOUTH AFRICA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-SAF_DD_HISTORICAL = {
+SIF_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -20,10 +20,10 @@ SAF_DD_HISTORICAL = {
 
 
 ### LIGHT CRUISER NAMES###
-SAF_CL_HISTORICAL = {
+SIF_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -37,10 +37,10 @@ SAF_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-SAF_CA_HISTORICAL = {
+SIF_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -54,10 +54,10 @@ SAF_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-SAF_BB_HISTORICAL = {
+SIF_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -72,10 +72,10 @@ SAF_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-SAF_BC_HISTORICAL = {
+SIF_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -90,10 +90,10 @@ SAF_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-SAF_CV_HISTORICAL = {
+SIF_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -109,10 +109,10 @@ SAF_CV_HISTORICAL = {
 
 
 ### SUBMARINES ###
-SAF_SS_HISTORICAL = {
+SIF_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -127,10 +127,10 @@ SAF_SS_HISTORICAL = {
 
 
 ### THEME: SOUTH AFRICAN PROVINCES ###
-SAF_PROVINCES = {
+SIF_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 
@@ -141,10 +141,10 @@ SAF_PROVINCES = {
 }
 
 ## THEME: CANADIAN CITIES ###
-SAF_CITIES = {
+SIF_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	type = ship
 

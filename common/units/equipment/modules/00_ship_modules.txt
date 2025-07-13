@@ -154,7 +154,7 @@ equipment_modules = {
 	}
 
 	dp_light_battery_2 = {
-		abbreviation = "saf"
+		abbreviation = "SAF"
 		category = dp_light_battery
 		gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret

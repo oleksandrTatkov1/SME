@@ -12,7 +12,7 @@ PAK_DD_HISTORICAL = {
 	fallback_name = "Destroyer %d"					
 
 	unique = {											
-		"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "Munsif" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
+		"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "MunSIF" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
 	}
 }
 

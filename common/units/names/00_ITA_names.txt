@@ -25,7 +25,7 @@
 		} 
 	} 
 	destroyer = { 
-		prefix = "RN" # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+		prefix = "RN" # Regio Cacciatorpediniere (this group includes also torpedo boats clasSIFied as RT - Regio Torpediniere)
 		generic = { "Cacciatorpediniere" } 
 		unique = { 
 			# Current models (12 Soldati Prima Serie class, 5 Soldati Seconda Serie class, 32 Spica class, 13 Ariete class, 4 Orsa class, 16 Ciclone class) 

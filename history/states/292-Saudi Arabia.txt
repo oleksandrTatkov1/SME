@@ -1,10 +1,11 @@
-state= {
+state={
 	id=292
 	name="STATE_292"
 	
 
 	history={
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -16,11 +17,7 @@ state= {
 		add_core_of = SAU
 
 	}
-	
-	resources={
-		oil=123 # was: 2
-	}
-	
+
 	provinces={
 		5024 5093 7995 8004 8060 12727 12813 12870 
 	}

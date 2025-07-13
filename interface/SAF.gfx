@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_portrait_abdullah_azzam_large
+		textureFile = gfx/leaders/SIF/abdullah_azzam_big.dds
+	}
+}

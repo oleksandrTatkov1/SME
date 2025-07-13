@@ -1,14 +1,10 @@
 spriteTypes = {
-	SpriteType = {
-		name = "GFX_idea_anti_muslim"
-		texturefile = "gfx/interface/ideas/JEW/anti_muslim.dds"
-	}	
-	SpriteType = {
-		name = "GFX_idea_israel_freedom"
-		texturefile = "gfx/interface/ideas/JEW/israel_freedom.dds"
-	}	
-	SpriteType = {
-		name = "GFX_idea_"
-		texturefile = "gfx/interface/ideas/JEW/.dds"
-	}	
+	spriteType = {
+		name = "GFX_portrait_yitzhak_rabin_large"
+		textureFile = gfx/leaders/JEW/yitzhak_rabin_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_yitzhak_rabin_small"
+		textureFile = "gfx/advisors/JEW/yitzhak_rabin_small.dds"
+	}
 }

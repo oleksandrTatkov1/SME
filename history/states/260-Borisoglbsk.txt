@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=260
 	name="STATE_260" # Voronezh
 	manpower = 2567983
@@ -7,7 +7,8 @@ state= {
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = SRF
+		add_core_of = SRF
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

@@ -127,7 +127,7 @@ EGY_CITIES = {
 	prefix = "ERN "							
 	unique = {
 		"Ashmoun" "Ahkmin" "Abu Hummus" "Badr" "Baltim" "Cairo" "Alexandria" "Belqas" "El Alamein" "El Hamool" "Girga" "Giza" "Kharga" "Port Said" "Qaha" "Saint Catherine" "Qena" "Rafah" 
-		"Zagazig" "Zefta" "Sadat" "Safaga" "Sodfa" "Suez" "Saqultah" "Shibin El Kom" "Sohag" "New Cairo" "Matai" "Minya" "Metoubes" "Mit Ghamar" "Mallawi" "Mit Adlan" "Mit Bera" "Mit Rahina" 
+		"Zagazig" "Zefta" "Sadat" "SIFaga" "Sodfa" "Suez" "Saqultah" "Shibin El Kom" "Sohag" "New Cairo" "Matai" "Minya" "Metoubes" "Mit Ghamar" "Mallawi" "Mit Adlan" "Mit Bera" "Mit Rahina" 
 	}
 }
 

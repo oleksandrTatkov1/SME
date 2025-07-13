@@ -1,10 +1,11 @@
-state= {
+state= { 
 	id = 856
 	name = "STATE_856"
 	
 	history = {
 
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		add_core_of	= SAU
 
 		buildings = {

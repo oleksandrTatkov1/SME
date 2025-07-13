@@ -3,14 +3,14 @@
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
 #
-# for_countries - lists all countries that SAF use it. If empty, or entire tag is missing, all countries in the world SAF use it.
+# for_countries - lists all countries that SIF use it. If empty, or entire tag is missing, all countries in the world SIF use it.
 #
 # can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
 #
-# division_types - is a list of tokens to corresponding unit types. A player SAF in fact use any group of names for a div.template
+# division_types - is a list of tokens to corresponding unit types. A player SIF in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leSAF 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leSIF 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -31,11 +31,11 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-SAF_INF_01 = 
+SIF_INF_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
@@ -150,15 +150,15 @@ SAF_INF_01 =
 		98 = { "%dth South African Infantry Div." }
 		99 = { "%dth South African Infantry Div." }
 
-		# SAF only had three historically, but just in case!
+		# SIF only had three historically, but just in case!
 	}
 }
 
-SAF_CAV_01 = 
+SIF_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
@@ -227,22 +227,22 @@ SAF_CAV_01 =
 		52 = { "%dnd South African Cavalry Div." }
 		53 = { "%drd South African Cavalry Div." }
 
-		# Historically, there's no way SAF would have had 53 Cav divisions the list taken this far because of cav's suppression role in-game.
+		# Historically, there's no way SIF would have had 53 Cav divisions the list taken this far because of cav's suppression role in-game.
 	}
 }
 
-SAF_MOT_01 = 
+SIF_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAF_INF_01 }
+	link_numbering_with = { SIF_INF_01 }
 
 	fallback_name = "%d South African Motorised Div."
 
@@ -287,18 +287,18 @@ SAF_MOT_01 =
 	}
 }
 
-SAF_ARM_01 = 
+SIF_ARM_01 = 
 {
 	name = "Armoured Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAF_INF_01  }
+	link_numbering_with = { SIF_INF_01  }
 
 	fallback_name = "%d South African Armoured Div."
 
@@ -339,18 +339,18 @@ SAF_ARM_01 =
 	}
 }
 
-SAF_MEC_01 = 
+SIF_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAF_INF_01  }
+	link_numbering_with = { SIF_INF_01  }
 
 	fallback_name = "%d South African Mechanised Div."
 
@@ -391,18 +391,18 @@ SAF_MEC_01 =
 	}
 }
 
-SAF_GAR_01 = 
+SIF_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SAF_INF_01 }
+	#link_numbering_with = { SIF_INF_01 }
 
 	fallback_name = "%d District Force"
 
@@ -463,22 +463,22 @@ SAF_GAR_01 =
 		52 = { "%dnd District Force" }
 		53 = { "%drd District Force" }
 
-		# SAF has six named 'commands' that were more-or-less garrison forces. After that, have used a generic 'xth District Force' structure.
+		# SIF has six named 'commands' that were more-or-less garrison forces. After that, have used a generic 'xth District Force' structure.
 	}
 }
 
-SAF_MAR_01 = 
+SIF_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SAF_GAR_01 }
+	#link_numbering_with = { SIF_GAR_01 }
 
 	fallback_name = "%d SA Marine Commando Division"
 
@@ -517,22 +517,22 @@ SAF_MAR_01 =
 		29 = { "%dth SA Marine Commando Division" }
 		30 = { "%dth SA Marine Commando Division" }
 
-		# SAF didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists, numbering independent of main sequence.
+		# SIF didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists, numbering independent of main sequence.
 	}
 }
 
-SAF_MTN_01 = 
+SIF_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAF_INF_01  }
+	link_numbering_with = { SIF_INF_01  }
 
 	fallback_name = "%d South African Infantry Div."
 
@@ -598,11 +598,11 @@ SAF_MTN_01 =
 	}
 }
 
-SAF_PAR_01 = 
+SIF_PAR_01 = 
 {
 	name = "Airborne Divisions"
 
-	for_countries = { SAF }
+	for_countries = { SIF }
 
 	can_use = { always = yes }
 
@@ -647,6 +647,6 @@ SAF_PAR_01 =
 		29 = { "%dth SA Airborne Commando Div." }
 		30 = { "%dth SA Airborne Commando Div." }
 
-		# SAF didn't have any Airborne divisions.  Have independent sequence.
+		# SIF didn't have any Airborne divisions.  Have independent sequence.
 	}
 }

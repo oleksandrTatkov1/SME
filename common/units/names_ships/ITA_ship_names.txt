@@ -8,7 +8,7 @@ ITA_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "RCT " # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+	prefix = "RCT " # Regio Cacciatorpediniere (this group includes also torpedo boats clasSIFied as RT - Regio Torpediniere)
 	fallback_name = "Cacciatorpediniere %s"
 
 	unique = {

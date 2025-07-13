@@ -2770,7 +2770,7 @@ SAF = {
 		}
 	}
 
-	air_wing_names_template = AIR_WING_NAME_SAF_FALLBACK
+	air_wing_names_template = AIR_WING_NAME_SIF_FALLBACK
 
 	cv_small_plane_airframe = {
 		prefix = ""
@@ -3723,7 +3723,7 @@ PAK = {
 			"Destroyer"
 		}
 		unique = {
-			"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "Munsif" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
+			"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "MunSIF" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
 		}
 	}
 	light_cruiser = {

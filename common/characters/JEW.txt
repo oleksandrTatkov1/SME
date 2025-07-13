@@ -1,15 +1,23 @@
 characters = {
-JEW_moshet_share = {
-	name = JEW_moshet_share
-	portraits = {
-		civilian = {
-			large = "/gfx/leaders/JEW/JEW_moshet_share.dds"
+	JEW_yitzhak_rabin = {
+		name = yitzhak_rabin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_yitzhak_rabin_large
+				small = GFX_portrait_yitzhak_rabin_small
+			}
+			army = {
+				large = GFX_portrait_yitzhak_rabin_large
+				small = GFX_portrait_yitzhak_rabin_small
+			}
+		}
+		country_leader = {
+			expire = "21 июня 2002 г."
+			ideology = "military_dictatorship"
+			traits = {
+			}
+			desc = yitzhak_rabin_desc
 		}
 	}
-	country_leader = {
-		expire = "1980.10.12"
-		ideology = military_dictatorship
-		traits = { politican_puppet }
-	}
-  }
+
 }

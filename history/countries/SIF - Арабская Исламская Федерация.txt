@@ -1,0 +1,27 @@
+oob = "SIF_1965"
+set_convoys = 345
+
+set_research_slots = 3
+
+set_stability = 45
+set_war_support = 67
+set_politics = {
+	ruling_party = islamism
+}
+
+set_popularities = {
+	conservatism = 6
+	liberalism = 5
+	socialism = 5
+	communism = 2
+	fascism = 2
+	reactionism = 4
+	monarchism = 2
+	despotism = 2
+	anarchism = 2
+	islamism = 70
+}
+recruit_character = abdullah_azzam
+
+add_ideas = volunteer_only
+add_ideas = civilian_economy

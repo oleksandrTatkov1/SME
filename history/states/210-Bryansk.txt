@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=210
 	name="STATE_210" # Nevel
 	manpower = 830133
@@ -7,7 +7,8 @@ state= {
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = SRF
+		add_core_of = SRF
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

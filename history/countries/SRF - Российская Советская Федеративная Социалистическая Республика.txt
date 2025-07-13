@@ -1,0 +1,32 @@
+﻿oob = "SRF_1965"
+
+set_convoys = 0
+
+set_research_slots = 4
+
+set_stability = 65
+set_war_support = 72
+set_politics = {
+	ruling_party = communism
+	last_election = "10.06.1964"
+	election_frequency = 720
+	elections_allowed = False
+}
+
+set_popularities = {
+conservatism = 6
+liberalism = 7
+socialism = 20
+communism = 50
+fascism = 1
+reactionism = 3
+monarchism = 4
+despotism = 2
+anarchism = 6
+islamism = 1
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

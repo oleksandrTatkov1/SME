@@ -138,7 +138,7 @@ SOV_BB_HISTORICAL = {
 	unique = {
 			"Arkhangelsk" "Novorossysk" "Sovyetsky Soyuz" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 											
 			# Fictional names start here
-			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
+			 "Murmansk" "Vladivostok" "Karl Marx" "Vladimir Lenin" "IoSIF Stalin" "Volya" "Engels" "Aleksandr Nevsky" "Admiral Kuznetsov"  
 	}
 }
 
@@ -489,7 +489,7 @@ SOV_LEADERS = {
 	type = ship
 
 	unique = {
-		"Karl Marx" "Vladimir Lenin" "Iosif Stalin" "Leonid Brezhnev" "Karl Liebknecht" "Mikhail Kutuzov" "Aleksandr Suvorov" "Yuri Andropov" "Dmitry Pozharsky" "Vasily Chapayev" 
+		"Karl Marx" "Vladimir Lenin" "IoSIF Stalin" "Leonid Brezhnev" "Karl Liebknecht" "Mikhail Kutuzov" "Aleksandr Suvorov" "Yuri Andropov" "Dmitry Pozharsky" "Vasily Chapayev" 
 		"Admiral Kuznetsov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Admiral Senyavin" "Admiral Gorshkov" "Admiral Zozulya" 
 		"Admiral Yumashev" "Admiral Isakov" "Admiral Makarov" "Admiral Isachenkov"
 	}
@@ -840,7 +840,7 @@ SOV_SAINTS = {
 		"Svyatoy Agapit I" "Svyatoy Silverius" "Svyatoy Benedikt Nursysky" "Svyataya Skholastika" "Svyatoy Kiriak Otshelnik" "Svyatoy Zosima Palestinsky" "Svyatoy Petrok" "Svyatoy Yustinian I" 
 		"Svyatoy Dorofey iz Gazy" "Svyatoy Paulin Yorksky" "Svyatoy Devi Uelsky" "Svyatoy Grigory Tursky" "Svyatoy Kolumba" "Svyataya Dimfna" "Svyatoy Grigory I" "Svyatoy Avgustin Kenterberiysky" 
 		"Svyatoy Ioann Lestvichnik" "Svyatoy Bonifatsy IV" "Svyatoy Yevlogy Aleksandrysky" "Svyatoy Kolumban" "Svyatoy Etelbert Kentsky" "Svyatoy Adeodat I" "Svyatoy Edvin Nortumbrii" 
-		"Svyatoy Sofrony" "Svyatoy Alipy Stolpnik" "Svyatoy Osvald Nortumbrysky" "Svyatoy Birin" "Svyatoy Andrey Kritsky" "Svyatoy Eydan" "Svyatoy Osif" "Svyatoy Eligy" "Svyatoy Maksim Ispovednik" 
+		"Svyatoy Sofrony" "Svyatoy Alipy Stolpnik" "Svyatoy Osvald Nortumbrysky" "Svyatoy Birin" "Svyatoy Andrey Kritsky" "Svyatoy Eydan" "Svyatoy OSIF" "Svyatoy Eligy" "Svyatoy Maksim Ispovednik" 
 		"Svyataya Eteldreda Eli" "Svyatoy Leodegar Otunsky" "Svyataya Khilda Uitbi" "Svyatoy Agafon" "Svyatoy Barbat iz Benevento" "Svyatoy Lev II" "Svyatoy Benedikt II" 
 		"Svyatoy Katbert Lindisfarnsky" "Svyatoy Isaak Ninevysky" "Svyatoy Anastasy Sinaita" "Svyatoy Kosma Mayumsky" "Svyatoy Uilfrid iz Ripona" "Svyataya Milburga Venloka" "Svyataya Odilliya" 
 		"Svyatoy Gubert" "Svyatoy Egbert Nortumbrysky" "Svyatoy Grigory II" "Prepodobnyy Beda" "Svyatoy Notkhelm Kenterberiysky" "Svyatoy Grigory III" "Svyatoy Benedikt Aniansky" 

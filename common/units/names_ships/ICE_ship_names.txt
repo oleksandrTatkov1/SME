@@ -29,7 +29,7 @@ ICE_CG_NORSE = {
 	fallback_name = "ICGV %d"					
 
 	unique = {											
-		"Ægir" "Baldur" "Borr" "Bragi" "Búri" "Dagur" "Delling" "Eir" "Ēostre" "Elli" "Forseti" "Freyja" "Freyr" "Frigg" "Fulla" "Gefjun" "Hel" "Heimdallur" "Hermóður" "Hlín" "Höðr" "Hœnir" "Iðunn" "Jörð" "Kvasir" "Lofn" "Loki" "Magni" "Máni" "Mímir" "Nanna" "Nerþus" "Njörður" "Nótt" "Óðinn" "Sága" "Rán" "Sif" "Sigyn" "Sjöfn" "Skaði" "Snotra" "Sol" "Thor" "Thruer" "Týr" "Ullr" "Váli" "Vár" "Vé" "Víðarr" "Vör" "Yggdrasil" "Andhrímnir"
+		"Ægir" "Baldur" "Borr" "Bragi" "Búri" "Dagur" "Delling" "Eir" "Ēostre" "Elli" "Forseti" "Freyja" "Freyr" "Frigg" "Fulla" "Gefjun" "Hel" "Heimdallur" "Hermóður" "Hlín" "Höðr" "Hœnir" "Iðunn" "Jörð" "Kvasir" "Lofn" "Loki" "Magni" "Máni" "Mímir" "Nanna" "Nerþus" "Njörður" "Nótt" "Óðinn" "Sága" "Rán" "SIF" "Sigyn" "Sjöfn" "Skaði" "Snotra" "Sol" "Thor" "Thruer" "Týr" "Ullr" "Váli" "Vár" "Vé" "Víðarr" "Vör" "Yggdrasil" "Andhrímnir"
 	}
 
 }

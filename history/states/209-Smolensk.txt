@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=209
 	name="STATE_209" # Pskov
 	manpower = 639587
@@ -7,7 +7,8 @@ state= {
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = SRF
+		add_core_of = SRF
 		victory_points = {
 			11202 3
 		}

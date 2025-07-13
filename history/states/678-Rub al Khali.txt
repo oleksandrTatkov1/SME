@@ -1,13 +1,10 @@
-state= {
+state={
 	id=678
 	name="STATE_678"
 
-	resources={
-		oil=234 # was: 2
-	}
-    
 	history={
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		buildings = {
 			infrastructure = 0
 

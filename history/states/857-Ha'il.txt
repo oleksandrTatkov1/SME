@@ -1,11 +1,12 @@
-state= {
+state={
 	id=857
 	name="STATE_857"
 	provinces={
 		4968 5058 10892 10923 12749 
 	}
 	history = {
-		owner = SAU
+		owner = SIF
+		add_core_of = SIF
 		add_core_of = SAU
 	}
 	manpower=5000

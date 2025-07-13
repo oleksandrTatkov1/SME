@@ -1,0 +1,17 @@
+characters = {
+	abdullah_azzam = {
+		name = abdullah_azzam
+		portraits = {
+			civilian = {
+				large = GFX_portrait_abdullah_azzam_large
+			}
+			
+		}
+		country_leader = {
+			expire = "1989.11.05"
+			desc = abdullah_azzam_desc
+			ideology = islamic_fundamentalism
+			traits = { djihadi peoples_leader }
+		}
+	}
+}
