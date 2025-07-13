@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,6 +61,10 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "afr_parties_l_russian.yml",
@@ -68,7 +72,7 @@
               "RelativeDocumentMoniker": "localisation\\russian\\afr_parties_l_russian.yml",
               "ToolTip": "C:\\Users\\BOSS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\SME\\localisation\\russian\\afr_parties_l_russian.yml",
               "RelativeToolTip": "localisation\\russian\\afr_parties_l_russian.yml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAALYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-07-10T09:41:54.24Z",
               "EditorCaption": ""
@@ -179,8 +183,7 @@
               "RelativeToolTip": "common\\ideologies\\00_ideologies.txt",
               "ViewState": "AgIAAMkAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-07T17:59:33.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:59:33.757Z"
             }
           ]
         }
