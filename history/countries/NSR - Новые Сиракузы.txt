@@ -1,0 +1,32 @@
+﻿oob = "NSR_legion"
+
+set_convoys = 150
+
+set_research_slots = 3
+
+set_stability = 4
+set_war_support = 5
+set_politics = {
+	ruling_party = reactionism
+	last_election = "01.01.1920"
+	election_frequency = 0
+	elections_allowed = False
+}
+
+set_popularities = {
+conservatism = 0
+liberalism = 0
+socialism = 0
+communism = 0
+fascism = 30
+reactionism = 46
+monarchism = 0
+despotism = 24
+anarchism = 0
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

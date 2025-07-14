@@ -1,0 +1,4 @@
+﻿graphical_culture = eastern_european_gfx_gfx
+graphical_culture_2d = eastern_european_gfx_2d
+
+color = rgb { 25 25 112 }
