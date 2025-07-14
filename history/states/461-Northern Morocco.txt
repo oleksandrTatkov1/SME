@@ -12,7 +12,8 @@ state= {
 	state_category = rural
 	
 	history={
-		owner = FRA
+		owner = MER
+		add_core_of = MER
 		add_core_of = MOR
 		victory_points = {
 			7069 10 

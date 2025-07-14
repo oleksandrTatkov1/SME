@@ -1,11 +1,12 @@
-﻿oob = "APE_imperial_army"
+﻿capital = 459
+oob = "APE_imperial_army"
 
 set_convoys = 150
 
 set_research_slots = 3
 
-set_stability = 6
-set_war_support = 2
+set_stability = 0.43
+set_war_support = 0.27
 set_politics = {
 	ruling_party = despotism
 	last_election = "01.01.1920"
