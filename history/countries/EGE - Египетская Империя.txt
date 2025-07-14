@@ -35,7 +35,7 @@ add_ideas = civilian_economy
 
     set_autonomy = {
         target = EGN
-        autonomous_state = autonomy_puppet
+        autonomous_state = autonomy_dominion
 
     else = {
         puppet = EGN
@@ -43,7 +43,7 @@ add_ideas = civilian_economy
 }
     set_autonomy = {
         target = APE
-        autonomous_state = autonomy_puppet
+        autonomous_state = autonomy_dominion
 
     else = {
         puppet = APE
@@ -51,7 +51,7 @@ add_ideas = civilian_economy
 }
     set_autonomy = {
         target = MES
-        autonomous_state = autonomy_puppet
+        autonomous_state = autonomy_dominion
 
     else = {
         puppet = MES
@@ -59,7 +59,7 @@ add_ideas = civilian_economy
 }
     set_autonomy = {
         target = MER
-        autonomous_state = autonomy_puppet
+        autonomous_state = autonomy_dominion
 
     else = {
         puppet = MER

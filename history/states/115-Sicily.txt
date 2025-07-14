@@ -6,7 +6,8 @@ state = {
 		steel=5
 	}
 	history = {
-		owner = ITA
+		owner = NSR
+		add_core_of = NSR
 		victory_points = {
 			10074 20 
 		}
