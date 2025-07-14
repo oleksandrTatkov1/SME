@@ -1,0 +1,32 @@
+﻿oob = "UPR_1965"
+
+set_convoys = 0
+
+set_research_slots = 3
+
+set_stability = 0.62
+set_war_support = 0.8
+set_politics = {
+	ruling_party = conservatism
+	last_election = 1963.08.06
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 35
+	liberalism = 20
+	socialism = 10
+	communism = 5
+	fascism = 6
+	reactionism = 4
+	monarchism = 5
+	despotism = 3
+	anarchism = 10
+	islamism = 2
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

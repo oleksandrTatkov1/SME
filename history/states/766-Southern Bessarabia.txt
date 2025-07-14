@@ -13,7 +13,8 @@ state=
 		}
 		add_core_of = MOL
 		add_core_of = UKR
-		owner = ROM
+		owner = UPR
+		add_core_of = UPR
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

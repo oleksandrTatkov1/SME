@@ -1,5 +1,4 @@
-state= {
-
+state = {
 	id = 925
 	name = "STATE_925"
 
@@ -8,7 +7,7 @@ state= {
 	state_category = pastoral
 	
 	resources = {
-		tungsten = 10
+		tungsten = 5
 	}
 
 	history = {
@@ -17,7 +16,8 @@ state= {
 			9116 1
 		}
 		
-		owner = NOR
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = NOR
 		if = {
 			limit = {
@@ -41,4 +41,3 @@ state= {
 
 	local_supplies = 0.000
 }
-

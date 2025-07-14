@@ -5,7 +5,8 @@ state= {
 		gas=10
 	}
 	history={
-		owner = HOL
+		owner = GEI
+		add_core_of = GEI
 		add_core_of = HOL
 		victory_points = {
 			6241 5 

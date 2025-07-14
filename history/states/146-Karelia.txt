@@ -1,4 +1,4 @@
-state= {
+state={
 	id=146
 	name="STATE_146" #KARJALA
 	manpower=604427
@@ -6,7 +6,8 @@ state= {
 	state_category = town
 
 	history={
-		owner = FIN
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = FIN
 		add_core_of = KAR
 		buildings = {

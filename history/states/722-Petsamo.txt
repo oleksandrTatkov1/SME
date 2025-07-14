@@ -1,4 +1,4 @@
-state= {
+state={
 	id=722
 	name="STATE_722" #PETSAMO
 	manpower = 2371
@@ -6,7 +6,8 @@ state= {
 	state_category = enclave
 
 	history={
-		owner = FIN
+		owner = SKN
+		add_core_of = SKN
 
 		victory_points = { #Petsamo
 			9140 1

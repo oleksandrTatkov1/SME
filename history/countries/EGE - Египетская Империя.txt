@@ -4,8 +4,8 @@ set_convoys = 0
 
 set_research_slots = 4
 
-set_stability = 45
-set_war_support = 57
+set_stability = 0.45
+set_war_support = 0.57
 set_politics = {
 	ruling_party = monarchism
 	last_election = "16.07.1954"

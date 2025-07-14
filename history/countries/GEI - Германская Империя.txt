@@ -1,0 +1,32 @@
+﻿oob = "GEI_1965"
+
+set_convoys = 575
+
+set_research_slots = 5
+
+set_stability = 0,72
+set_war_support = 0,34
+set_politics = {
+	ruling_party = monarchism
+	last_election = 0001.01.01
+	election_frequency = 48
+$	elections_allowed = no
+}
+
+set_popularities = {
+conservatism = 15
+liberalism = 10
+socialism = 8
+communism = 7
+fascism = 4
+reactionism = 3
+monarchism = 45
+despotism = 5
+anarchism = 2
+islamism = 1
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

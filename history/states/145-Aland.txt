@@ -1,4 +1,3 @@
-
 state=
 {
 	id=145
@@ -8,7 +7,8 @@ state=
 	state_category = small_island
 	
 	history = {
-		owner = FIN
+		owner = SKN
+		add_core_of = SKN
 		
 		victory_points = { #Mariehman
 			9228 1
@@ -29,4 +29,3 @@ state=
 
 	local_supplies=0.0 
 }
-

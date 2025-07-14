@@ -6,7 +6,8 @@ state= {
 	state_category = city
 
 	history={
-		owner = GER
+		owner = GEI
+		add_core_of = GEI
 		controller = GER
 		
 		victory_points = {

@@ -12,7 +12,8 @@ state= {
 	state_category = city
 
 	history={
-		owner = UKR
+		owner = UPR
+		add_core_of = UPR
 		victory_points = {
 			525 25
 		}

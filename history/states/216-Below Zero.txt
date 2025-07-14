@@ -1,11 +1,12 @@
-state= {
+state={
 	id=216
 	name="STATE_216"
 	
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = SKN
+		add_core_of = SKN
 		victory_points = {
 			11159 1 
 		}

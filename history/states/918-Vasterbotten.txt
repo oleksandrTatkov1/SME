@@ -1,4 +1,4 @@
-state= {
+state = { 
 	id = 918
 	name = "STATE_918" # Västerbotten
 	manpower = 315105
@@ -16,7 +16,8 @@ state= {
 		victory_points = {
 			109 1
 		}
-		owner = SWE
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = SWE
 		if = {
 			limit = {

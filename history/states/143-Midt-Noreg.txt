@@ -5,16 +5,13 @@ state = {
 	manpower = 280271
 	
 	state_category = rural
-	resources={
-		gas=12
-	}
 
-	
 	history = {
 		victory_points = {
 			3022 5
 		}
-		owner = NOR
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = NOR
 		if = {
 			limit = {

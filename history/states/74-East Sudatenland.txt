@@ -15,7 +15,8 @@ state=
 		victory_points = {
 			3583 5
 		}
-		owner = CZE
+		owner = GEI
+		add_core_of = GEI
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -23,7 +24,8 @@ state=
 		add_core_of = CZE
 
 		1938.9.30 = {
-			owner = GER
+			owner = GEI
+			add_core_of = GEI
 			controller = GER
 		}
 	}

@@ -1,14 +1,14 @@
-state= {
+
+state = {
 	id = 38
 	name = "STATE_38" # Gävleborg
 	manpower = 931955
 	state_category = town
-	resources={
-		gas=20
-	}
+	
 
 	history = {
-		owner = SWE
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = SWE
 		victory_points = {
 			11091 2
