@@ -6,7 +6,8 @@ state = {
 	state_category = town
 
 	history = {
-		owner = FRA
+		owner = FRC
+		add_core_of = FRC
 		add_core_of = OCC
 		add_core_of = FRA
 		add_claim_by = SPM

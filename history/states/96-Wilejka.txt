@@ -11,7 +11,8 @@ state= {
 		victory_points = {
 			406 1
 		}
-		owner = POL
+		owner = BLS
+		add_core_of = BLS
 		buildings = {
 			infrastructure = 2
 		}
