@@ -1,0 +1,32 @@
+﻿oob = "MER_imperial_army"
+
+set_convoys = 80
+
+set_research_slots = 2
+
+set_stability = 6
+set_war_support = 4
+set_politics = {
+	ruling_party = despotism
+	last_election = "01.01.1920"
+	election_frequency = 0
+	elections_allowed = False
+}
+
+set_popularities = {
+conservatism = 5
+liberalism = 4
+socialism = 6
+communism = 5
+fascism = 8
+reactionism = 10
+monarchism = 6
+despotism = 35
+anarchism = 6
+islamism = 15
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+
