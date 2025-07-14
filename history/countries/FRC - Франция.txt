@@ -16,6 +16,16 @@ set_politics = {
 }
 
 set_popularities = {
+	conservatism = 32
+	liberalism = 12
+	socialism = 12
+	communism = 12
+	fascism = 6
+	reactionism = 4
+	monarchism = 13
+	despotism = 5
+	anarchism = 3
+	islamism = 1
 }
 
 # Starting ideas

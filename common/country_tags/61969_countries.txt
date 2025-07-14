@@ -12,3 +12,4 @@ SRF = "countries/SRF - Российская Советская Федерати�
 SKN = "countries/SKN - Скандинавская Империя.txt"
 BLS = "countries/BLS - Белорусия.txt"
 FRC = "countries/FRC - Франция.txt"
+ITL = "countries/ITL - Италия.txt"

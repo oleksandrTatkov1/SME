@@ -6,6 +6,7 @@ set_convoys = 723
 
 
 recruit_character = liua
+recruit_character = demchikdonrov_han
 
 
 add_ideas = {

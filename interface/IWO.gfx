@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_hirohito_large"
+		textureFile = gfx/leaders/IWO/hirohito_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_hirohito_small"
+		textureFile = "gfx/advisors/IWO/hirohito_small.dds"
+	}
+}

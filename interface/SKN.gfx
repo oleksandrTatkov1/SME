@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_gustav_VI_adolf_large"
+		textureFile = gfx/leaders/SKN/gustav_VI_adolf_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_gustav_VI_adolf_small"
+		textureFile = "gfx/advisors/SKN/gustav_VI_adolf_small.dds"
+	}
+}

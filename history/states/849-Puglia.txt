@@ -5,7 +5,8 @@ state = {
 	manpower = 2642000 
 	state_category = city
 	history = {
-		owner = ITA
+		owner = ITL
+		add_core_of = ITL
 		victory_points = { #Bari
 			9784 3
 		}

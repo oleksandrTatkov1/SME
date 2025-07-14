@@ -1,0 +1,23 @@
+characters = {
+	gustav_VI_adolf = {
+		name = gustav_VI_adolf
+		portraits = {
+			civilian = {
+				large = GFX_portrait_gustav_VI_adolf_large
+				small = GFX_portrait_gustav_VI_adolf_small
+			}
+			army = {
+				large = GFX_portrait_gustav_VI_adolf_large
+				small = GFX_portrait_gustav_VI_adolf_small
+			}
+		}
+		country_leader = {
+			expire = "1989.01.25"
+			ideology = "enlightened_monarchy"
+			traits = {
+			}
+			desc = gustav_VI_adolf_desc
+		}
+	}
+
+}

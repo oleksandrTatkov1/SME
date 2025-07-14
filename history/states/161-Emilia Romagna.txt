@@ -11,7 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = ITL
+		add_core_of = ITL
 		victory_points = { #Bologna
 			6606 5
 		}

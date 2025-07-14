@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_demchikdonrov_han_large"
+		textureFile = gfx/leaders/UAN/demchikdonrov_han_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_demchikdonrov_han_small"
+		textureFile = "gfx/advisors/UAN/demchikdonrov_han_small.dds"
+	}
+}
