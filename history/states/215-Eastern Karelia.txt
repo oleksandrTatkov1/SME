@@ -1,4 +1,4 @@
-state= {
+state={
 	id=215
 	name="STATE_215"
 	resources={
@@ -6,7 +6,8 @@ state= {
 	}
 
 	history={
-		owner = SOV
+		owner = SKN
+		add_core_of = SKN
 		buildings = {
 			infrastructure = 2
 

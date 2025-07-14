@@ -7,7 +7,8 @@ state = {
 	state_category = large_town
 	
 	history = {
-		owner = FIN
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = FIN
 		victory_points = { #Helsinki
 			11105 15 
@@ -39,4 +40,3 @@ state = {
 
 	local_supplies=0.0 
 }
-

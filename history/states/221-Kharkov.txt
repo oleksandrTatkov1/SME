@@ -11,7 +11,8 @@ state= {
 	}
 
 	history={
-		owner = UKR
+		owner = UPR
+		add_core_of = UPR
 		victory_points = {
 			418 10
 		}

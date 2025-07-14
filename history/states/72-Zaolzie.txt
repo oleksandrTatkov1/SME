@@ -8,7 +8,8 @@ state= {
 		steel=10
 	}
 	history={
-		owner = CZE
+		owner = GEI
+		add_core_of = GEI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +17,8 @@ state= {
 		add_core_of = CZE
 
 		1939.3.14 = {
-			owner = POL
+			owner = GEI
+			add_core_of = GEI
 			controller = POL
 		}
 	}

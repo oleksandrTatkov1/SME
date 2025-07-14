@@ -1,5 +1,4 @@
-state= {
-
+state = {
 	id = 924
 	name = "STATE_924"
 	manpower = 142100 # 355251
@@ -14,7 +13,8 @@ state= {
 		victory_points = {
 			11050 1
 		}
-		owner = NOR
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = NOR
 		if = {
 			limit = {

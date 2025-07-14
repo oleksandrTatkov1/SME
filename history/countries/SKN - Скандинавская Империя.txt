@@ -1,0 +1,32 @@
+﻿oob = "SKN_1965"
+
+set_convoys = 1200
+
+set_research_slots = 4
+
+set_stability = 75
+set_war_support = 53
+set_politics = {
+	ruling_party = monarchism
+	last_election = "12.04.1973"
+	election_frequency = 720
+	elections_allowed = False
+}
+
+set_popularities = {
+conservatism = 2
+liberalism = 3
+socialism = 10
+communism = 5
+fascism = 10
+reactionism = 2
+monarchism = 55
+despotism = 10
+anarchism = 3
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

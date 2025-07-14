@@ -1,3 +1,4 @@
+
 state = {
 	id = 214
 	name = "STATE_214"
@@ -6,7 +7,8 @@ state = {
 	state_category = town
 
 	history = {
-		owner = SOV
+		owner = SKN
+		add_core_of = SKN
 		victory_points = {
 			3338 5 
 		}

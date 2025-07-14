@@ -12,7 +12,8 @@ state= {
 	}
 
 	history={
-		owner = GER
+		owner = GEI
+		add_core_of = GEI
 		victory_points = {
 			6521 50 
 		}

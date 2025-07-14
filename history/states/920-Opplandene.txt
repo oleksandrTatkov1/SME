@@ -1,4 +1,4 @@
-state= {
+state = {
 	id = 920
 	name = "STATE_920"
 	manpower = 211532 # 1410219
@@ -10,7 +10,8 @@ state= {
 		victory_points = {
 			3136 3
 		}
-		owner = NOR
+		owner = SKN
+		add_core_of = SKN
 		add_core_of = NOR
 		buildings = {
 			infrastructure = 2

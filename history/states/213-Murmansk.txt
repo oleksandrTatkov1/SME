@@ -1,5 +1,5 @@
-state= {
 
+state={
 	id=213
 	name="STATE_213"
 	manpower = 275751
@@ -10,7 +10,8 @@ state= {
 	}
 
 	history={
-		owner = SOV
+		owner = SKN
+		add_core_of = SKN
 		victory_points = {
 			3134 5 
 		}

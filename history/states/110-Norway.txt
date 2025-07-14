@@ -1,5 +1,4 @@
 
-
 state = {
 	id = 110
 	name = "STATE_110"
@@ -8,7 +7,7 @@ state = {
 	state_category = large_town
 	
 	resources = {
-		aluminium=2
+
 	}
 
 	history = {
@@ -19,7 +18,8 @@ state = {
 			11151 2
 		}
 		
-		owner = NOR
+		owner = SKN
+		add_core_of = SKN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

@@ -19,7 +19,8 @@ state= {
 		#victory_points = {
 		#	562 3
 		#}
-		owner = POL
+		owner = GEI
+		add_core_of = GEI
 		buildings = {
 			infrastructure = 3
 		}
