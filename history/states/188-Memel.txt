@@ -12,7 +12,7 @@ state=
 		victory_points = {
 			3288 3
 		}
-		owner = LIT
+		owner = GEY
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,12 +20,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = LIT
-
-		1939.3.22 = {
-			owner = GER
-			controller = GER
-		}
+		add_core_of = GEY
 	}
 	provinces={
 		3288 	
