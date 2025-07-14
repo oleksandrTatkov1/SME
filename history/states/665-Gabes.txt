@@ -6,7 +6,8 @@ state= {
 		aluminium=10
 	}
 	history={
-		owner = EGY
+		owner = APE
+		add_core_of = APE
 		add_core_of = TUN
 		victory_points = {
 			7005 1 

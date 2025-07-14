@@ -11,7 +11,8 @@ state= {
 		gas=43
 	}
 	history={
-		owner = FRA
+		owner = APE
+		add_core_of = APE
 		add_core_of = ALG
 		buildings = {
 			infrastructure = 0

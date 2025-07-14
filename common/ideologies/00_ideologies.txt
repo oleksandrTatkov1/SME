@@ -258,6 +258,10 @@ ideologies = {
                 modifiers = {
                 }
             }
+            colonial_administration = {
+                modifiers = {
+                }
+            }
         }
         
         color = { 124 124 124 }
