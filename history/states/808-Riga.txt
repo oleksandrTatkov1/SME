@@ -7,7 +7,8 @@ state= {
 	}
 
 	history={
-		owner = GEI
+		owner = BSR
+		add_core_of = BSR
 		add_core_of = GEI
 		victory_points = {
 			9340 5 

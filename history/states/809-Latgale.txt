@@ -4,7 +4,8 @@ state= {
 	name="STATE_809"
 
 	history={
-		owner = LAT
+		owner = BSR
+		add_core_of = BSR
 		victory_points = {
 			310 3 #Daugavpils
 		}

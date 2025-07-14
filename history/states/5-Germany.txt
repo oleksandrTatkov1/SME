@@ -17,8 +17,6 @@ state= {
 		#	11386 1
 		#}
 		owner = GEI
-		controller = GEY
-		
 		buildings = {
 			infrastructure = 3
 		}
