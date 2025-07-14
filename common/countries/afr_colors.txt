@@ -4,12 +4,12 @@ UGI = {
 	color_ui = rgb { 109 42 37 }
 }
 CAB = {
-	color = rgb { 217 159 82 }
-	color_ui = rgb { 217 159 82 }
+	color = rgb { 219 153 31 }
+	color_ui = rgb { 219 153 31 }
 }
 PQK = {
-	color = rgb { 225 167 79 }
-	color_ui = rgb { 221 156 57 }
+	color = rgb { 219 153 31 }
+	color_ui = rgb { 219 153 31 }
 }
 ACG = {
 	color = rgb { 69 19 110 }
@@ -72,8 +72,8 @@ LMM = {
 	color_ui = rgb { 0 128 128 }
 }
 NIG = {
-	color = rgb { 217 159 82}
-	color_ui = rgb { 173 127 65 }
+	color = rgb { 219 153 31 }
+	color_ui = rgb { 219 153 31 }
 }
 MGR = {
 	color = rgb { 205 127 50 }

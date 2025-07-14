@@ -32,3 +32,36 @@ add_ideas = volunteer_only
 add_ideas = civilian_economy
 
 #recruit_character = abdullah_azzam
+
+    set_autonomy = {
+        target = EGN
+        autonomous_state = autonomy_puppet
+
+    else = {
+        puppet = EGN
+    }
+}
+    set_autonomy = {
+        target = APE
+        autonomous_state = autonomy_puppet
+
+    else = {
+        puppet = APE
+    }
+}
+    set_autonomy = {
+        target = MES
+        autonomous_state = autonomy_puppet
+
+    else = {
+        puppet = MES
+    }
+}
+    set_autonomy = {
+        target = MER
+        autonomous_state = autonomy_puppet
+
+    else = {
+        puppet = MER
+    }
+}

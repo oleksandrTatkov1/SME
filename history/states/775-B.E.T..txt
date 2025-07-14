@@ -7,8 +7,8 @@ state={
 
 	history={
 <<<<<<< HEAD
-		owner = EGE
-		add_core_of = CHA
+		owner = CAB
+		add_core_of = CAB
 =======
 		owner = CAB
 		add_core_of = CAB
