@@ -14,14 +14,14 @@ state=
 
 	history=
 	{
-		owner = GEY
+		owner = GEI
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 		}
 		victory_points = { 6583 5 }
-		add_core_of = GEY
+		add_core_of = GEI
 	}
 
 	provinces = { 6583 }

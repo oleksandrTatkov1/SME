@@ -16,13 +16,13 @@ state= {
 		#victory_points = {
 		#	11386 1
 		#}
-		owner = GEY
+		owner = GEI
 		controller = GEY
 		
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GEY
+		add_core_of = GEI
 	}
 
 	provinces={

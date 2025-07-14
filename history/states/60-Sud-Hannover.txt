@@ -13,14 +13,14 @@ state= {
 	state_category = large_city
 
 	history={
-		owner = GEY
+		owner = GEI
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = GEY
+		add_core_of = GEI
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3

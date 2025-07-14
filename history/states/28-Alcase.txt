@@ -11,7 +11,7 @@ state= {
 	}
 
 	history={
-		owner = GEY
+		owner = GEI
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }
 		victory_points = { 678 5 }
@@ -52,7 +52,7 @@ state= {
 			air_base = 5
 
 		}
-		add_core_of = GEY
+		add_core_of = GEI
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

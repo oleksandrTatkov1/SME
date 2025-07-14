@@ -22,7 +22,7 @@ state=
 		victory_points = {
 			11401 3
 		}
-		owner = GEY
+		owner = GEI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -57,7 +57,7 @@ state=
 			}
 
 		}
-		add_core_of = GEY
+		add_core_of = GEI
 	}
 	provinces=
 	{
