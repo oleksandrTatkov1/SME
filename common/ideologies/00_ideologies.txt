@@ -262,6 +262,10 @@ ideologies = {
                 modifiers = {
                 }
             }
+            banditism = {
+                modifiers = {
+                }
+            }
         }
         
         color = { 124 124 124 }
