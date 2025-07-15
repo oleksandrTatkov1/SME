@@ -12,4 +12,26 @@ liua = {
 		traits = { mon_leader }
 	}
   }
+
+	demchikdonrov_han = {
+		name = demchikdonrov_han
+		portraits = {
+			civilian = {
+				large = GFX_portrait_demchikdonrov_han_large
+				small = GFX_portrait_demchikdonrov_han_small
+			}
+			army = {
+				large = GFX_portrait_demchikdonrov_han_large
+				small = GFX_portrait_demchikdonrov_han_small
+			}
+		}
+		country_leader = {
+			expire = "1970.11.18"
+			ideology = "enlightened_monarchy"
+			traits = {
+			}
+			desc = demchikdonrov_han_desc
+		}
+	}
+
 }

@@ -1,0 +1,23 @@
+characters = {
+	umberto_II = {
+		name = umberto_II
+		portraits = {
+			civilian = {
+				large = GFX_portrait_umberto_II_large
+				small = GFX_portrait_umberto_II_small
+			}
+			army = {
+				large = GFX_portrait_umberto_II_large
+				small = GFX_portrait_umberto_II_small
+			}
+		}
+		country_leader = {
+			expire = "1983.07.20"
+			ideology = "constitutional_monarchy"
+			traits = {
+			}
+			desc = umberto_II_desc
+		}
+	}
+
+}

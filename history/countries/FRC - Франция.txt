@@ -1,0 +1,34 @@
+﻿capital = 16
+
+oob = "FRC_1965"
+
+set_convoys = 450
+
+set_research_slots = 4
+
+set_stability = 0.56
+set_war_support = 0.21
+set_politics = {
+	ruling_party = conservatism
+	last_election = 1963.07.10
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 32
+	liberalism = 12
+	socialism = 12
+	communism = 12
+	fascism = 6
+	reactionism = 4
+	monarchism = 13
+	despotism = 5
+	anarchism = 3
+	islamism = 1
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

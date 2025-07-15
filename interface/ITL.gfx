@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_umberto_II_large"
+		textureFile = gfx/leaders/ITL/umberto_II_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_umberto_II_small"
+		textureFile = "gfx/advisors/ITL/umberto_II_small.dds"
+	}
+}

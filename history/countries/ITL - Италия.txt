@@ -1,0 +1,35 @@
+capital = 2
+
+oob = "ITL_1965"
+
+set_convoys = 650
+
+set_research_slots = 4
+
+set_stability = 0.73
+set_war_support = 0.68
+set_politics = {
+	ruling_party = monarchism
+	last_election = 0001.01.01
+	election_frequency = 0
+	elections_allowed = no
+}
+
+set_popularities = {
+conservatism = 3
+liberalism = 2
+socialism = 13
+communism = 12
+fascism = 2
+reactionism = 2
+monarchism = 45
+despotism = 15
+anarchism = 3
+islamism = 3
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+
+recruit_character = umberto_II
