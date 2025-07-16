@@ -1,6 +1,6 @@
-capital = 271
+capital = 550
 
-oob = "EPE_army"
+oob = "EGN_army"
 
 # Starting tech
 set_technology = {
@@ -24,11 +24,11 @@ set_politics = {
 set_popularities = {
     communism     = 0
     socialism      = 0
-    despotism       = 56
+    conservatism    = 0
     reactionism     = 0
     islamism        = 25
     liberalism      = 0
-    conservatism    = 0
+	despotism       = 56
     fascism         = 19
     monarchism      = 0 
     anarchism       = 0   
