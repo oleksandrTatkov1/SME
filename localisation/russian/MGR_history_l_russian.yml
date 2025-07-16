@@ -1,16 +1,44 @@
 ﻿l_russian:
- MGR_fascism: "Халифат Мали"
- MGR_fascism_DEF: "Халифат Мали"
- MGR_democratic: "Республика Мали"
- MGR_democratic_DEF: "Республика Мали"
- MGR_neutrality: "Империя Мали"
- MGR_neutrality_DEF: "Империя Мали"
- MGR_communism: "Социалистическая Республика Мали"
- MGR_communism_DEF: "Социалистическая Республика Мали"
- MGR_fascism_ADJ: "Малийск"
- MGR_democratic_ADJ: "Малийск"
- MGR_neutrality_ADJ: "Малийск"
- MGR_communism_ADJ: "Малийск"
- MGR: "Мали"
- MGR_DEF: "Мали"
- MGR_ADJ: "Малийск"
+ MGR_fascism:0 "Империя Мали"
+ MGR_fascism_DEF:0 "Империя Мали"
+ MGR_fascism_ADJ:0 "Малийск."
+
+ MGR_conservatism:0 "Консервативная Республика Мали"
+ MGR_conservatism_DEF:0 "Консервативная Республика Мали"
+ MGR_conservatism_ADJ:0 "Малийск."
+
+ MGR_liberalism:0 "Либеральная Республика Мали"
+ MGR_liberalism_DEF:0 "Либеральная Республика Мали"
+ MGR_liberalism_ADJ:0 "Малийск."
+
+ MGR_socialism:0 "Социалистическая Республика Мали"
+ MGR_socialism_DEF:0 "Социалистическая Республика Мали"
+ MGR_socialism_ADJ:0 "Малийск."
+
+ MGR_communism:0 "Малийская Народная Демократическая Республика"
+ MGR_communism_DEF:0 "Малийская Народная Демократическая Республика"
+ MGR_communism_ADJ:0 "Малийск."
+
+ MGR_reactionism:0 "Государство Вечного Злата"
+ MGR_reactionism_DEF:0 "Государство Вечного Злата"
+ MGR_reactionism_ADJ:0 "Малийск."
+
+ MGR_monarchism:0 "Империя Мали"
+ MGR_monarchism_DEF:0 "Империя Мали"
+ MGR_monarchism_ADJ:0 "Малийск."
+
+ MGR_despotism:0 "Военное Государство Мали"
+ MGR_despotism_DEF:0 "Военное Государство Мали"
+ MGR_despotism_ADJ:0 "Малийск."
+
+ MGR_anarchism:0 "Свободные Племена Мали"
+ MGR_anarchism_DEF:0 "Свободные Племена Мали"
+ MGR_anarchism_ADJ:0 "Малийск."
+
+ MGR_islamism:0 "Халифат Мали"
+ MGR_islamism_DEF:0 "Халифат Мали"
+ MGR_islamism_ADJ:0 "Малийск."
+
+ MGR:0 "Мали"
+ MGR_DEF:0 "Мали"
+ MGR_ADJ:0 "Малийск."

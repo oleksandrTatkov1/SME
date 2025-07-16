@@ -1,16 +1,34 @@
 ﻿l_russian:
- BSR_fascism: ""
- BSR_fascism_DEF: ""
- BSR_democratic: ""
- BSR_democratic_DEF: ""
- BSR_neutrality: ""
- BSR_neutrality_DEF: ""
+ BSR_conservatism: "Балтийская Республика"
+ BSR_conservatism_DEF: "Балтийская Республика"
+
+ BSR_liberalism: "Федерация Балтики"
+ BSR_liberalism_DEF: "Федерация Балтики"
+
+ BSR_socialism: "Социалистическая Балтика"
+ BSR_socialism_DEF: "Социалистическая Федерация Балтики"
+
  BSR_communism: "Балтийская Советская Республика"
- BSR_communism_DEF: ""
- BSR_fascism_ADJ: ""
- BSR_democratic_ADJ: ""
- BSR_neutrality_ADJ: ""
- BSR_communism_ADJ: ""
- BSR: ""
- BSR_DEF: ""
- BSR_ADJ: ""
+ BSR_communism_DEF: "Балтийская Советская Республика"
+
+ BSR_fascism: "Балтийское Национальное Государство"
+ BSR_fascism_DEF: "Балтийское Национальное Государство"
+
+ BSR_reactionism: "Уния Тевтонского Возрождения"
+ BSR_reactionism_DEF: "Уния Тевтонского Возрождения"
+
+ BSR_monarchism: "Королевство Балтийских Земель"
+ BSR_monarchism_DEF: "Королевство Балтийских Земель"
+
+ BSR_despotism: "Балтийская Хунта"
+ BSR_despotism_DEF: "Военная Администрация Балтийского региона"
+
+ BSR_anarchism: "Балтийские Коммуны"
+ BSR_anarchism_DEF: "Балтийские Коммуны"
+
+ BSR_islamism: "Исламский Эмират Балтики"
+ BSR_islamism_DEF: "Исламский Эмират Балтики"
+
+ BSR: "Балтика"
+ BSR_DEF: "Балтика"
+ BSR_ADJ: "Балтийск""

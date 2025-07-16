@@ -1,16 +1,48 @@
 ﻿l_russian:
- LMM_fascism: "Владение Змея"
- LMM_fascism_DEF: "Владение Змея"
- LMM_democratic: "Либерия"
- LMM_democratic_DEF: "Либерия"
- LMM_neutrality: "Либерия"
- LMM_neutrality_DEF: "Либерия"
- LMM_communism: "Либерийская коммуна"
- LMM_communism_DEF: "Либерийская коммуна"
- LMM_fascism_ADJ: "Либерийск"
- LMM_democratic_ADJ: "Либерийск"
- LMM_neutrality_ADJ: "Либерийск"
- LMM_communism_ADJ: "Либерийск"
- LMM: "Либерия"
- LMM_DEF: "Либерия"
- LMM_ADJ: "Либерийск"
+ LMM_fascism:0 "Либерийская Хунта"
+ LMM_fascism_DEF:0 "Либерийская Хунта"
+ LMM_fascism_ADJ:0 "Либерийск."
+
+ LMM_democratic:0 "Республика Либерия"
+ LMM_democratic_DEF:0 "Республика Либерия"
+ LMM_democratic_ADJ:0 "Либерийск."
+
+ LMM_conservatism:0 "Консервативная Либерия"
+ LMM_conservatism_DEF:0 "Консервативная Либерия"
+ LMM_conservatism_ADJ:0 "Либерийск."
+
+ LMM_liberalism:0 "Либеральная Либерия"
+ LMM_liberalism_DEF:0 "Либеральная Либерия"
+ LMM_liberalism_ADJ:0 "Либерийск."
+
+ LMM_socialism:0 "Социалистическая Либерия"
+ LMM_socialism_DEF:0 "Социалистическая Либерия"
+ LMM_socialism_ADJ:0 "Либерийск."
+
+ LMM_communism:0 "Либерийская Коммуна"
+ LMM_communism_DEF:0 "Либерийская Коммуна"
+ LMM_communism_ADJ:0 "Либерийск."
+
+ LMM_reactionism:0 "Его Владение"
+ LMM_reactionism_DEF:0 "Его Владение"
+ LMM_reactionism_ADJ:0 "Либерийск."
+
+ LMM_monarchism:0 "Королевство Либерия"
+ LMM_monarchism_DEF:0 "Королевство Либерия"
+ LMM_monarchism_ADJ:0 "Либерийск."
+
+ LMM_despotism:0 "Республика Либерия"
+ LMM_despotism_DEF:0 "Республика Либерия"
+ LMM_despotism_ADJ:0 "Либерийск."
+
+ LMM_anarchism:0 "Свободные Коммуны Либерии"
+ LMM_anarchism_DEF:0 "Свободные Коммуны Либерии"
+ LMM_anarchism_ADJ:0 "Либерийск."
+
+ LMM_islamism:0 "Исламская Республика Либерия"
+ LMM_islamism_DEF:0 "Исламская Республика Либерия"
+ LMM_islamism_ADJ:0 "Либерийск."
+
+ LMM:0 "Либерия"
+ LMM_DEF:0 "Либерии"
+ LMM_ADJ:0 "Либерийск."

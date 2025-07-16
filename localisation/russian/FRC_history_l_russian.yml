@@ -1,24 +1,34 @@
 ﻿l_russian:
- FRC_conservatism: ""
- FRC_conservatism_DEF: ""
- FRC_liberalism: ""
- FRC_liberalism_DEF: ""
- FRC_socialism: ""
- FRC_socialism_DEF: ""
- FRC_communism: ""
- FRC_communism_DEF: ""
- FRC_fascism: ""
- FRC_fascism_DEF: ""
- FRC_reactionism: ""
- FRC_reactionism_DEF: ""
- FRC_monarchism: ""
- FRC_monarchism_DEF: ""
- FRC_despotism: ""
- FRC_despotism_DEF: ""
- FRC_anarchism: ""
- FRC_anarchism_DEF: ""
- FRC_islamism: ""
- FRC_islamism_DEF: ""
- FRC: "Франция"
- FRC_DEF: ""
- FRC_ADJ: ""
+ FRC_conservatism:0 "Французская Республика"
+ FRC_conservatism_DEF:0 "Французская Республика"
+
+ FRC_liberalism:0 "Французская Республика"
+ FRC_liberalism_DEF:0 "Французская Республика"
+
+ FRC_socialism:0 "Социалистическая Республика Франция"
+ FRC_socialism_DEF:0 "Социалистическая Республика Франция"
+
+ FRC_communism:0 "Французская Народная Республика"
+ FRC_communism_DEF:0 "Французская Народная Республика"
+
+ FRC_fascism:0 "Государство Франция"
+ FRC_fascism_DEF:0 "Государство Франция"
+
+ FRC_reactionism:0 "Королевство Карла Великого"
+ FRC_reactionism_DEF:0 "Королевство Карла Великого"
+
+ FRC_monarchism:0 "Королевство Франция"
+ FRC_monarchism_DEF:0 "Королевство Франция"
+
+ FRC_despotism:0 "Государство Франция"
+ FRC_despotism_DEF:0 "Государство Франция"
+
+ FRC_anarchism:0 "Революционные Коммуны Франции"
+ FRC_anarchism_DEF:0 "Революционные Коммуны Франции"
+
+ FRC_islamism:0 "Исламская Республика Франция"
+ FRC_islamism_DEF:0 "Исламская Республика Франция"
+
+ FRC:0 "Франция"
+ FRC_DEF:0 "Франции"
+ FRC_ADJ:0 "Французск."

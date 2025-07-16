@@ -1,16 +1,44 @@
 ﻿l_russian:
- SKN_fascism: ""
- SKN_fascism_DEF: ""
- SKN_democratic: ""
- SKN_democratic_DEF: ""
- SKN_neutrality: ""
- SKN_neutrality_DEF: ""
- SKN_communism: ""
- SKN_communism_DEF: ""
- SKN_fascism_ADJ: ""
- SKN_democratic_ADJ: ""
- SKN_neutrality_ADJ: ""
- SKN_communism_ADJ: ""
- SKN: "Скандинавская Империя"
- SKN_DEF: ""
- SKN_ADJ: ""
+ SKN_fascism:0 "Нордический Союз"
+ SKN_fascism_DEF:0 "Нордический Союз"
+ SKN_fascism_ADJ:0 "Скандинавск."
+
+ SKN_conservatism:0 "Скандинавская Федерация"
+ SKN_conservatism_DEF:0 "Скандинавская Федерация"
+ SKN_conservatism_ADJ:0 "Скандинавск."
+
+ SKN_liberalism:0 "Федеративная Республика Скандинавия"
+ SKN_liberalism_DEF:0 "Федеративная Республика Скандинавия"
+ SKN_liberalism_ADJ:0 "Скандинавск."
+
+ SKN_socialism:0 "Социалистическая Республика Скандинавия"
+ SKN_socialism_DEF:0 "Социалистическая Республика Скандинавия"
+ SKN_socialism_ADJ:0 "Скандинавск."
+
+ SKN_communism:0 "Скандинавская Народная Республика"
+ SKN_communism_DEF:0 "Скандинавская Народная Республика"
+ SKN_communism_ADJ:0 "Скандинавск."
+
+ SKN_reactionism:0 "Империя Одинова Завета"
+ SKN_reactionism_DEF:0 "Империя Одинова Завета"
+ SKN_reactionism_ADJ:0 "Скандинавск."
+
+ SKN_monarchism:0 "Скандинавская Империя"
+ SKN_monarchism_DEF:0 "Скандинавская Империя"
+ SKN_monarchism_ADJ:0 "Скандинавск."
+
+ SKN_despotism:0 "Скандинавская Империя"
+ SKN_despotism_DEF:0 "Скандинавская Империя"
+ SKN_despotism_ADJ:0 "Скандинавск."
+
+ SKN_anarchism:0 "Коммуны Севера"
+ SKN_anarchism_DEF:0 "Коммуны Севера"
+ SKN_anarchism_ADJ:0 "Скандинавск."
+
+ SKN_islamism:0 "Исламская Республика Скандинавия"
+ SKN_islamism_DEF:0 "Исламская Республика Скандинавия"
+ SKN_islamism_ADJ:0 "Скандинавск."
+
+ SKN:0 "Скандинавская Империя"
+ SKN_DEF:0 "Скандинавской Империи"
+ SKN_ADJ:0 "Скандинавск."
