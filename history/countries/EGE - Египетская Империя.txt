@@ -6,6 +6,48 @@ set_research_slots = 4
 
 set_stability = 0.45
 set_war_support = 0.57
+
+
+# Starting ideas
+recruit_character = favzia_fuad
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+
+#recruit_character = abdullah_azzam
+
+    set_autonomy = {
+        target = EGN
+        autonomous_state = autonomy_egypt_military_administration
+
+    else = {
+        puppet = EGN
+    }
+}
+    set_autonomy = {
+        target = APE
+        autonomous_state = autonomy_egypt_military_administration
+
+    else = {
+        puppet = APE
+    }
+}
+    set_autonomy = {
+        target = MES
+        autonomous_state = autonomy_egypt_military_administration
+
+    else = {
+        puppet = MES
+    }
+}
+    set_autonomy = {
+        target = MER
+        autonomous_state = autonomy_egypt_military_administration
+
+    else = {
+        puppet = MER
+    }
+}
+
 set_politics = {
 	ruling_party = monarchism
 	last_election = "16.07.1954"
@@ -24,44 +66,4 @@ monarchism = 52
 despotism = 9
 anarchism = 3
 islamism = 12
-}
-
-# Starting ideas
-recruit_character = favzia_fuad
-add_ideas = volunteer_only
-add_ideas = civilian_economy
-
-#recruit_character = abdullah_azzam
-
-    set_autonomy = {
-        target = EGN
-        autonomous_state = autonomy_dominion
-
-    else = {
-        puppet = EGN
-    }
-}
-    set_autonomy = {
-        target = APE
-        autonomous_state = autonomy_dominion
-
-    else = {
-        puppet = APE
-    }
-}
-    set_autonomy = {
-        target = MES
-        autonomous_state = autonomy_dominion
-
-    else = {
-        puppet = MES
-    }
-}
-    set_autonomy = {
-        target = MER
-        autonomous_state = autonomy_dominion
-
-    else = {
-        puppet = MER
-    }
 }

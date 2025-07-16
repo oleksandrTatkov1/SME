@@ -129,6 +129,10 @@ ideologies = {
                 modifiers = {
                 }
             }
+            guevarism = {
+                modifiers = {
+                }
+            }
         }
         
         color = { 170 0 0 }
