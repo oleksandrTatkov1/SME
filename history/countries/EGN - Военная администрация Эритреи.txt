@@ -1,6 +1,6 @@
 capital = 271
 
-oob = "EPE_army"
+oob = "EGN_army"
 
 # Starting tech
 set_technology = {

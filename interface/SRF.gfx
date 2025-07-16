@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_khrushev_nikita_large"
+		textureFile = gfx/leaders/SRF/khrushev_nikita_big.dds
+	}
+	spriteType = {
+		name = "GFX_portrait_khrushev_nikita_small"
+		textureFile = "gfx/advisors/SRF/khrushev_nikita_small.dds"
+	}
+}

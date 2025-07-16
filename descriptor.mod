@@ -13,3 +13,4 @@ tags={
 }
 name="SME"
 supported_version="1.14.5"
+replace_path="map"

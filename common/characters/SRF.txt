@@ -1,0 +1,24 @@
+characters = {
+	khrushev_nikita = {
+		name = khrushev_nikita
+		portraits = {
+			civilian = {
+				large = GFX_portrait_khrushev_nikita_large
+				small = GFX_portrait_khrushev_nikita_small
+			}
+			army = {
+				large = GFX_portrait_khrushev_nikita_large
+				small = GFX_portrait_khrushev_nikita_small
+			}
+		}
+		country_leader = {
+			expire = "1971.09.11"
+			ideology = "leninism"
+			traits = {
+				impulsive
+			}
+			desc = khrushev_nikita_desc
+		}
+	}
+
+}

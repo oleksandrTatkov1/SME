@@ -1,4 +1,4 @@
-﻿oob = "SRF_1965"
+oob = "SRF_1965"
 
 set_convoys = 0
 
@@ -30,3 +30,4 @@ islamism = 1
 add_ideas = volunteer_only
 add_ideas = civilian_economy
 
+recruit_character = khrushev_nikita
