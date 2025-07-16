@@ -1,24 +1,34 @@
 ﻿l_russian:
- BLS_conservatism: ""
- BLS_conservatism_DEF: ""
- BLS_liberalism: ""
- BLS_liberalism_DEF: ""
- BLS_socialism: ""
- BLS_socialism_DEF: ""
+ BLS_conservatism: "Республика Беларусь"
+ BLS_conservatism_DEF: "Республика Беларусь"
+ 
+ BLS_liberalism: "Республика Беларусь"
+ BLS_liberalism_DEF: "Республика Беларусь"
+ 
+ BLS_socialism: "Социалистическая Республика Беларусь"
+ BLS_socialism_DEF: "Социалистическая Республика Беларусь"
+ 
  BLS_communism: "Белорусская Советская Республика"
- BLS_communism_DEF: ""
- BLS_fascism: ""
- BLS_fascism_DEF: ""
- BLS_reactionism: ""
- BLS_reactionism_DEF: ""
- BLS_monarchism: ""
- BLS_monarchism_DEF: ""
- BLS_despotism: ""
- BLS_despotism_DEF: ""
- BLS_anarchism: ""
- BLS_anarchism_DEF: ""
- BLS_islamism: ""
- BLS_islamism_DEF: ""
- BLS: "Белорусия"
- BLS_DEF: ""
- BLS_ADJ: ""
+ BLS_communism_DEF: "Белорусская Советская Республика"
+ 
+ BLS_fascism: "Национальное Возрождение Беларуси"
+ BLS_fascism_DEF: "Государство Национального Возрождения Беларуси"
+ 
+ BLS_reactionism: "Реставрационная Беларусь"
+ BLS_reactionism_DEF: "Реставрационная Республика Беларусь"
+ 
+ BLS_monarchism: "Королевство Белой Руси"
+ BLS_monarchism_DEF: "Королевство Белой Руси"
+ 
+ BLS_despotism: "Государство Беларусь"
+ BLS_despotism_DEF: "Государство Беларусь"
+ 
+ BLS_anarchism: "Свободные Коммуны Беларуси"
+ BLS_anarchism_DEF: "Свободные Коммуны Беларуси"
+ 
+ BLS_islamism: "Исламский Эмират Беларусь"
+ BLS_islamism_DEF: "Исламский Эмират Беларусь"
+ 
+ BLS: "Белоруссия"
+ BLS_DEF: "Белоруссия"
+ BLS_ADJ: "Белорусск"
