@@ -1,0 +1,26 @@
+state= {
+	id=983
+	name="STATE_983"
+	manpower = 332200
+	
+	state_category = town
+	resources = {
+		rubber = 12
+	}
+	history={
+		owner = SMM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+		}
+		add_core_of = SMM
+	}
+
+	provinces={
+		13414 13413 13412 13417 13420 13419 13422 13418 1966 13421
+	}
+
+	local_supplies=7.0 
+}

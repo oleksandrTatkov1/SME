@@ -1,0 +1,28 @@
+state=
+{
+	id = 559
+	name = "STATE_559"
+	manpower = 332200
+	
+	state_category = town
+	resources = {
+		steel = 3
+	}
+	history={
+		owner = SMM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			12991 5
+		}
+		add_core_of = SMM
+	}
+
+	provinces={
+		12991 13392 13390 13391 13394 5065 13397 13395 13396
+	}
+
+	local_supplies=7.0
+}

@@ -1,0 +1,27 @@
+state= {
+	id=973
+	name="STATE_973"
+	manpower = 134000
+	
+	state_category = town
+	resources = {
+		rubber = 4
+		steel = 2
+	}
+	history={
+		owner = LMM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 13369 1 }
+		victory_points = { 13367 1 }
+		add_core_of = LMM
+	}
+
+	provinces={
+		13370 13367 13369 13368
+	}
+
+	local_supplies=7.0 
+}
