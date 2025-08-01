@@ -179,10 +179,6 @@ ideologies = {
 
     reactionism = {
         types = {
-            absolutism = {
-                modifiers = {
-                }
-            }
             paleoconservatism = {
                 modifiers = {
                 }

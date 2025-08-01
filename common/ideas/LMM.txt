@@ -8,7 +8,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = neutrality
+				 has_government = despotism
 			}
 
 			removal_cost = -1
@@ -21,13 +21,14 @@ ideas = {
 				army_org_factor = 0.1
 			}
 		}
-			LMM_ghost_government = { 
+		
+		LMM_ghost_government = { 
 			allowed = {
 				always = yes
 			}
 
 			allowed_civil_war = {
-				 has_government = neutrality
+				 has_government = despotism
 			}
 
 			removal_cost = -1
@@ -40,6 +41,132 @@ ideas = {
 			recruitable_population_factor = -0.3
 			supply_factor = -0.3
 
+			}
+		}
+		
+		LMM_people_angry_dp = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_people_angry_art
+
+			modifier = {
+			stability_factor = -0.30
+			political_power_factor = -0.15
+			conservatism_drift = 0.1
+
+			}
+		}
+		
+		LMM_people_angry = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_people_angry_art
+
+			modifier = {
+			stability_factor = -0.20
+			political_power_factor = -0.05
+			monthly_population = -0.05
+			conservatism_drift = 0.15
+
+			}
+		}
+				LMM_tabmen_guard = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_tabmen_guard_art
+
+			modifier = {
+			army_org_factor = 0.15
+			army_core_defence_factor = 0.1
+			army_core_attack_factor = 0.1
+			}
+		}
+			LMM_border = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_border_art
+
+			modifier = {
+			stability_factor = -0.05
+			political_power_factor = -0.1
+			consumer_goods_factor = 0.3
+			recruitable_population_factor = -0.1
+			supply_factor = -0.15
+
+			}
+		}
+		
+			LMM_elephant_in_the_china_shop = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_border_art
+
+			modifier = {
+			stability_weekly = -0.05
+			political_power_factor = 0.1
+			army_speed_factor = 0.1
+			}
+		}
+			LMM_border_on_fire = { 
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				 has_government = despotism
+			}
+
+			removal_cost = -1
+
+			picture = lmm_border_art
+
+			modifier = {
+			stability_factor = -0.1
+			political_power_factor = -0.2
+			consumer_goods_factor = 0.5
+			recruitable_population_factor = -0.5
+		    monthly_population = -0.05
+			supply_factor = -0.2
 			}
 		}
 	}

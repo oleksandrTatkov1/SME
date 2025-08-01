@@ -115,11 +115,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_mon_bur_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_mon_bur_icon.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_autonomy_puppet_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
 	}
@@ -177,6 +172,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_autonomy_personal_union_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_personal_union_puppet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_aat_defense_council_member_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
 	}
 	
 	#-------------
@@ -427,6 +427,11 @@ spriteTypes = {
 		name = "GFX_idea_entry_bg_3"
 		texturefile = "gfx/interface/idea_entry_bg_3.dds"
 		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_idea_entry_bg_4"
+		texturefile = "gfx/interface/idea_entry_bg_4.dds"
 	}
 
 	spriteType = {

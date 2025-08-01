@@ -1,0 +1,223 @@
+focus_tree = {
+	id = LMM_Tabmen_Death
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LMM
+		}
+	}
+	default = no
+	focus = {
+		id = LMM_last_hour_Tabmen_lion
+		icon = GFX_goal_generic_demand_territory
+		cost = 1
+		x = 9
+		y = 1
+		
+	completion_reward = { 
+		 LMM = { country_event = LMM_tabmen_tree_event.1 }
+		}
+	}
+	focus = {
+		id = LMM_visability_order
+		icon = GFX_goal_generic_demand_territory
+		cost = 1
+		prerequisite = {
+			focus = LMM_last_hour_Tabmen_lion
+		}
+		x = 9
+		y = 2
+		
+	completion_reward = { 
+		 add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = LMM_carte_blanche_security_forces
+		icon = GFX_goal_demand_sudetenland
+		cost = 2
+		prerequisite = {
+			focus = LMM_visability_order
+		}
+		x = 6
+		y = 3
+		
+		completion_reward = {
+		stability_factor = -0.20
+		LMM = { country_event = LMM_tabmen_tree_event.6 }
+		}
+
+	}
+	focus = {
+		id = LMM_purging_generals_disloyalty
+		icon = GFX_goal_demand_sudetenland
+		cost = 2
+		prerequisite = {
+			focus = LMM_carte_blanche_security_forces
+		}
+		x = 5
+		y = 4
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.7 }
+		}
+
+	}
+	focus = {
+		id = LMM_guard_of_tabmen
+		icon = GFX_goal_demand_sudetenland
+		cost = 2
+		prerequisite = {
+			focus = LMM_carte_blanche_security_forces
+		}
+		x = 7
+		y = 4
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.8 }
+		add_ideas = LMM_tabmen_guard
+		}
+
+	}
+	focus = {
+		id = LMM_martial_law_in_border_areas
+		icon = GFX_goal_demand_sudetenland
+		cost = 3
+		prerequisite = {
+			focus = LMM_purging_generals_disloyalty
+		}
+		prerequisite = {
+			focus = LMM_guard_of_tabmen
+		}
+		x = 6
+		y = 5
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.9 }
+				swap_ideas = {
+				remove_idea = LMM_ghost_government
+				add_idea = LMM_border
+		}
+		}
+
+	}
+	focus = {
+		id = LMM_end_Illusions
+		icon = GFX_goal_anti_comintern_pact
+		cost = 2
+		prerequisite = {
+			focus = LMM_visability_order
+		}
+		x = 12
+		y = 3
+		
+	completion_reward = {
+	     LMM = { country_event = LMM_tabmen_tree_event.2 }
+		}
+
+	}
+	focus = {
+		id = LMM_promise_reforms
+		icon = GFX_goal_generic_improve_relations
+		cost = 2
+		prerequisite = {
+			focus = LMM_end_Illusions
+		}
+		mutually_exclusive = {
+			focus = LMM_disperse_provocateurs
+		}
+		x = 11
+		y = 4
+		
+	completion_reward = {	
+    stability_factor = 0.15
+	}
+
+	}
+	focus = {
+		id = LMM_congress_nation
+		icon = GFX_goal_generic_improve_relations
+		cost = 2
+		prerequisite = {
+			focus = LMM_promise_reforms
+		}
+		x = 11
+		y = 5
+		
+	completion_reward = {	
+    LMM = { country_event = LMM_tabmen_tree_event.3 }
+	}
+
+	}
+	focus = {
+		id = LMM_roaring_louder
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 3
+		prerequisite = {
+			focus = LMM_martial_law_in_border_areas
+		}
+		prerequisite = {
+			focus = LMM_did_it_work
+		}
+		x = 9
+		y = 7
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.10 }
+		}
+
+	}
+	focus = {
+		id = LMM_did_it_work
+		icon = GFX_goal_anschluss
+		cost = 1
+		prerequisite = {
+			focus = LMM_tough_measures_protest_leaders
+			focus = LMM_congress_nation
+		}
+		x = 12
+		y = 6
+		
+	completion_reward = {	
+    remove_ideas = LMM_people_angry
+	remove_ideas = LMM_people_angry_dp
+	stability_factor = 0.2
+	}
+
+	}
+	focus = {
+		id = LMM_disperse_provocateurs
+		icon = GFX_goal_generic_political_pressure
+		cost = 2
+		prerequisite = {
+			focus = LMM_end_Illusions
+		}
+		mutually_exclusive = {
+			focus = LMM_promise_reforms
+		}
+		x = 13
+		y = 4
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.4 }
+		}
+
+	}
+	focus = {
+		id = LMM_tough_measures_protest_leaders
+		icon = GFX_goal_generic_political_pressure
+		cost = 2
+		prerequisite = {
+			focus = LMM_disperse_provocateurs
+		}
+		x = 13
+		y = 5
+		
+		completion_reward = {
+		LMM = { country_event = LMM_tabmen_tree_event.5 }
+		}
+
+	}
+}

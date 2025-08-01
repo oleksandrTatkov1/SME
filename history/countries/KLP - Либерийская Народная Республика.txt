@@ -1,0 +1,32 @@
+﻿oob = "KLP_revolution"
+
+set_convoys = 0
+
+set_research_slots = 2
+
+set_stability = 3
+set_war_support = 7
+set_politics = {
+	ruling_party = communism
+	last_election = "05.12.1900"
+	election_frequency = 0
+	elections_allowed = False
+}
+
+set_popularities = {
+conservatism = 0
+liberalism = 0
+socialism = 35
+communism = 65
+fascism = 0
+reactionism = 0
+monarchism = 0
+despotism = 0
+anarchism = 0
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

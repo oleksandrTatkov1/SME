@@ -1,0 +1,259 @@
+add_namespace = LMM_tabmen_tree_event
+   
+  country_event = {
+  id = LMM_tabmen_tree_event.1
+  title = LMM_tabmen_tree_event.1.t
+  desc = LMM_tabmen_tree_event.1.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.1.a
+  stability_factor = 0.05
+  add_ideas = LMM_last_time_of_liberia_lion
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.2
+  title = LMM_tabmen_tree_event.2.t
+  desc = LMM_tabmen_tree_event.2.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.2.a
+  add_ideas = LMM_people_angry
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.3
+  title = LMM_tabmen_tree_event.3.t
+  desc = LMM_tabmen_tree_event.3.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.3.a
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.4
+  title = LMM_tabmen_tree_event.4.t
+  desc = LMM_tabmen_tree_event.4.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.4.a
+  remove_ideas = LMM_people_angry
+  add_ideas = LMM_people_angry_dp
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.5
+  title = LMM_tabmen_tree_event.5.t
+  desc = LMM_tabmen_tree_event.5.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.5.a
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.6
+  title = LMM_tabmen_tree_event.6.t
+  desc = LMM_tabmen_tree_event.6.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.6.a
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.7
+  title = LMM_tabmen_tree_event.7.t
+  desc = LMM_tabmen_tree_event.7.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.7.a
+  stability_factor = 0.05
+  add_manpower = -50
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.8
+  title = LMM_tabmen_tree_event.8.t
+  desc = LMM_tabmen_tree_event.8.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.8.a
+  stability_factor = 0.15
+  add_population 973 -100 
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.9
+  title = LMM_tabmen_tree_event.9.t
+  desc = LMM_tabmen_tree_event.9.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.9.a
+  stability_factor = -0.1
+  add_manpower = -23
+  ai_chance = { factor = 100 }
+}
+}
+  country_event = {
+  id = LMM_tabmen_tree_event.10
+  title = LMM_tabmen_tree_event.10.t
+  desc = LMM_tabmen_tree_event.10.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_tabmen_tree_event.10.a
+  remove_ideas = LMM_last_time_of_liberia_lion
+  retire_ideology_leader = despotism
+  recruit_character = LMM_numa 
+  load_focus_tree = LMM_liberia_fall
+  ai_chance = { factor = 100 }
+}
+}

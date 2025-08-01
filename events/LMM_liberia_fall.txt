@@ -1,0 +1,165 @@
+add_namespace = LMM_liberia_fall
+   
+  country_event = {
+  id = LMM_liberia_fall.1
+  title = LMM_liberia_fall.1.t
+  desc = LMM_liberia_fall.1.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_liberia_fall.1.a
+  add_ideas = LMM_elephant_in_the_china_shop
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}
+  country_event = {
+  id = LMM_liberia_fall.2
+  title = LMM_liberia_fall.2.t
+  desc = LMM_liberia_fall.2.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_liberia_fall.2.a
+  stability_factor = -0.15
+	random_owned_controlled_state = {
+       prioritize = { 298 }
+	   add_manpower = -1532
+	}
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}
+  country_event = {
+  id = LMM_liberia_fall.3
+  title = LMM_liberia_fall.3.t
+  desc = LMM_liberia_fall.3.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_liberia_fall.3.a
+  stability_factor = -0.2
+  add_manpower = -742
+	random_owned_controlled_state = {
+       prioritize = { 974 973 }
+	   add_manpower = -456
+	}
+	random_owned_controlled_state = {
+       prioritize = { 974 973 }
+	   add_manpower = -742
+	}
+  remove_ideas = LMM_border
+  add_ideas = LMM_border_on_fire
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}
+  country_event = {
+  id = LMM_liberia_fall.4
+  title = LMM_liberia_fall.4.t
+  desc = LMM_liberia_fall.4.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  
+  }
+ }
+  
+  option = {
+  
+  name = LMM_liberia_fall.4.a
+  LMM = { country_event = LMM_liberia_fall.5 }
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}
+  country_event = {
+  id = LMM_liberia_fall.5
+  title = LMM_liberia_fall.5.t
+  desc = LMM_liberia_fall.5.d
+  picture =
+  
+  fire_only_once = yes
+  
+  trigger = {
+  
+  tag = LMM
+  OLG = {
+  
+  owns_state = 298
+  owns_state = 973
+  }
+ }
+  
+  option = {
+  name = LMM_liberia_fall.5.a
+   KLP = { 
+            transfer_state = 973
+        }
+  switch_tag = KLP
+  ai_chance = { factor = 0 }
+  trigger = {
+  }
+}
+  option = {
+  
+  name = LMM_liberia_fall.5.b
+     KLP = { 
+            transfer_state = 973
+        }
+  LMM = { country_event = LMM_liberia_fall.6 }
+  ai_chance = { factor = 100 }
+  trigger = {
+  }
+}
+}

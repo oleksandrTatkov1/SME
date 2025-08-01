@@ -14,4 +14,26 @@ characters = {
 		}
 	}
 
+
+	LMM_numa = {
+		name = LMM_numa
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LMM_numa_large
+				small = GFX_portrait_LMM_numa_small
+			}
+			army = {
+				large = GFX_portrait_LMM_numa_large
+				small = GFX_portrait_LMM_numa_small
+			}
+		}
+		country_leader = {
+			expire = "2025.07.27"
+			ideology = "military_dictatorship"
+			traits = {
+			}
+			desc = LMM_numa_desc
+		}
+	}
+
 }

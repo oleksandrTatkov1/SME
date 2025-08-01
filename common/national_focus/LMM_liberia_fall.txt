@@ -1,0 +1,114 @@
+focus_tree = {
+	id = LMM_liberia_fall
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LMM
+		}
+	}
+	default = no
+	focus = {
+		id = LMM_fall_of_the_lion
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1
+		x = 8
+		y = 1
+		
+    	completion_reward = { 
+		 LMM = { country_event = LMM_liberia_fall.1 }
+		}
+	}
+	focus = {
+		id = LMM_state_of_emergency
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1
+		prerequisite = {
+			focus = LMM_fall_of_the_lion
+		}
+		x = 8
+		y = 2
+		
+		completion_reward = { 
+		stability_factor = 0.1
+		add_popularity = {
+        ideology = despotism
+         popularity = 0.05
+			}
+		}
+
+	}
+	focus = {
+		id = LMM_cleansing_the_cities
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3
+		prerequisite = {
+			focus = LMM_state_of_emergency
+		}
+		x = 7
+		y = 3
+		
+        completion_reward = {
+	stability_factor = 0.1
+	random_owned_controlled_state = {
+       prioritize = { 298 975 972 }
+	   add_manpower = -1000
+	}
+	   random_owned_controlled_state = {
+       prioritize = { 298 975 972  }
+	   add_manpower = -592
+	}
+	   random_owned_controlled_state = {
+       prioritize = { 298 975 972  }
+	   add_manpower = -401
+	}
+		}
+	}
+	focus = {
+		id = LMM_abandoned_by_elites
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3
+		prerequisite = {
+			focus = LMM_state_of_emergency
+		}
+		x = 9
+		y = 3
+		
+		completion_reward = { 
+		LMM = { country_event = LMM_liberia_fall.2 }
+		}
+
+	}
+	focus = {
+		id = LMM_ligniting_the_jungle
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = LMM_cleansing_the_cities
+		}
+		prerequisite = {
+			focus = LMM_abandoned_by_elites
+		}
+		x = 8
+		y = 4
+
+    completion_reward = {
+	    LMM = { country_event = LMM_liberia_fall.3 }
+		}
+	}
+	focus = {
+		id = LMM_elephant_on_rollers
+		icon = GFX_goal_anti_comintern_pact
+		cost = 0
+		prerequisite = {
+			focus = LMM_ligniting_the_jungle
+		}
+		x = 8
+		y = 5
+		
+		completion_reward = {
+	    LMM = { country_event = LMM_liberia_fall.4 }
+		}
+
+	}
+}

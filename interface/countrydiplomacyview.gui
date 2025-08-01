@@ -1043,7 +1043,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "diplomacy_trade_entry"
-		size = { width = 30 height = 30 }
+		size = { width = 30 height = 60 }
 		clipping = no
 
 		background = {
@@ -1059,14 +1059,14 @@ guiTypes = {
 
 		iconType = {
 			name = "chart"
-			position = { x = 7 y = 4 }
+			position = { x = 17 y = 48 }
 			spriteType = "GFX_trade_resource_chart"
 		}
 
 		iconType = {
 			name = "mini_piechart_overlay"
 			spriteType = "GFX_mini_piechart_overlay"
-			position = { x = 5 y = 4 }
+			position = { x = 5 y = 46 }
 		}
 	}
 
