@@ -20,6 +20,7 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
+	
 	set_autonomy = {
 		target = UAN
 		autonomous_state = autonomy_mon_bur

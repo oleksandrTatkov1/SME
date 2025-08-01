@@ -1,30 +1,39 @@
-state= {
-
-	id=482
-	name="STATE_482"
+state={
+	id = 482
+	name = "STATE_482"
 	manpower = 520751
-	
 	state_category = rural
-
+	local_supplies = 0.0
 	history={
-		owner = MEX
-		buildings = {
+		owner = 
+		add_core_of = MEX
+		buildings={
 			infrastructure = 2
 		}
-		add_core_of = MEX
-
-		victory_points = {
+		victory_points={
 			8097 10
 		}
-		victory_points = {
+		victory_points={
 			10830 10
 		}
 	}
-
 	provinces={
-		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+		2037 4898 8097 10809 12745 12827 12897 7935 10916 13499 13473 13472 13492 13501 10830 13527 13500 13523 13469 13468 13462 13461 13502 13490 12850
+		13470
+		13471
+		13475
+		13474
+		13477
+		13481
+		13476
+		13480
+		13479
+		13478
+		13491
+		13496
+		13525
+		13524
+		13529
+		13528
 	}
-	
-
-	local_supplies=0.0 
 }

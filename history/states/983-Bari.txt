@@ -1,26 +1,33 @@
-state= {
-	id=983
-	name="STATE_983"
-	manpower = 332200
-	
+state={
+	id = 983
+	name = "STATE_983"
+	manpower = 245600
 	state_category = town
-	resources = {
-		rubber = 12
+	local_supplies = 7.0
+	resources={
 	}
 	history={
 		owner = SMM
-		buildings = {
+		add_core_of = SMM
+		buildings={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		victory_points = {
+		victory_points={
+			13422 3
 		}
-		add_core_of = SMM
+		victory_points={
+			13414 2
+		}
+		victory_points={
+			13412 1
+		}
+		victory_points={
+			1966 2
+		}
 	}
-
 	provinces={
 		13414 13413 13412 13417 13420 13419 13422 13418 1966 13421
+		13642
 	}
-
-	local_supplies=7.0 
 }

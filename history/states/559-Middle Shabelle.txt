@@ -2,7 +2,7 @@ state=
 {
 	id = 559
 	name = "STATE_559"
-	manpower = 332200
+	manpower = 673000
 	
 	state_category = town
 	resources = {
@@ -15,7 +15,10 @@ state=
 			industrial_complex = 1
 		}
 		victory_points = {
-			12991 5
+			12991 14
+		}
+		victory_points = {
+			5065 2
 		}
 		add_core_of = SMM
 	}

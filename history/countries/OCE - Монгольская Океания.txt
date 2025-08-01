@@ -26,13 +26,7 @@ set_technology = {
 }
 
 
-#For start date 1939.1.1
-1939.1.1 = {
-	add_political_power = 1000
-	oob = "MEM_1939"
-}
 
-#Politics for 1936.1.1
 set_politics = {
 	ruling_party = despotism
 	last_election = "1935.8.15"
@@ -52,13 +46,3 @@ set_popularities = {
     monarchism    = 20
 }
 
-
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_popularities = {
-		democratic = 5
-		fascism = 15
-		communism = 15
-		neutrality = 65
-	}
-}

@@ -1,69 +1,65 @@
-﻿oob = "EGE_1965"
-
-set_convoys = 0
-
+oob = "EGE_1965"
+capital = 907
 set_research_slots = 4
-
+set_convoys = 1230
 set_stability = 0.45
 set_war_support = 0.57
 
 
-# Starting ideas
 recruit_character = favzia_fuad
-add_ideas = volunteer_only
-add_ideas = civilian_economy
-
-#recruit_character = abdullah_azzam
-
-    set_autonomy = {
-        target = EGN
-        autonomous_state = autonomy_egypt_military_administration
-
-    else = {
-        puppet = EGN
-    }
+add_ideas = {
+	volunteer_only
+	civilian_economy
 }
-    set_autonomy = {
-        target = APE
-        autonomous_state = autonomy_egypt_military_administration
 
-    else = {
-        puppet = APE
-    }
-}
-    set_autonomy = {
-        target = MES
-        autonomous_state = autonomy_egypt_military_administration
 
-    else = {
-        puppet = MES
-    }
-}
-    set_autonomy = {
-        target = MER
-        autonomous_state = autonomy_egypt_military_administration
-
-    else = {
-        puppet = MER
-    }
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = EGN
+		autonomous_state = autonomy_egypt_military_administration
+	}
+	set_autonomy = {
+		target = APE
+		autonomous_state = autonomy_egypt_military_administration
+	}
+	set_autonomy = {
+		target = MES
+		autonomous_state = autonomy_egypt_military_administration
+	}
+	set_autonomy = {
+		target = MER
+		autonomous_state = autonomy_egypt_military_administration
+	}
+	else = {
+		puppet = EGN
+		puppet = APE
+		puppet = MES
+		puppet = MER
+	}
 }
 
 set_politics = {
 	ruling_party = monarchism
-	last_election = "16.07.1954"
-	election_frequency = 360
-	elections_allowed = False
+	last_election = "1935.8.15"
+	election_frequency = 60
+	elections_allowed = no
 }
 
 set_popularities = {
-conservatism = 7
-liberalism = 2
-socialism = 2
-communism = 3
-fascism = 5
-reactionism = 5
-monarchism = 52
-despotism = 9
-anarchism = 3
-islamism = 12
+	conservatism = 7
+	liberalism = 2
+	socialism = 2
+	communism = 3
+	fascism = 5
+	reactionism = 5
+	monarchism = 52
+	despotism = 9
+	anarchism = 3
+	islamism = 12
 }
