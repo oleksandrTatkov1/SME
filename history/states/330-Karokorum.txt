@@ -10,16 +10,28 @@ state= {
 	history={
 		owner = MEM
 		victory_points = {
-			4801 10
+			4801 50
 		}
 		victory_points = {
-			7799 1 
+			12605 25
+		}
+		victory_points = {
+			1798 100
+		}
+		victory_points = {
+			1859 15
+		}
+		victory_points = {
+			1728 15
+		}
+		victory_points = {
+			4732 20
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 1
+			infrastructure = 5
+			arms_factory = 15
+			industrial_complex = 20
+			air_base = 20
 
 		}
 		add_core_of = MEM
@@ -29,8 +41,7 @@ state= {
 	provinces={
 		1725 1728 1798 1859 4697 4732 4801 4862 7799 7881 10554 10623 12605 12675 
 	}
-	manpower=435550
-	buildings_max_level_factor=1.000
-	state_category=large_town
+	manpower=4335550
+	state_category=hyperpolis
 	local_supplies=0.000
 }

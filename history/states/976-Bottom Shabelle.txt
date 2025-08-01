@@ -13,7 +13,15 @@ state= {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		
+		victory_points = {
+			13386 2
+		}
+		victory_points = {
+			10928 2
+		}
+		victory_points = {
+			8164 2
+		}
 		add_core_of = SMM
 	}
 

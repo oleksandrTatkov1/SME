@@ -1,45 +1,76 @@
-
-state = {
+state={
 	id = 480
 	name = "STATE_480"
 	manpower = 827826
-	
 	state_category = large_town
-	
-	resources = {
+	local_supplies = 0.0
+	resources={
 		oil = 8
-		#steel=4 sent to Mexico City
 	}
-
-	history = {
-
-		owner = MEX
+	history={
+		owner = 
 		add_core_of = MEX
 		add_core_of = RIG
-
-		buildings = {
+		buildings={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		
-		victory_points = {
+		victory_points={
 			12835 10
 		}
-		victory_points = {
+		victory_points={
 			10769 5
 		}
-		#victory_points = {
-		#	2060 3
-		#}
-		victory_points = {
+		victory_points={
 			12811 1
 		}
-
 	}
-
-	provinces = {
-		2060 2104 7973 10738 10746 10769 10800 12811 12835 
+	provinces={
+		2060  7973 10738 10746  10800  12835 13586 13618 13548 13544
+		13641
+		13504
+		13495
+		13506
+		13507
+		13505
+		13509
+		13510
+		13511
+		13554
+		13508
+		13543
+		13538
+		13539
+		13540
+		13541
+		13542
+		13537
+		13546
+		13545
+		13547
+		13534
+		13588
+		13589
+		13591
+		13590
+		13587
+		13585
+		13583
+		13584
+		13552
+		13550
+		13549
+		13551
+		13553
+		13555
+		13556
+		13559
+		13557
+		13558
+		13569
+		13579
+		13580
+		13570
 	}
-	local_supplies = 0.0 
 }

@@ -1,27 +1,22 @@
-state= {
-
-	id=572
-	name="STATE_572" # Chelyabinsk
+state={
+	id = 572
+	name = "STATE_572"
 	manpower = 2074932
-	
 	state_category = town
-
+	local_supplies = 0.0
 	history={
 		owner = MEM
-		victory_points = {
+		add_core_of = SOV
+		victory_points={
 			9292 5
 		}
-		buildings = {
-			infrastructure = 3 #was: 6
+		buildings={
+			infrastructure = 3
 			industrial_complex = 1
-
 		}
-		add_core_of = SOV
 	}
-
 	provinces={
-		1233 1292 1294 1327 1775 4242 7285 9292 10170 10213 10542 12106 12157 12287 12584 
+		1233 1292 1294 1327 1775 4242 7285 9292 10170 10213 10542 12106 12157 12287 12584
 	}
-
-	local_supplies=0.0 
 }
+
