@@ -1,23 +1,18 @@
-
-state = {
+state={
 	id = 878
-	name = "STATE_878" # Khatangsky
+	name = "STATE_878"
 	manpower = 15974
-	
 	state_category = pastoral
-
-	history = {
+	local_supplies = 0.0
+	history={
 		owner = MEM
-		buildings = {
-			infrastructure = 1
-		}
 		add_core_of = SOV
 		add_core_of = TAY
+		buildings={
+			infrastructure = 1
+		}
 	}
-
-	provinces = {
+	provinces={
 		2900 4812 9224 11122 12687 13065
 	}
-
-	local_supplies = 0.0 
 }

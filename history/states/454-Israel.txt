@@ -1,28 +1,24 @@
-state= {
-	id=454
-	name="STATE_454" #Palestine
+state={
+	id = 454
+	name = "STATE_454"
 	manpower = 234000
-	
 	state_category = town
-
+	local_supplies = 7.0
 	history={
 		owner = JEW
-		buildings = {
-			infrastructure = 3 
+		add_core_of = JEW
+		buildings={
+			infrastructure = 3
 			air_base = 1
 		}
-		victory_points = {
-			1065 1 
+		victory_points={
+			1065 1
 		}
-		victory_points = {
-			4206 1 
+		victory_points={
+			4206 5
 		}
-		add_core_of = JEW
 	}
-
 	provinces={
 		4206 1201 7107 1065
 	}
-
-	local_supplies=7.0 
 }

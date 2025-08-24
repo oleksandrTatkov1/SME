@@ -1,27 +1,23 @@
-
 state={
-	id=776
-	name="STATE_776" # Benin/Dahomey
+	id = 776
+	name = "STATE_776"
 	manpower = 1351563
-	
 	state_category = pastoral
+	local_supplies = 1.0
 	history={
 		owner = MGR
 		add_core_of = DAH
-		victory_points = {
+		victory_points={
 			10919 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
-			10919 = {
+			10919={
 				naval_base = 1
 			}
 		}
 	}
-
 	provinces={
 		10919 12874 12762
 	}
-
-	local_supplies=1.0 
 }

@@ -1,41 +1,33 @@
-
-state = {
+state={
 	id = 765
 	name = "STATE_765"
 	manpower = 51600
 	state_category = pastoral
-
+	local_supplies = 0.0
 	resources={
-		oil=67 # was: 2
-		gas=340
+		oil = 67
+		gas = 340
 	}
-
-	history = {
-		
+	history={
 		owner = SIF
 		add_core_of = SIF
-
-		victory_points = {
+		victory_points={
 			8051 1
 		}
-		victory_points = {
+		victory_points={
 			13313 2
 		}
-
-		buildings = {
+		buildings={
 			infrastructure = 1
-			8051 = {
+			8051={
 				naval_base = 2
 			}
-			13313 = {
+			13313={
 				naval_base = 2
 			}
 		}
 	}
-
-	provinces = {
+	provinces={
 		8051 13313
 	}
-
-	local_supplies = 0.0 
 }

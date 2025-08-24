@@ -1,6 +1,10 @@
-state= {
-	id=969
-	name="STATE_969"
+state={
+	id = 969
+	name = "STATE_969"
+	manpower = 10000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
 	provinces={
 		5214 13340 13361
 	}
@@ -8,8 +12,4 @@ state= {
 		owner = BRA
 		add_core_of = BRA
 	}
-	manpower=10000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = pastoral
 }

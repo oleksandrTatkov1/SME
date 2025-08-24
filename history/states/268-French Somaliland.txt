@@ -1,31 +1,26 @@
 state={
-	id=268
-	name="STATE_268"
+	id = 268
+	name = "STATE_268"
 	manpower = 85232
-
-
 	state_category = enclave
-
+	local_supplies = 0.0
 	history={
 		owner = EGE
 		add_core_of = DJI
 		add_core_of = AFA
 		add_core_of = SMM
-		victory_points = {
+		victory_points={
 			8124 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
 			air_base = 2
-			8124 = {
+			8124={
 				naval_base = 2
 			}
 		}
-
 	}
 	provinces={
 		4985 8124
- 	}
-
-	local_supplies=0.0 
+	}
 }

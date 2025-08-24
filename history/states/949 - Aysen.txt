@@ -1,37 +1,26 @@
-state= {
-
+state={
 	id = 949
-	name = "STATE_949" # Aysen
+	name = "STATE_949"
 	manpower = 34347
-	
 	state_category = pastoral
-
-	resources = {
+	local_supplies = 0.0
+	resources={
 		aluminium = 1
 	}
-	resources = {
+	resources={
 		oil = 1
 	}
-
-	history = {
-
+	history={
 		owner = CHL
 		add_core_of = CHL
-
-		buildings = {
+		buildings={
 			infrastructure = 1
-			#dockyard = 1
 		}
-
-		victory_points = {
+		victory_points={
 			2161 2
 		}
-		
 	}
-
-	provinces = {
+	provinces={
 		2161 5118 5159 8198 10961 13295
 	}
-
-	local_supplies = 0.0 
 }

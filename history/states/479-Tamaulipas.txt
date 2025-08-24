@@ -1,37 +1,44 @@
-
-state = {
+state={
 	id = 479
 	name = "STATE_479"
 	manpower = 1032988
-	
 	state_category = town
-
-	resources = {
+	local_supplies = 0.0
+	resources={
 		oil = 9
-		#steel=2 moved to Guerrero
 	}
-	
-	history = {
-
-owner = 
+	history={
+		owner = CDG
+		add_core_of = CDG
 		add_core_of = MEX
 		add_core_of = RIG
-
-		buildings = {
+		buildings={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		
-		victory_points = {
+		victory_points={
 			4956 10
 		}
-		victory_points = {
+		victory_points={
 			5015 5
 		}
-
 	}
-
-	provinces = {
-		1952 2083 4956 5015 5021 12721 13088 13581 13582 13571 13578 13573 13574 10769 13577 13576 13575 13572 }
-	local_supplies = 0.0 
+	provinces={
+		5015 5021  13088    13578   10769 13577 13576 13575
+		13668
+		13671
+		
+		13570
+		13558
+		13557
+		13650
+		13651
+		13652
+		13654
+		13657
+		13653
+		13656
+		13665
+		13655
+	}
 }

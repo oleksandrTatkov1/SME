@@ -1,26 +1,20 @@
-
 state={
-	id=557
-	name="STATE_557" # Mauritania
+	id = 557
+	name = "STATE_557"
 	manpower = 225000
-	
 	state_category = pastoral
-
+	local_supplies = 0.0
 	history={
 		owner = MES
 		add_core_of = MES
-		victory_points = {
+		victory_points={
 			5034 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 1
 		}
-
 	}
-
 	provinces={
 		5034 5077 7992 8058 10814
 	}
-
-	local_supplies=0.0 
 }

@@ -1,39 +1,35 @@
-state= {
-
-	id=366
-	name="STATE_366"
+state={
+	id = 366
+	name = "STATE_366"
 	manpower = 1468210
-	
 	state_category = city
-
+	local_supplies = 10.0
 	history={
-owner = 
-		buildings = {
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = USA
+		buildings={
 			infrastructure = 2
 			industrial_complex = 3
 			air_base = 8
-			1572 = {
+			1572={
 				naval_base = 2
 			}
-			1843 = {
+			1843={
 				naval_base = 5
 			}
-			7388 = {
+			7388={
 				naval_base = 3
 			}
-			10352 = {
+			10352={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
-		victory_points = {
-			1843 5 
+		victory_points={
+			1843 5
 		}
-
 	}
-
-	provinces={ 866   1584 1843 1913 7388 9834    10489   12439 12752 1556 1572 12381 12353 10407 10380 10352 }
-	
-
-	local_supplies=10.0 
+	provinces={
+		866   1584 1843 1913 7388 9834    10489   12439 12752 1556 1572 12381 12353 10407 10380 10352
+	}
 }

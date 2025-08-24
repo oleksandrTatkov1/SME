@@ -1960,7 +1960,7 @@ FIN = {
 	}	
 }
 
-GRE = {
+GRK = {
 	submarine = {
 		prefix = "RHS"	
 		generic = { "Ypobrychio" }

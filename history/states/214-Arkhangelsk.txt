@@ -1,36 +1,31 @@
-
-state = {
+state={
 	id = 214
 	name = "STATE_214"
 	manpower = 577985
-	
 	state_category = town
-
-	history = {
+	local_supplies = 0.0
+	history={
 		owner = SKN
 		add_core_of = SKN
-		victory_points = {
-			3338 5 
+		add_core_of = SOV
+		victory_points={
+			3338 5
 		}
-		buildings = {
+		buildings={
 			infrastructure = 1
 			industrial_complex = 1
 			air_base = 3
-			3338 = {
+			3338={
 				naval_base = 3
 			}
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
+		1939.1.1={
+			buildings={
 				industrial_complex = 2
 			}
 		}
 	}
-
-	provinces = {
-		      140 180 312 3075 3080 3092 3130 3168 3338 6102 6105 9041 9248 11038 11171  
+	provinces={
+		140 180 312 3075 3080 3092 3130 3168 3338 6102 6105 9041 9248 11038 11171
 	}
-
-	local_supplies = 0.0 
 }

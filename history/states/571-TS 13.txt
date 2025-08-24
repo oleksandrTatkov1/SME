@@ -2,8 +2,8 @@ state={
 	id = 571
 	name = "STATE_571"
 	manpower = 1317157
-	state_category = town
-	local_supplies = 8.0
+	state_category = "town"
+	local_supplies = 8
 	history={
 		owner = MEM
 		add_core_of = SOV
@@ -24,4 +24,3 @@ state={
 		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652
 	}
 }
-

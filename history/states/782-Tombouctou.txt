@@ -1,25 +1,19 @@
-
 state={
-	id=782
-	name="STATE_782" # Tombouctou
+	id = 782
+	name = "STATE_782"
 	manpower = 79243
-	
 	state_category = wasteland
 	impassable = yes
-
+	local_supplies = 0.0
 	history={
 		owner = MGR
 		add_core_of = MGR
 		add_core_of = MLI
-		buildings = {
+		buildings={
 			infrastructure = 0
 		}
-
 	}
-
 	provinces={
 		1115 2068 10725 10868
 	}
-
-	local_supplies=0.0 
 }

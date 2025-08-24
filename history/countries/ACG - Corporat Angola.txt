@@ -90,6 +90,3 @@ set_popularities = {
 add_ideas = ACG_corporate_state
 add_ideas = ACG_privatized_security
 add_ideas = ACG_mongolian_trade
-
-
-

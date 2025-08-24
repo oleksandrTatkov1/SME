@@ -1,37 +1,31 @@
-state = {
+state={
 	id = 923
 	name = "STATE_923"
 	manpower = 88812
-	
 	state_category = rural
-	
-	resources = {
-		steel = 3 
+	local_supplies = 0.0
+	resources={
+		steel = 3
 		tungsten = 5
 	}
-
-	history = {
+	history={
 		owner = SKN
 		add_core_of = SKN
 		add_core_of = NOR
-		if = {
-			limit = {
+		if={
+			add_core_of = SMI
+			limit={
 				has_dlc = "Arms Against Tyranny"
 			}
-			add_core_of = SMI
 		}
-		victory_points = {
+		victory_points={
 			3048 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
 		}
 	}
-
-
-	provinces = {
-		173 3048 3088 3126 6071 6111 6187 9208 
+	provinces={
+		173 3048 3088 3126 6071 6111 6187 9208
 	}
-
-	local_supplies = 0.0
 }

@@ -1,37 +1,32 @@
-state= {
-
-	id=851
-	name="STATE_851" # Var (Split-off from former Provence now Bouches-du-Rhône)
-	manpower = 485000 # 400k (Var) + 85k (~1/2 Alpes-de-Haute-Provence and Hautes-Alpes pop) # was 2060400 before Var split off from Provence (no Bouches-du-Rhône)
-
+state={
+	id = 851
+	name = "STATE_851"
+	manpower = 485000
 	state_category = large_town
-
+	local_supplies = 0.0
 	history={
 		owner = FRC
 		add_core_of = FRC
-		victory_points = {
-			911 1 
+		add_core_of = OCC
+		add_core_of = FRA
+		victory_points={
+			911 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 3
 			dockyard = 3
-			911 = {
+			911={
 				naval_base = 10
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = OCC
-		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
+		1939.1.1={
+			buildings={
 				dockyard = 1
 			}
 		}
 	}
-
 	provinces={
 		911 956 3928 3961
 	}
-
-	local_supplies=0.0 
 }

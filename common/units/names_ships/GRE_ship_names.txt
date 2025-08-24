@@ -1,9 +1,9 @@
-﻿##### GREECE NAME LISTS #####
+﻿##### GRKECE NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-GRE_DD_HISTORICAL = {
+GRK_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -19,10 +19,10 @@ GRE_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-GRE_CL_HISTORICAL = {
+GRK_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -36,10 +36,10 @@ GRE_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-GRE_CA_HISTORICAL = {
+GRK_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -54,10 +54,10 @@ GRE_CA_HISTORICAL = {
 
 
 ### BATTLESHIP NAMES ###
-GRE_BB_HISTORICAL = {
+GRK_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -71,10 +71,10 @@ GRE_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-GRE_BC_HISTORICAL = {
+GRK_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -88,10 +88,10 @@ GRE_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-GRE_CV_HISTORICAL = {
+GRK_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -105,10 +105,10 @@ GRE_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-GRE_SS_HISTORICAL = {
+GRK_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { GRE }
+	for_countries = { GRK }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }

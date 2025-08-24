@@ -1,33 +1,26 @@
-
 state={
-	id=659
-	name="STATE_659"
-	manpower=871202
-
+	id = 659
+	name = "STATE_659"
+	manpower = 871202
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 	history={
 		owner = SIF
 		add_core_of = SIF
-		victory_points = {
-			5074 1 
+		add_core_of = YEM
+		victory_points={
+			5074 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
 			air_base = 4
-			5074 = {
+			5074={
 				naval_base = 3
-
 			}
-			
 		}
-		add_core_of = YEM
-
 	}
-
 	provinces={
-		2029 4976 5074 12821 12894 13079 
+		2029 4976 5074 12821 12894 13079
 	}
-	
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
 }

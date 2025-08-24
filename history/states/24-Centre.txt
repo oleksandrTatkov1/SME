@@ -1,36 +1,30 @@
-state= {
-
-	id=24
-	name="STATE_24"
+state={
+	id = 24
+	name = "STATE_24"
 	manpower = 1546300
-	
-	
 	state_category = large_town
+	local_supplies = 15.0
 	history={
 		owner = FRC
 		add_core_of = FRC
-		victory_points = {
+		add_core_of = FRA
+		victory_points={
 			3671 10
 		}
-		victory_points = {
+		victory_points={
 			512 15
 		}
-		buildings = {
+		buildings={
 			infrastructure = 4
 			industrial_complex = 2
-
 		}
-		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
+		1939.1.1={
+			buildings={
 				industrial_complex = 4
 			}
 		}
 	}
-
 	provinces={
-		512 3493 3671 6518 6533 6688 9492 11611 11631 
+		512 3493 3671 6518 6533 6688 9492 11611 11631
 	}
-
-	local_supplies=15.0 
 }

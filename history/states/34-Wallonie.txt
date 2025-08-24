@@ -1,38 +1,33 @@
-state= {
-
-	id=34
-	name="STATE_34"
+state={
+	id = 34
+	name = "STATE_34"
 	manpower = 3381300
-	resources={
-		gas=10
-	}
 	state_category = large_city
-
+	local_supplies = 14.0
+	resources={
+		gas = 10
+	}
 	history={
 		owner = GEI
 		add_core_of = GEI
-		victory_points = {
+		add_core_of = BEL
+		victory_points={
 			3516 5
 		}
-		victory_points = {
+		victory_points={
 			11519 10
 		}
-		victory_points = {
+		victory_points={
 			9536 3
 		}
-		buildings = {
+		buildings={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 1
-
 		}
-		add_core_of = BEL
 	}
-
 	provinces={
-		3488 3516 6537 9418 9444 9536 11407 11519 13081 
+		3488 3516 6537 9418 9444 9536 11407 11519 13081
 	}
-
-	local_supplies=14.0 
 }

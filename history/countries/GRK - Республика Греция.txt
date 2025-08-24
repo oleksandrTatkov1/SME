@@ -1,0 +1,34 @@
+﻿capital = 47
+
+oob = "GRK_1965"
+
+set_convoys = 467
+
+set_research_slots = 4
+
+set_stability = 0.75
+set_war_support = 0.32
+set_politics = {
+	ruling_party = conservatism
+	last_election = 1964.07.18
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+conservatism = 32
+liberalism = 12
+socialism = 10
+communism = 10
+fascism = 7
+reactionism = 7
+monarchism = 10
+despotism = 8
+anarchism = 4
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

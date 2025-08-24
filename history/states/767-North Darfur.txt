@@ -1,22 +1,18 @@
-state=
-{
-	id=767
-	name="STATE_767" # North Darfur
+state={
+	id = 767
+	name = "STATE_767"
 	manpower = 8143
-	
 	state_category = wasteland
 	impassable = yes
-	
-	history= {
+	local_supplies = 0.0
+	history={
 		add_core_of = SUD
 		owner = EGE
-		buildings = {
+		buildings={
 			infrastructure = 0
 		}
 	}
 	provinces={
 		7987 8103 10900
 	}
-
-	local_supplies=0.0 
 }

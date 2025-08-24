@@ -1,24 +1,19 @@
-state= {
-
-	id=721
-	name="STATE_721"
+state={
+	id = 721
+	name = "STATE_721"
 	manpower = 455604
-	
 	state_category = pastoral
-
+	local_supplies = 0.0
 	history={
-		owner =  OCE
-		buildings = {
+		owner = OCE
+		buildings={
 			infrastructure = 2
-			12190 ={
+			12190={
 				naval_base = 1
 			}
 		}
 	}
-
 	provinces={
-		1326 12178 12190 12206 13001 
+		1326 12178 12190 12206 13001
 	}
-
-	local_supplies=0.0 
 }

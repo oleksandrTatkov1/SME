@@ -1,40 +1,36 @@
-state= {
-	id=85
-	name="STATE_85"
+state={
+	id = 85
+	name = "STATE_85"
 	manpower = 366730
-	resources={
-		steel=5
-	}
 	state_category = city
+	local_supplies = 0.0
+	resources={
+		steel = 5
+	}
 	history={
 		owner = GEI
 		add_core_of = GEI
-		victory_points = {
+		set_demilitarized_zone = yes
+		add_core_of = POL
+		add_core_of = DNZ
+		add_core_of = KSH
+		victory_points={
 			362 10
 		}
-		
-		set_demilitarized_zone = yes
-		
-		buildings = {
+		buildings={
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 3
-			362 = {
+			362={
 				naval_base = 5
 			}
 		}
-		add_core_of = POL
-		add_core_of = DNZ
-		add_core_of = KSH
-		1938.3.12 = {
+		1938.3.12={
 			add_claim_by = GER
 		}
 	}
-
 	provinces={
 		362
 	}
-
-	local_supplies=0.0 
 }

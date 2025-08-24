@@ -1,24 +1,19 @@
-state= {
-
+state={
 	id = 914
 	name = "STATE_914"
 	manpower = 10
 	state_category = tiny_island
-	history = {
+	local_supplies = 0.000
+	history={
 		owner = NOR
-		#add_core_of = SWE		
 		add_core_of = NOR
-		buildings = {
-			13272 = {
+		buildings={
+			13272={
 				naval_base = 1
 			}
-		}	
+		}
 	}
-
-
-	provinces = {
+	provinces={
 		13272
 	}
-	
-	local_supplies=0.000
 }

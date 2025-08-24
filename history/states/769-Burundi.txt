@@ -1,26 +1,21 @@
 state={
-	id=769
-	name="STATE_769" # Burundi
-	
+	id = 769
+	name = "STATE_769"
 	state_category = pastoral
-
+	manpower = 2145731
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
 	history={
 		owner = BUR
 		add_core_of = BUR
-		victory_points = {
+		victory_points={
 			2220 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 1
-
 		}
 	}
-
 	provinces={
 		2220
 	}
-	manpower=2145731
-	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
 }

@@ -1,37 +1,32 @@
-state= {
-	id=61
-	name="STATE_61"
+state={
+	id = 61
+	name = "STATE_61"
 	manpower = 836353
-
-	resources={
-		gas=2
-	}
 	state_category = town
-
+	local_supplies = 3.0
+	resources={
+		gas = 2
+	}
 	history={
 		owner = GEI
 		add_core_of = GEI
-		victory_points = {
+		add_core_of = GER
+		victory_points={
 			321 5
 		}
-		victory_points = {
+		victory_points={
 			11305 3
 		}
-		buildings = {
+		buildings={
 			infrastructure = 3
 			arms_factory = 3
-			321 = {
-				naval_base = 6
-
-			}
 			air_base = 3
+			321={
+				naval_base = 6
+			}
 		}
-		add_core_of = GER
 	}
-
 	provinces={
-		268 293 321 9294 11276 11305 
+		268 293 321 9294 11276 11305
 	}
-
-	local_supplies=3.0 
 }

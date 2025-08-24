@@ -1,17 +1,20 @@
-state= {
-	id=970
-	name="STATE_10000"
+state={
+	id = 970
+	name = "STATE_10000"
+	manpower = 75900
+	local_supplies = 7.000
+	state_category = pastoral
 	provinces={
 		4088 11970 1015
 	}
 	history={
 		owner = EGE
 		add_core_of = EGE
-		buildings = {
-			infrastructure = 3 
+		buildings={
+			infrastructure = 3
+		}
+		victory_points={
+			4088 2
 		}
 	}
-	manpower=75900
-	local_supplies=7.000
-	state_category = pastoral
 }

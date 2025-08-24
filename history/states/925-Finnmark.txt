@@ -1,43 +1,33 @@
-state = {
+state={
 	id = 925
 	name = "STATE_925"
-
-	manpower = 142100 # 355251
-	
+	manpower = 142100
 	state_category = pastoral
-	
-	resources = {
+	local_supplies = 0.000
+	resources={
 		tungsten = 5
 	}
-
-	history = {
-		
-		victory_points = {
-			9116 1
-		}
-		
+	history={
 		owner = SKN
 		add_core_of = SKN
 		add_core_of = NOR
-		if = {
-			limit = {
+		victory_points={
+			9116 1
+		}
+		if={
+			add_core_of = SMI
+			limit={
 				has_dlc = "Arms Against Tyranny"
 			}
-			add_core_of = SMI
 		}
-		buildings = {
+		buildings={
 			infrastructure = 1
-			
-			9116 = {
+			9116={
 				naval_base = 3
 			}
 		}
-		
 	}
-
-	provinces = {
-		22 64 76 128 2995 3016 3040 6015 6092 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
+	provinces={
+		22 64 76 128 2995 3016 3040 6015 6092 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169
 	}
-
-	local_supplies = 0.000
 }

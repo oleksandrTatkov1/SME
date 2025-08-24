@@ -1545,7 +1545,7 @@ technologies = {
 
 
 		#If you change these
-		#Change the custom tooltip too: GRE_mountain_training_effect
+		#Change the custom tooltip too: GRK_mountain_training_effect
 		infantry = {
 			mountain = {
 				defence = 0.05

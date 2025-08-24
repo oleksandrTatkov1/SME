@@ -1,0 +1,34 @@
+﻿capital = 43
+
+oob = "HNG_1965"
+
+set_convoys = 45
+
+set_research_slots = 4
+
+set_stability = 0.67
+set_war_support = 0.56
+set_politics = {
+	ruling_party = despotism
+	last_election = 1963.06.05
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+conservatism = 16
+liberalism = 4
+socialism = 6
+communism = 6
+fascism = 5
+reactionism = 7
+monarchism = 10
+despotism = 36
+anarchism = 10
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

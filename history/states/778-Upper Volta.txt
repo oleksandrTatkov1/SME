@@ -1,24 +1,20 @@
-
 state={
-	id=778
-	name="STATE_778" # Upper Volta
+	id = 778
+	name = "STATE_778"
 	manpower = 3186184
-	
 	state_category = pastoral
+	local_supplies = 1.0
 	history={
 		owner = MGR
 		add_core_of = VOL
-		victory_points = {
+		victory_points={
 			10836 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
 		}
 	}
-
 	provinces={
 		2001 7950 7983 8071 10836 12851
 	}
-
-	local_supplies=1.0 
 }

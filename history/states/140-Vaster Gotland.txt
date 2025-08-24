@@ -1,40 +1,32 @@
-
-state = {
+state={
 	id = 140
-	name = "STATE_140" # Västra Götaland
+	name = "STATE_140"
 	manpower = 889962
 	state_category = town
-	resources = {
+	local_supplies = 0.000
+	resources={
 		steel = 2
 	}
-
-	history = {
+	history={
 		owner = SKN
 		add_core_of = SKN
-		victory_points = {
-			383 10 
+		add_core_of = SWE
+		victory_points={
+			383 10
 		}
-		buildings = {
+		buildings={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 1
-			383 = {
+			383={
 				naval_base = 5
 				coastal_bunker = 5
-
 			}
-
 		}
-		add_core_of = SWE
-
 	}
-
-	provinces = {
-		295 383 3063 3286 3375 3386 6331 6406 11070 13096 
+	provinces={
+		295 383 3063 3286 3375 3386 6331 6406 11070 13096
 	}
-
-	
-	local_supplies = 0.000
 }

@@ -1,0 +1,27 @@
+state={
+	id = 1001
+	name = "STATE_1001"
+	manpower = 570751
+	state_category = "rural"
+	local_supplies = 0
+	history={
+		owner = CDP
+		add_core_of = CDP
+		add_core_of = MEX
+		buildings={
+			infrastructure = 2
+		}
+		victory_points={
+			8089 10
+		}
+	}
+	provinces={
+		8089
+		13734
+		13733
+		13746
+		13747
+		13748
+		13749
+	}
+}

@@ -1,34 +1,29 @@
-state= {
-
-	id=67
-	name="STATE_67"
+state={
+	id = 67
+	name = "STATE_67"
 	manpower = 1402591
-	resources={
-		steel=10
-		aluminium=5
-	}
-	
 	state_category = city
-
+	local_supplies = 4.0
+	resources={
+		steel = 10
+		aluminium = 5
+	}
 	history={
-		victory_points = {
-			11467 5
-		}
-		victory_points = {
-			9511 3
-		}
 		owner = GEI
 		add_core_of = GEI
-		buildings = {
-			infrastructure = 3
-		}
 		add_core_of = GER
 		add_core_of = SIL
+		victory_points={
+			11467 5
+		}
+		victory_points={
+			9511 3
+		}
+		buildings={
+			infrastructure = 3
+		}
 	}
-
 	provinces={
-		479 6512 9457 9511 11467 
+		479 6512 9457 9511 11467
 	}
-
-	local_supplies=4.0 
 }

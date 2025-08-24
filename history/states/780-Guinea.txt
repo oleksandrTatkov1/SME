@@ -1,27 +1,23 @@
-
 state={
-	id=780
-	name="STATE_780" # Guinea
+	id = 780
+	name = "STATE_780"
 	manpower = 195041
-	
 	state_category = pastoral
+	local_supplies = 1.0
 	history={
 		owner = GSL
 		add_core_of = GSL
-		victory_points = {
-			1909 1 
+		victory_points={
+			1909 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
-			1909 = {
+			1909={
 				naval_base = 1
 			}
 		}
 	}
-
 	provinces={
 		1909 4957 5039 8008 12802 12858
 	}
-
-	local_supplies=1.0 
 }

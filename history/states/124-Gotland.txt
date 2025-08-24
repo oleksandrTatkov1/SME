@@ -1,21 +1,18 @@
-
-state=
-{
-	id=124
-	name="STATE_124"
+state={
+	id = 124
+	name = "STATE_124"
 	manpower = 56988
-	
 	state_category = small_island
-	
-	history = {
-		victory_points = {
-			408 1
-		}
+	local_supplies = 0.0
+	history={
 		owner = SKN
 		add_core_of = SKN
-		buildings = {
-			infrastructure = 3 #was: 6
-			408 = {
+		victory_points={
+			408 1
+		}
+		buildings={
+			infrastructure = 3
+			408={
 				naval_base = 1
 			}
 		}
@@ -23,7 +20,4 @@ state=
 	provinces={
 		408 6258
 	}
-
-	local_supplies=0.0 
 }
-

@@ -1,0 +1,42 @@
+state={
+	id = 987
+	name = "STATE_987"
+	manpower = 520751
+	state_category = "rural"
+	local_supplies = 0
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings={
+			infrastructure = 2
+		}
+		victory_points={
+			8097 10
+		}
+		victory_points={
+			13492 10
+		}
+		victory_points={
+			13473 2
+		}
+		victory_points={
+			13501 2
+		}
+		victory_points={
+			13527 2
+		}
+	}
+	provinces={
+		13496
+		12897
+		13490
+		13491
+		13478
+		2037
+		13492
+		13480
+		13481
+		13479
+		8097
+	}
+}

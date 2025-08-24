@@ -1,45 +1,37 @@
-
-state = {
+state={
 	id = 144
-	name = "STATE_144" # Nordland
-	manpower = 142100 # 355251
-	
+	name = "STATE_144"
+	manpower = 142100
 	state_category = rural
-	
-	resources = {
+	local_supplies = 0.0
+	resources={
 		steel = 6
 	}
-
-	history = {
-		victory_points = {
-			192 5
-		}
-		victory_points = {
-			9126 1
-		}
-		
+	history={
 		owner = SKN
 		add_core_of = SKN
 		add_core_of = NOR
-		if = {
-			limit = {
+		victory_points={
+			192 5
+		}
+		victory_points={
+			9126 1
+		}
+		if={
+			add_core_of = SMI
+			limit={
 				has_dlc = "Arms Against Tyranny"
 			}
-			add_core_of = SMI
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
 			air_base = 1
-			192 = {
+			192={
 				naval_base = 3
 			}
-			
 		}
 	}
-
-	provinces = {
+	provinces={
 		38 192 3034 3132 3145 9126 11157 6214
 	}
-
-	local_supplies = 0.0 
 }

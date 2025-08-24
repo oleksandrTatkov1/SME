@@ -1,34 +1,25 @@
-state= {
+state={
 	id = 947
 	name = "STATE_947"
-	resources = {
+	state_category = rural
+	manpower = 130000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	resources={
 		tungsten = 2
 	}
-	
-	state_category = rural
-
-	history = {
-
+	history={
 		owner = PRU
 		add_core_of = PRU
-
-		buildings = {
+		buildings={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-
-		victory_points = {
+		victory_points={
 			13086 2
 		}
-
 	}
-
-	provinces = {
+	provinces={
 		13086 13287
 	}
-	manpower = 130000
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
-
 }

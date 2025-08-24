@@ -1,27 +1,23 @@
 state={
-	id=699
-	name="STATE_699"
+	id = 699
+	name = "STATE_699"
 	manpower = 21056
-	
 	state_category = wasteland
-
+	local_supplies = 0.0
 	history={
 		owner = MES
 		add_core_of = MES
-		buildings = {
+		buildings={
 			infrastructure = 1
-			8038 = {
+			8038={
 				naval_base = 1
 			}
 		}
-		victory_points = {
+		victory_points={
 			8038 1
 		}
 	}
-	
 	provinces={
 		4920 5012 7979 8038 8111 10875
 	}
-
-	local_supplies=0.0 
 }

@@ -1,0 +1,40 @@
+state={
+	id = 992
+	name = "STATE_992"
+	manpower = 570751
+	state_category = "rural"
+	local_supplies = 0
+	history={
+		owner = LNG
+		add_core_of = LNG
+		buildings={
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13559
+		13555
+		13556
+		13554
+		13553
+		13551
+		2060
+		12835
+		13580
+		13585
+		13582
+		13569
+		13579
+		13581
+		13571
+		13573
+		13572
+		13574
+		12721
+		13674
+		13669
+		13673
+		13675
+		13808
+	}
+}

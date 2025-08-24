@@ -1,41 +1,30 @@
-state = {
+state={
 	id = 446
-	name = "STATE_446" # Suez
+	name = "STATE_446"
 	manpower = 131732
 	state_category = wasteland
-
-	history = {
-
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history={
 		owner = EGE
 		add_core_of = EGE
-
-		buildings = {
+		buildings={
 			infrastructure = 3
-			
-			12049 = {
+			12049={
 				naval_base = 2
 			}
-			4073 = {
+			4073={
 				naval_base = 1
 			}
-
 		}
-		
-		victory_points = {
-			12049 5 
+		victory_points={
+			12049 5
 		}
-		
-		victory_points = {
-			4073 3 
+		victory_points={
+			4073 3
 		}
-
 	}
-
-	provinces = {
-		1155 4073 9947 12049 
+	provinces={
+		1155 4073 9947 12049
 	}
-
-	buildings_max_level_factor = 1.000
-	
-	local_supplies = 0.000
 }

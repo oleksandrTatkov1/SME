@@ -1,0 +1,34 @@
+﻿capital = 468
+
+oob = "CMD_1965"
+
+set_convoys = 325
+
+set_research_slots = 3
+
+set_stability = 0.45
+set_war_support = 0.45
+set_politics = {
+	ruling_party = despotism
+	last_election = 1959.07.16
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+conservatism = 10
+liberalism = 5
+socialism = 3
+communism = 7
+fascism = 5
+reactionism = 10
+monarchism = 0
+despotism = 55
+anarchism = 5
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

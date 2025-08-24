@@ -1,0 +1,34 @@
+﻿capital = 479
+
+oob = "CDG_1965"
+
+set_convoys = 100
+
+set_research_slots = 2
+
+set_stability = 0.32
+set_war_support = 0.4
+set_politics = {
+	ruling_party = despotism
+	last_election = 1958.12.30
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+conservatism = 0
+liberalism = 0
+socialism = 0
+communism = 0
+fascism = 0
+reactionism = 0
+monarchism = 0
+despotism = 100
+anarchism = 0
+islamism = 0
+}
+
+# Starting ideas
+add_ideas = volunteer_only
+add_ideas = civilian_economy
+

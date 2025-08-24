@@ -1,30 +1,24 @@
 state={
-	id=539
-	name="STATE_539"
-
+	id = 539
+	name = "STATE_539"
+	manpower = 409752
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 1.0
 	history={
 		owner = PQK
 		add_core_of = PQK
-		victory_points = {
-			5139 1 
+		victory_points={
+			5139 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
-			5139 = {
+			5139={
 				naval_base = 1
-
 			}
-
 		}
-
 	}
-
 	provinces={
-		5139 8207 10948 13210 
+		5139 8207 10948 13210
 	}
-	manpower=409752
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-
-	local_supplies=1.0 
 }

@@ -1,33 +1,25 @@
-state= {
-	id=801
-	name="STATE_801"
+state={
+	id = 801
+	name = "STATE_801"
 	manpower = 1218780
-
-	state_category=rural
-
+	state_category = rural
+	local_supplies = 0.0
 	history={
-		owner = BUL
-		victory_points = { #Ruse
+		owner = BGR
+		add_core_of = BGR
+		add_core_of = BUL
+		victory_points={
 			9612 3
 		}
-		victory_points = { #Pleven
+		victory_points={
 			3796 3
 		}
-		buildings = {
+		buildings={
 			infrastructure = 2
-			industrial_complex =1
-
+			industrial_complex = 1
 		}
-		add_core_of = BUL
-
 	}
-
 	provinces={
-		3796 3819 3952 6842 9610 9612 
+		3796 3819 3952 6842 9610 9612
 	}
-#	resources={
-#		oil=1
-#	}
-
-	local_supplies=0.0 
 }

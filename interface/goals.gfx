@@ -2211,68 +2211,68 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_a_land_of_mountains"
-		texturefile = "gfx/interface/goals/focus_GRE_a_land_of_mountains.dds"
+		name = "GFX_focus_GRK_a_land_of_mountains"
+		texturefile = "gfx/interface/goals/focus_GRK_a_land_of_mountains.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_an_orthodox_state"
-		texturefile = "gfx/interface/goals/focus_GRE_an_orthodox_state.dds"
+		name = "GFX_focus_GRK_an_orthodox_state"
+		texturefile = "gfx/interface/goals/focus_GRK_an_orthodox_state.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_bedrock_of_balkan_stability"
-		texturefile = "gfx/interface/goals/focus_GRE_bedrock_of_balkan_stability.dds"
+		name = "GFX_focus_GRK_bedrock_of_balkan_stability"
+		texturefile = "gfx/interface/goals/focus_GRK_bedrock_of_balkan_stability.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_byzantine_themata"
-		texturefile = "gfx/interface/goals/focus_GRE_byzantine_themata.dds"
+		name = "GFX_focus_GRK_byzantine_themata"
+		texturefile = "gfx/interface/goals/focus_GRK_byzantine_themata.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_following_in_the_footsteps_of_giants"
-		texturefile = "gfx/interface/goals/focus_GRE_following_in_the_footsteps_of_giants.dds"
+		name = "GFX_focus_GRK_following_in_the_footsteps_of_giants"
+		texturefile = "gfx/interface/goals/focus_GRK_following_in_the_footsteps_of_giants.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_hellenic_armed_forces"
-		texturefile = "gfx/interface/goals/focus_GRE_hellenic_armed_forces.dds"
+		name = "GFX_focus_GRK_hellenic_armed_forces"
+		texturefile = "gfx/interface/goals/focus_GRK_hellenic_armed_forces.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_metaxism"
-		texturefile = "gfx/interface/goals/focus_GRE_metaxism.dds"
+		name = "GFX_focus_GRK_metaxism"
+		texturefile = "gfx/interface/goals/focus_GRK_metaxism.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_reevaluating_the_drachma"
-		texturefile = "gfx/interface/goals/focus_GRE_reevaluating_the_drachma.dds"
+		name = "GFX_focus_GRK_reevaluating_the_drachma"
+		texturefile = "gfx/interface/goals/focus_GRK_reevaluating_the_drachma.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_resurrecting_the_megali_idea"
-		texturefile = "gfx/interface/goals/focus_GRE_resurrecting_the_megali_idea.dds"
+		name = "GFX_focus_GRK_resurrecting_the_megali_idea"
+		texturefile = "gfx/interface/goals/focus_GRK_resurrecting_the_megali_idea.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_reviving_the_double_headed_eagle"
-		texturefile = "gfx/interface/goals/focus_GRE_reviving_the_double_headed_eagle.dds"
+		name = "GFX_focus_GRK_reviving_the_double_headed_eagle"
+		texturefile = "gfx/interface/goals/focus_GRK_reviving_the_double_headed_eagle.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_reviving_the_spartan_warrior_spirit"
-		texturefile = "gfx/interface/goals/focus_GRE_reviving_the_spartan_warrior_spirit.dds"
+		name = "GFX_focus_GRK_reviving_the_spartan_warrior_spirit"
+		texturefile = "gfx/interface/goals/focus_GRK_reviving_the_spartan_warrior_spirit.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_stage_an_incident_in_the_bosporus"
-		texturefile = "gfx/interface/goals/focus_GRE_stage_an_incident_in_the_bosporus.dds"
+		name = "GFX_focus_GRK_stage_an_incident_in_the_bosporus"
+		texturefile = "gfx/interface/goals/focus_GRK_stage_an_incident_in_the_bosporus.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_GRE_a_long_and_proud_tradition"
-		texturefile = "gfx/interface/goals/focus_GRE_a_long_and_proud_tradition.dds"
+		name = "GFX_focus_GRK_a_long_and_proud_tradition"
+		texturefile = "gfx/interface/goals/focus_GRK_a_long_and_proud_tradition.dds"
 	}
 
 	SpriteType = { 

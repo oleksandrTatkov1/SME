@@ -1,0 +1,28 @@
+state={
+	id = 984
+	name = "STATE_984"
+	manpower = 95600
+	state_category = "town"
+	local_supplies = 1
+	resources={
+	}
+	history={
+		owner = UBN
+		buildings={
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		13446
+		13445
+		12833
+		2069
+		13448
+		13447
+		13449
+		13450
+		13451
+		10848
+	}
+}

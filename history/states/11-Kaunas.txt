@@ -1,33 +1,27 @@
-state= {
-
-	id=11
-	name="STATE_11"
-
+state={
+	id = 11
+	name = "STATE_11"
+	local_supplies = 10.0
+	manpower = 971940
+	buildings_max_level_factor = 1.000
+	state_category = town
 	history={
 		owner = BSR
 		add_core_of = BSR
-		victory_points = {
+		add_core_of = LIT
+		victory_points={
 			6296 5
 		}
-		victory_points = {
-			9357 1 #Ukmerge
+		victory_points={
+			9357 1
 		}
-		buildings = {
+		buildings={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-
 		}
-		add_core_of = LIT
-
 	}
-
 	provinces={
-		327 6296 6360 9357 9404 
+		327 6296 6360 9357 9404
 	}
-
-	local_supplies=10.0 
-	manpower=971940
-	buildings_max_level_factor=1.000
-	state_category=town
 }

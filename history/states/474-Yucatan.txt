@@ -1,41 +1,66 @@
-
-state = {
+state={
 	id = 474
 	name = "STATE_474"
 	manpower = 440289
-	
 	state_category = rural
-
-	history = {
-
+	local_supplies = 0.0
+	history={
 		owner = MEX
 		add_core_of = MEX
 		add_core_of = YUC
-
-		buildings = {
+		buildings={
 			infrastructure = 2
 			air_base = 1
-			4904 = {
+			4904={
 				naval_base = 2
 			}
-			4965 = {
+			4965={
 				naval_base = 3
 			}
 		}
+	}
+	provinces={
 		
-		#victory_points = {
-		#	12715 2
-		#}
-		victory_points = {
-			4904 1
-		}
-		victory_points = {
-			4965 3
-		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		13779
+		13792
+		13795
+		13793
+		4904
+		13790
+		13791
+		13794
+		13803
+		13788
+		13789
+		13798
+		12715
+		13800
+		13802
+		13806
+		13804
+		13797
+		13796
+		13805
+		4965
+		13801
+		13799
 	}
-
-	provinces = {
-		4904 4965 12715 
-	}
-	local_supplies = 0.0 
 }

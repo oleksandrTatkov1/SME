@@ -1,25 +1,19 @@
 state={
-	id=898
-	name="STATE_898"
+	id = 898
+	name = "STATE_898"
 	manpower = 498718
 	state_category = wasteland
-
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	history={
 		owner = MGR
 		add_core_of = MGR
 		add_core_of = MLI
-		
-		buildings = {
+		buildings={
 			infrastructure = 2
-
 		}
-
 	}
-
 	provinces={
-		2044 5101 7930 7954 10788 
+		2044 5101 7930 7954 10788
 	}
-	
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

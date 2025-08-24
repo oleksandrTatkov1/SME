@@ -1,0 +1,30 @@
+state={
+	id = 988
+	name = "STATE_988"
+	manpower = 570751
+	state_category = "rural"
+	local_supplies = 0
+	history={
+		owner = CDS
+		add_core_of = CDS
+		add_core_of = MEX
+		buildings={
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1945
+		13519
+		13521
+		13520
+		13522
+		8057
+		13626
+		13627
+		13629
+		13630
+		13631
+		13628
+		13621
+	}
+}

@@ -1,23 +1,18 @@
 state={
-	id=786
-	name="STATE_786" # Mauritanian Desert
+	id = 786
+	name = "STATE_786"
 	manpower = 124200
-	
 	state_category = wasteland
 	impassable = yes
-
+	local_supplies = 0.0
 	history={
 		owner = MES
 		add_core_of = MES
-		buildings = {
+		buildings={
 			infrastructure = 0
 		}
-
 	}
-
 	provinces={
 		1897 1962 7943 8035 10771 10779 10838
 	}
-
-	local_supplies=0.0 
 }
